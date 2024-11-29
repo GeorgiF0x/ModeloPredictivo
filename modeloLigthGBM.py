@@ -1,70 +1,102 @@
 import pandas as pd
-import numpy as np
-from sklearn.model_selection import train_test_split
-from sklearn.preprocessing import OneHotEncoder, StandardScaler
+from sklearn.model_selection import StratifiedKFold, train_test_split, GridSearchCV, cross_val_score
+from sklearn.preprocessing import OneHotEncoder
 from imblearn.over_sampling import SMOTE
-from sklearn.ensemble import RandomForestClassifier
+import lightgbm as lgb
 from sklearn.metrics import accuracy_score, classification_report, confusion_matrix, roc_auc_score, roc_curve
 import matplotlib.pyplot as plt
+import numpy as np
 
 # Cargar el dataset
-# Asegúrate de que el archivo "proyectos_muestra_reducida.csv" esté en el mismo directorio o ajusta la ruta
-df = pd.read_csv("proyectos_sinteticos.csv")
+csv_file = "proyectos_sinteticos.csv"  # Asegúrate de que este archivo esté en el mismo directorio o ajusta la ruta
+data = pd.read_csv(csv_file)
 
-# Mapeo de la etiqueta (target) "resultado"
-df["resultado"] = df["resultado"].map({"Exito": 1, "Fracaso": 0})
+# Mapear la columna "resultado" a 1 (Éxito) y 0 (Fracaso)
+data["resultado"] = data["resultado"].map({"Exito": 1, "Fracaso": 0})
 
-# Agregar nuevas características
-df['presupuesto_duracion'] = df['presupuesto'] / df['duracion']
-df['log_facturacion_anual'] = np.log1p(df['facturacion_anual'])
-df['curriculums_duracion'] = df['curriculums'] * df['duracion']
+# Agregar nuevas características basadas en las columnas existentes
+data['ratio_cv_perfil'] = data['curriculums'] / (data['numero_perfiles_requeridos'] + 1)
+data['fortaleza_certificaciones'] = ((data['fortaleza_tecnologica'] == "Nivel Experto") & 
+                                      (data['certificaciones_requeridas'] == True)).astype(int)
 
-# Separar features (X) y target (y)
-X = df.drop(columns=["resultado", "id", "nombre_proyecto", "fecha_inicio", "fecha_fin", "informacion_adicional"])
-y = df["resultado"]
+# Seleccionar las columnas relevantes para el modelo
+relevant_columns = [
+    "id_cliente",
+    "certificaciones_requeridas",
+    "precio_hora",
+    "fortaleza_tecnologica",
+    "experiencia_requerida",
+    "numero_perfiles_requeridos",
+    "curriculums",
+    "titulaciones_empleados",
+    "ratio_cv_perfil",
+    "fortaleza_certificaciones",
+    "resultado"  # Variable objetivo
+]
+filtered_data = data[relevant_columns].copy()
 
-# Identificar las columnas categóricas y numéricas
-categorical_cols = X.select_dtypes(include=["object", "bool"]).columns
-numerical_cols = X.select_dtypes(include=["int64", "float64"]).columns
+# Separar características (X) y objetivo (y)
+X = filtered_data.drop(columns=["resultado"])
+y = filtered_data["resultado"]
 
-# Procesar columnas categóricas con One-Hot Encoding
+# Codificar las columnas categóricas
 encoder = OneHotEncoder(sparse_output=False, handle_unknown="ignore")
-X_categorical = encoder.fit_transform(X[categorical_cols])
+X_encoded = encoder.fit_transform(X)
 
-# Escalar columnas numéricas
-scaler = StandardScaler()
-X_numerical = scaler.fit_transform(X[numerical_cols])
-
-# Combinar las características transformadas
-X_processed = np.hstack([X_numerical, X_categorical])
-
-# Aplicar SMOTE para balancear las clases
+# Balancear las clases con SMOTE
 smote = SMOTE(random_state=42)
-X_balanced, y_balanced = smote.fit_resample(X_processed, y)
+X_balanced, y_balanced = smote.fit_resample(X_encoded, y)
 
-# Dividir en conjuntos de entrenamiento y prueba
+# Ajustar la división a 80% para entrenamiento y 20% para pruebas
 X_train, X_test, y_train, y_test = train_test_split(X_balanced, y_balanced, test_size=0.2, random_state=42)
 
-# Definir y entrenar el modelo Random Forest
-rf_model = RandomForestClassifier(random_state=42, n_estimators=100, max_depth=10, class_weight="balanced")
-rf_model.fit(X_train, y_train)
+# Confirmar los tamaños de los conjuntos
+train_size = X_train.shape[0]
+test_size = X_test.shape[0]
 
-# Predicciones y probabilidades
-y_pred_rf = rf_model.predict(X_test)
-y_prob_rf = rf_model.predict_proba(X_test)[:, 1]
+{"Train Size": train_size, "Test Size": test_size}
 
-# Evaluación del modelo
-accuracy_rf = accuracy_score(y_test, y_pred_rf)
-classification_rep_rf = classification_report(y_test, y_pred_rf)
-conf_matrix_rf = confusion_matrix(y_test, y_pred_rf)
-roc_auc_rf = roc_auc_score(y_test, y_prob_rf)
+# Configurar los hiperparámetros para la búsqueda
+param_grid = {
+    "num_leaves": [31, 50, 70],
+    "learning_rate": [0.01, 0.05, 0.1],
+    "max_depth": [10, 15, 20],
+    "n_estimators": [100, 300, 500],
+    "min_child_samples": [20, 30, 50],
+    "subsample": [0.7, 0.8, 1.0]
+}
 
-# Curva ROC
-fpr, tpr, thresholds = roc_curve(y_test, y_prob_rf)
+# Validación cruzada estratificada
+skf = StratifiedKFold(n_splits=5, shuffle=True, random_state=42)
 
-# Graficar la curva ROC
+# Realizar la búsqueda de hiperparámetros con validación cruzada
+lgb_model = lgb.LGBMClassifier(random_state=42, device="gpu", class_weight="balanced")
+grid_search = GridSearchCV(
+    estimator=lgb_model, param_grid=param_grid, cv=skf, scoring="roc_auc", verbose=1
+)
+grid_search.fit(X_train, y_train)
+
+# Obtener el mejor modelo
+best_model = grid_search.best_estimator_
+
+# Evaluar el modelo con validación cruzada
+cv_scores = cross_val_score(best_model, X_train, y_train, cv=skf, scoring="roc_auc")
+mean_cv_score = np.mean(cv_scores)
+
+# Realizar predicciones en el conjunto de prueba
+y_pred = best_model.predict(X_test)
+y_prob = best_model.predict_proba(X_test)[:, 1]
+
+# Evaluar el modelo en el conjunto de prueba
+accuracy = accuracy_score(y_test, y_pred)
+classification_rep = classification_report(y_test, y_pred)
+conf_matrix = confusion_matrix(y_test, y_pred)
+roc_auc = roc_auc_score(y_test, y_prob)
+
+# Mostrar la curva ROC
+fpr, tpr, thresholds = roc_curve(y_test, y_prob)
 plt.figure()
-plt.plot(fpr, tpr, color="darkorange", lw=2, label=f"ROC curve (AUC = {roc_auc_rf:.2f})")
+plt.plot(fpr, tpr, color="darkorange", lw=2, label=f"ROC curve (AUC = {roc_auc:.2f})")
 plt.plot([0, 1], [0, 1], color="navy", lw=2, linestyle="--")
 plt.xlabel("False Positive Rate")
 plt.ylabel("True Positive Rate")
@@ -72,16 +104,9 @@ plt.title("Receiver Operating Characteristic (ROC)")
 plt.legend(loc="lower right")
 plt.show()
 
-# Importancia de características
-feature_names = list(numerical_cols) + list(encoder.get_feature_names_out(categorical_cols))
-importance_df = pd.DataFrame({
-    "Feature": feature_names,
-    "Importance": rf_model.feature_importances_
-}).sort_values(by="Importance", ascending=False)
-
-# Imprimir resultados
-print("Accuracy del modelo Random Forest:", accuracy_rf)
-print("\nReporte de clasificación:\n", classification_rep_rf)
-print("\nMatriz de confusión:\n", conf_matrix_rf)
-print(f"\nROC-AUC: {roc_auc_rf:.2f}")
-print("\nImportancia de características:\n", importance_df.head(10))
+# Mostrar resultados
+print("ROC-AUC promedio en validación cruzada:", mean_cv_score)
+print("Accuracy del modelo en conjunto de prueba:", accuracy)
+print("\nReporte de clasificación:\n", classification_rep)
+print("\nMatriz de confusión:\n", conf_matrix)
+print(f"\nROC-AUC en conjunto de prueba: {roc_auc:.2f}")
