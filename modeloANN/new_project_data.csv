@@ -1,0 +1,501 @@
+duracion,presupuesto,facturacion_anual,fortaleza_tecnologica,experiencia_requerida,lugar_trabajo,numero_perfiles_requeridos,precio_hora,volumetria,prob_exito
+30,216771,Entre 250k y 1M,Experto,Específica,Híbrido,14,Alto,0,60.0
+24,563028,Más de 1M,Básico,Generalista,Presencial,4,Dentro del mercado,1,85.0
+12,870106,Menos de 250k,Experto,Específica,Híbrido,15,Bajo,1,70.0
+29,103321,Menos de 250k,Básico,Generalista,Remoto,18,Dentro del mercado,0,60.0
+11,92326,Entre 250k y 1M,Alto,Específica,Híbrido,19,Dentro del mercado,0,50.0
+33,158835,Más de 1M,Alto,Generalista,Presencial,6,Alto,0,65.0
+27,541021,Más de 1M,Básico,Específica,Presencial,2,Bajo,0,75.0
+3,165914,Menos de 250k,Experto,Específica,Híbrido,17,Bajo,0,60.0
+19,557626,Entre 250k y 1M,Básico,Específica,Remoto,12,Bajo,1,60.0
+19,138971,Entre 250k y 1M,Alto,Generalista,Híbrido,18,Alto,0,40.0
+13,542026,Menos de 250k,Experto,Específica,Presencial,3,Bajo,1,80.0
+9,105991,Más de 1M,Experto,Específica,Presencial,17,Bajo,1,85.0
+17,474229,Más de 1M,Básico,Generalista,Híbrido,19,Bajo,1,55.0
+15,743075,Entre 250k y 1M,Experto,Específica,Híbrido,11,Alto,1,70.0
+28,617514,Entre 250k y 1M,Alto,Generalista,Presencial,13,Dentro del mercado,0,70.0
+23,272412,Entre 250k y 1M,Básico,Específica,Remoto,10,Dentro del mercado,1,60.0
+14,525203,Menos de 250k,Básico,Generalista,Presencial,12,Bajo,0,60.0
+1,424885,Entre 250k y 1M,Alto,Generalista,Híbrido,3,Bajo,1,40.0
+9,621994,Menos de 250k,Alto,Específica,Híbrido,2,Alto,1,50.0
+33,444157,Entre 250k y 1M,Alto,Específica,Presencial,7,Bajo,1,50.0
+4,648637,Menos de 250k,Alto,Específica,Remoto,12,Alto,1,60.0
+2,131494,Menos de 250k,Experto,Específica,Presencial,8,Dentro del mercado,0,80.0
+10,906844,Menos de 250k,Experto,Generalista,Híbrido,20,Bajo,1,70.0
+24,556448,Menos de 250k,Básico,Generalista,Híbrido,10,Alto,1,50.0
+36,963803,Menos de 250k,Experto,Generalista,Presencial,8,Bajo,1,80.0
+34,467424,Menos de 250k,Alto,Generalista,Presencial,3,Dentro del mercado,0,60.0
+31,316127,Menos de 250k,Básico,Específica,Remoto,7,Bajo,1,50.0
+3,537141,Entre 250k y 1M,Alto,Específica,Presencial,15,Dentro del mercado,0,70.0
+34,823465,Menos de 250k,Alto,Generalista,Presencial,8,Alto,1,60.0
+34,773603,Menos de 250k,Alto,Específica,Remoto,6,Alto,1,60.0
+26,530578,Menos de 250k,Básico,Específica,Híbrido,14,Dentro del mercado,1,60.0
+28,16615,Entre 250k y 1M,Alto,Generalista,Híbrido,5,Bajo,0,40.0
+30,449357,Más de 1M,Básico,Específica,Remoto,5,Dentro del mercado,0,75.0
+31,814177,Más de 1M,Básico,Generalista,Híbrido,2,Alto,0,65.0
+17,860242,Menos de 250k,Alto,Generalista,Remoto,18,Dentro del mercado,0,70.0
+19,101091,Menos de 250k,Básico,Generalista,Remoto,13,Alto,0,50.0
+22,237848,Menos de 250k,Básico,Generalista,Presencial,17,Alto,1,50.0
+28,924265,Entre 250k y 1M,Alto,Generalista,Híbrido,14,Alto,0,50.0
+10,554374,Más de 1M,Básico,Generalista,Híbrido,15,Bajo,1,65.0
+14,457547,Más de 1M,Básico,Específica,Presencial,13,Dentro del mercado,1,75.0
+14,865618,Más de 1M,Experto,Específica,Presencial,9,Alto,0,95.0
+5,250195,Entre 250k y 1M,Alto,Específica,Remoto,12,Bajo,0,50.0
+33,288698,Menos de 250k,Básico,Generalista,Presencial,4,Dentro del mercado,1,60.0
+29,759690,Más de 1M,Experto,Específica,Híbrido,6,Bajo,0,85.0
+10,916306,Más de 1M,Básico,Generalista,Remoto,13,Dentro del mercado,1,85.0
+10,408544,Más de 1M,Alto,Generalista,Presencial,1,Alto,0,65.0
+32,98638,Más de 1M,Alto,Generalista,Remoto,7,Bajo,0,65.0
+13,327155,Más de 1M,Alto,Generalista,Presencial,2,Bajo,0,65.0
+9,288172,Menos de 250k,Alto,Generalista,Remoto,17,Alto,1,50.0
+25,227384,Más de 1M,Alto,Específica,Híbrido,9,Alto,1,55.0
+34,49189,Más de 1M,Básico,Específica,Presencial,8,Dentro del mercado,0,75.0
+13,991118,Menos de 250k,Alto,Específica,Presencial,18,Alto,1,60.0
+30,882947,Menos de 250k,Alto,Específica,Híbrido,4,Alto,1,50.0
+31,454475,Entre 250k y 1M,Básico,Generalista,Presencial,13,Alto,0,50.0
+8,723783,Más de 1M,Básico,Generalista,Presencial,15,Alto,0,75.0
+5,116865,Más de 1M,Experto,Generalista,Híbrido,12,Bajo,1,75.0
+33,544373,Menos de 250k,Experto,Generalista,Remoto,14,Alto,0,80.0
+19,61558,Menos de 250k,Alto,Generalista,Híbrido,7,Bajo,0,40.0
+17,558698,Menos de 250k,Experto,Generalista,Remoto,20,Dentro del mercado,1,90.0
+28,587585,Más de 1M,Básico,Generalista,Híbrido,17,Dentro del mercado,0,75.0
+19,424386,Menos de 250k,Experto,Generalista,Presencial,17,Alto,0,70.0
+27,323207,Más de 1M,Alto,Generalista,Híbrido,10,Dentro del mercado,0,65.0
+18,641538,Entre 250k y 1M,Experto,Específica,Remoto,8,Alto,0,80.0
+19,332562,Menos de 250k,Básico,Generalista,Remoto,7,Alto,0,50.0
+8,663947,Más de 1M,Básico,Específica,Híbrido,5,Dentro del mercado,0,75.0
+34,237505,Más de 1M,Experto,Generalista,Híbrido,1,Alto,1,75.0
+23,219227,Entre 250k y 1M,Alto,Específica,Híbrido,14,Dentro del mercado,1,50.0
+34,764678,Menos de 250k,Experto,Generalista,Presencial,9,Alto,1,80.0
+22,266091,Menos de 250k,Alto,Específica,Remoto,9,Alto,0,50.0
+18,718170,Más de 1M,Experto,Específica,Híbrido,8,Dentro del mercado,1,95.0
+15,973178,Más de 1M,Alto,Generalista,Híbrido,4,Bajo,0,65.0
+6,100937,Menos de 250k,Alto,Generalista,Presencial,1,Alto,0,50.0
+17,785853,Menos de 250k,Experto,Generalista,Híbrido,17,Dentro del mercado,0,80.0
+31,842631,Más de 1M,Experto,Específica,Remoto,20,Bajo,1,95.0
+8,442473,Entre 250k y 1M,Experto,Específica,Remoto,19,Dentro del mercado,1,80.0
+30,223871,Entre 250k y 1M,Experto,Específica,Presencial,8,Bajo,0,70.0
+18,115377,Entre 250k y 1M,Experto,Generalista,Híbrido,19,Alto,1,60.0
+33,891178,Más de 1M,Alto,Generalista,Híbrido,1,Alto,0,65.0
+16,442522,Entre 250k y 1M,Alto,Generalista,Presencial,10,Alto,1,50.0
+31,513637,Más de 1M,Básico,Generalista,Remoto,7,Dentro del mercado,0,85.0
+22,368071,Entre 250k y 1M,Alto,Generalista,Presencial,16,Alto,1,50.0
+36,448529,Menos de 250k,Experto,Específica,Remoto,8,Bajo,0,70.0
+21,110042,Entre 250k y 1M,Alto,Específica,Presencial,4,Bajo,0,50.0
+28,545693,Menos de 250k,Alto,Generalista,Remoto,19,Dentro del mercado,1,70.0
+20,749927,Más de 1M,Experto,Generalista,Presencial,4,Alto,0,95.0
+6,273983,Menos de 250k,Alto,Específica,Remoto,5,Dentro del mercado,0,60.0
+19,323028,Más de 1M,Experto,Específica,Híbrido,10,Dentro del mercado,1,85.0
+1,695248,Más de 1M,Alto,Específica,Presencial,16,Dentro del mercado,1,85.0
+16,112995,Menos de 250k,Básico,Generalista,Híbrido,4,Dentro del mercado,0,50.0
+35,986339,Más de 1M,Básico,Generalista,Híbrido,19,Bajo,0,65.0
+4,841252,Menos de 250k,Experto,Generalista,Presencial,20,Alto,1,80.0
+15,343958,Menos de 250k,Básico,Generalista,Híbrido,19,Dentro del mercado,0,50.0
+1,936603,Más de 1M,Básico,Generalista,Remoto,1,Bajo,1,75.0
+26,446458,Más de 1M,Básico,Generalista,Híbrido,12,Alto,0,55.0
+20,135521,Menos de 250k,Alto,Específica,Remoto,9,Alto,0,50.0
+27,484681,Más de 1M,Alto,Específica,Híbrido,8,Bajo,1,55.0
+12,101868,Más de 1M,Alto,Generalista,Híbrido,5,Dentro del mercado,0,65.0
+6,524572,Más de 1M,Alto,Generalista,Híbrido,11,Bajo,1,65.0
+30,451960,Más de 1M,Alto,Generalista,Presencial,15,Bajo,1,65.0
+27,837621,Menos de 250k,Experto,Generalista,Híbrido,14,Bajo,1,70.0
+9,512227,Más de 1M,Básico,Generalista,Remoto,10,Alto,0,75.0
+36,903120,Menos de 250k,Alto,Generalista,Híbrido,17,Alto,1,50.0
+19,421588,Más de 1M,Básico,Específica,Híbrido,12,Bajo,0,55.0
+10,777641,Menos de 250k,Básico,Específica,Remoto,19,Alto,0,60.0
+11,222121,Más de 1M,Básico,Generalista,Presencial,13,Dentro del mercado,1,75.0
+27,553646,Más de 1M,Alto,Generalista,Presencial,8,Alto,0,75.0
+3,279627,Entre 250k y 1M,Alto,Generalista,Presencial,3,Dentro del mercado,0,60.0
+24,383461,Menos de 250k,Básico,Específica,Presencial,11,Alto,1,50.0
+32,55381,Más de 1M,Experto,Específica,Presencial,9,Alto,1,85.0
+9,867028,Más de 1M,Experto,Generalista,Remoto,8,Alto,1,95.0
+30,904271,Menos de 250k,Básico,Específica,Presencial,4,Dentro del mercado,0,70.0
+33,702119,Menos de 250k,Básico,Generalista,Presencial,5,Bajo,1,60.0
+22,329417,Más de 1M,Básico,Generalista,Presencial,17,Bajo,1,65.0
+20,325882,Más de 1M,Básico,Generalista,Presencial,14,Dentro del mercado,1,75.0
+12,346436,Menos de 250k,Experto,Específica,Híbrido,15,Alto,1,60.0
+32,995899,Menos de 250k,Experto,Generalista,Híbrido,1,Dentro del mercado,0,80.0
+5,938374,Menos de 250k,Alto,Generalista,Remoto,2,Bajo,0,60.0
+5,74482,Entre 250k y 1M,Alto,Generalista,Remoto,3,Dentro del mercado,1,60.0
+11,558859,Menos de 250k,Experto,Específica,Remoto,8,Dentro del mercado,0,90.0
+17,208441,Más de 1M,Experto,Específica,Remoto,18,Dentro del mercado,0,95.0
+7,969916,Más de 1M,Básico,Específica,Remoto,19,Bajo,0,75.0
+3,827263,Entre 250k y 1M,Alto,Específica,Híbrido,3,Bajo,1,50.0
+5,963523,Menos de 250k,Alto,Específica,Remoto,2,Bajo,1,60.0
+34,871823,Más de 1M,Alto,Específica,Híbrido,8,Dentro del mercado,1,75.0
+19,452996,Más de 1M,Alto,Específica,Remoto,12,Bajo,1,65.0
+15,521508,Más de 1M,Alto,Específica,Híbrido,10,Alto,1,65.0
+2,79482,Menos de 250k,Experto,Específica,Remoto,16,Dentro del mercado,0,80.0
+3,104714,Más de 1M,Experto,Específica,Presencial,18,Alto,0,85.0
+29,148409,Más de 1M,Alto,Específica,Remoto,3,Dentro del mercado,0,75.0
+18,728610,Menos de 250k,Experto,Específica,Presencial,11,Bajo,0,80.0
+10,651166,Menos de 250k,Experto,Específica,Remoto,8,Dentro del mercado,0,90.0
+33,381484,Entre 250k y 1M,Alto,Generalista,Remoto,13,Dentro del mercado,1,60.0
+31,636340,Menos de 250k,Experto,Generalista,Presencial,19,Dentro del mercado,0,90.0
+27,916292,Más de 1M,Básico,Específica,Híbrido,12,Bajo,0,65.0
+10,136031,Entre 250k y 1M,Alto,Generalista,Híbrido,3,Dentro del mercado,0,50.0
+30,520575,Menos de 250k,Experto,Generalista,Remoto,12,Dentro del mercado,1,90.0
+4,290049,Entre 250k y 1M,Experto,Específica,Remoto,15,Alto,1,70.0
+36,641937,Menos de 250k,Experto,Específica,Presencial,6,Alto,0,80.0
+36,726472,Más de 1M,Básico,Específica,Híbrido,5,Alto,1,65.0
+17,931102,Menos de 250k,Experto,Generalista,Remoto,9,Dentro del mercado,1,90.0
+16,450110,Más de 1M,Alto,Específica,Presencial,15,Dentro del mercado,0,75.0
+31,543952,Menos de 250k,Experto,Específica,Híbrido,20,Dentro del mercado,0,80.0
+23,373936,Entre 250k y 1M,Experto,Específica,Remoto,11,Bajo,1,70.0
+23,799196,Más de 1M,Experto,Específica,Remoto,17,Bajo,0,95.0
+7,760959,Entre 250k y 1M,Alto,Generalista,Presencial,20,Dentro del mercado,1,70.0
+33,32563,Menos de 250k,Básico,Específica,Híbrido,4,Bajo,1,40.0
+5,219220,Menos de 250k,Básico,Generalista,Híbrido,4,Alto,0,40.0
+36,594403,Entre 250k y 1M,Básico,Generalista,Híbrido,6,Alto,1,50.0
+31,243415,Menos de 250k,Experto,Específica,Remoto,20,Dentro del mercado,0,80.0
+5,821540,Menos de 250k,Alto,Específica,Remoto,4,Bajo,1,60.0
+35,284147,Menos de 250k,Alto,Específica,Híbrido,16,Dentro del mercado,1,50.0
+28,246934,Entre 250k y 1M,Alto,Generalista,Híbrido,8,Alto,0,40.0
+8,587850,Más de 1M,Básico,Específica,Híbrido,12,Dentro del mercado,0,75.0
+22,237258,Más de 1M,Básico,Generalista,Presencial,20,Bajo,0,65.0
+7,894899,Menos de 250k,Básico,Generalista,Presencial,17,Bajo,1,60.0
+1,711692,Entre 250k y 1M,Básico,Generalista,Presencial,16,Dentro del mercado,0,70.0
+24,831791,Menos de 250k,Experto,Generalista,Remoto,14,Bajo,1,80.0
+4,606863,Más de 1M,Básico,Específica,Híbrido,11,Dentro del mercado,1,75.0
+4,743483,Entre 250k y 1M,Experto,Generalista,Remoto,20,Dentro del mercado,0,90.0
+25,615259,Menos de 250k,Básico,Generalista,Híbrido,3,Alto,0,50.0
+29,418250,Más de 1M,Alto,Específica,Remoto,18,Alto,1,65.0
+24,692515,Menos de 250k,Básico,Específica,Presencial,17,Dentro del mercado,0,70.0
+36,25693,Menos de 250k,Alto,Generalista,Remoto,4,Dentro del mercado,0,60.0
+13,459372,Menos de 250k,Experto,Generalista,Presencial,5,Bajo,1,70.0
+6,629337,Menos de 250k,Experto,Generalista,Presencial,15,Alto,0,80.0
+8,338654,Entre 250k y 1M,Alto,Generalista,Presencial,14,Alto,1,50.0
+30,70356,Entre 250k y 1M,Básico,Generalista,Remoto,15,Bajo,1,50.0
+15,406168,Más de 1M,Experto,Generalista,Presencial,2,Dentro del mercado,0,95.0
+11,11351,Más de 1M,Alto,Específica,Híbrido,11,Bajo,1,55.0
+20,497375,Entre 250k y 1M,Alto,Específica,Híbrido,9,Bajo,0,40.0
+15,569705,Más de 1M,Experto,Específica,Remoto,4,Dentro del mercado,0,100.0
+26,337566,Más de 1M,Experto,Específica,Presencial,17,Alto,1,85.0
+27,812139,Más de 1M,Experto,Específica,Híbrido,19,Alto,1,85.0
+28,56139,Entre 250k y 1M,Experto,Generalista,Presencial,2,Alto,1,70.0
+32,120279,Menos de 250k,Experto,Específica,Remoto,15,Alto,0,70.0
+10,150248,Menos de 250k,Básico,Generalista,Presencial,11,Alto,0,50.0
+30,773341,Menos de 250k,Alto,Generalista,Híbrido,5,Alto,0,50.0
+17,323936,Más de 1M,Básico,Específica,Presencial,8,Bajo,1,65.0
+31,886935,Entre 250k y 1M,Experto,Generalista,Híbrido,15,Dentro del mercado,1,80.0
+25,312585,Entre 250k y 1M,Experto,Específica,Híbrido,9,Alto,0,60.0
+2,733356,Más de 1M,Experto,Generalista,Híbrido,20,Alto,1,85.0
+5,670029,Entre 250k y 1M,Básico,Generalista,Presencial,17,Dentro del mercado,0,70.0
+9,331385,Más de 1M,Alto,Específica,Remoto,18,Bajo,0,65.0
+11,406857,Más de 1M,Experto,Generalista,Remoto,10,Alto,1,85.0
+22,122649,Más de 1M,Experto,Generalista,Presencial,15,Alto,1,85.0
+3,426728,Más de 1M,Básico,Específica,Híbrido,9,Bajo,0,55.0
+29,20849,Menos de 250k,Básico,Específica,Remoto,15,Bajo,0,50.0
+26,611055,Menos de 250k,Experto,Generalista,Remoto,10,Dentro del mercado,0,90.0
+36,556862,Entre 250k y 1M,Alto,Generalista,Presencial,7,Bajo,0,60.0
+27,553478,Menos de 250k,Experto,Generalista,Presencial,9,Alto,0,80.0
+9,362688,Más de 1M,Básico,Generalista,Híbrido,13,Alto,1,55.0
+4,300084,Entre 250k y 1M,Alto,Generalista,Híbrido,19,Dentro del mercado,0,50.0
+11,73291,Más de 1M,Alto,Específica,Híbrido,6,Dentro del mercado,1,65.0
+3,233084,Menos de 250k,Alto,Específica,Remoto,20,Bajo,1,50.0
+17,14507,Más de 1M,Experto,Específica,Remoto,13,Dentro del mercado,1,95.0
+30,514120,Entre 250k y 1M,Alto,Generalista,Presencial,8,Alto,0,60.0
+17,97656,Más de 1M,Alto,Específica,Presencial,5,Alto,1,65.0
+24,791179,Más de 1M,Alto,Específica,Presencial,9,Bajo,0,75.0
+25,147196,Más de 1M,Alto,Específica,Híbrido,12,Bajo,1,55.0
+7,715921,Entre 250k y 1M,Experto,Generalista,Remoto,20,Bajo,0,80.0
+12,746110,Más de 1M,Alto,Específica,Híbrido,11,Alto,0,65.0
+10,287737,Menos de 250k,Experto,Generalista,Presencial,8,Dentro del mercado,0,80.0
+25,945579,Entre 250k y 1M,Alto,Generalista,Remoto,20,Bajo,0,60.0
+8,93850,Menos de 250k,Experto,Generalista,Presencial,14,Dentro del mercado,0,80.0
+26,766403,Menos de 250k,Alto,Específica,Remoto,9,Dentro del mercado,1,70.0
+24,17218,Menos de 250k,Alto,Generalista,Híbrido,5,Alto,1,40.0
+11,807400,Entre 250k y 1M,Básico,Generalista,Híbrido,5,Alto,1,50.0
+27,227241,Menos de 250k,Básico,Específica,Remoto,9,Alto,0,50.0
+22,760412,Menos de 250k,Básico,Específica,Presencial,11,Dentro del mercado,1,70.0
+2,670916,Más de 1M,Experto,Específica,Presencial,10,Dentro del mercado,0,100.0
+10,933307,Más de 1M,Experto,Específica,Híbrido,9,Dentro del mercado,0,95.0
+17,41441,Menos de 250k,Experto,Específica,Presencial,17,Dentro del mercado,1,80.0
+13,989136,Entre 250k y 1M,Básico,Específica,Híbrido,8,Bajo,1,50.0
+36,885293,Menos de 250k,Alto,Generalista,Híbrido,9,Dentro del mercado,0,60.0
+19,359162,Menos de 250k,Básico,Generalista,Híbrido,13,Bajo,1,40.0
+25,264071,Más de 1M,Alto,Generalista,Remoto,20,Bajo,0,65.0
+3,576562,Menos de 250k,Experto,Generalista,Presencial,8,Bajo,1,80.0
+10,224973,Más de 1M,Alto,Generalista,Híbrido,20,Bajo,0,55.0
+35,151094,Menos de 250k,Alto,Específica,Presencial,19,Dentro del mercado,0,60.0
+24,14701,Entre 250k y 1M,Experto,Específica,Presencial,8,Alto,1,70.0
+31,296910,Menos de 250k,Alto,Generalista,Híbrido,2,Dentro del mercado,1,50.0
+28,171827,Menos de 250k,Alto,Generalista,Híbrido,19,Alto,1,40.0
+14,477056,Entre 250k y 1M,Básico,Generalista,Presencial,3,Alto,1,50.0
+34,808261,Más de 1M,Alto,Específica,Presencial,12,Alto,1,75.0
+33,313491,Más de 1M,Básico,Generalista,Híbrido,3,Alto,0,55.0
+35,951631,Más de 1M,Básico,Específica,Presencial,4,Alto,0,75.0
+18,844173,Entre 250k y 1M,Básico,Generalista,Presencial,12,Alto,0,60.0
+10,177562,Más de 1M,Experto,Específica,Presencial,6,Alto,0,85.0
+18,114428,Menos de 250k,Alto,Específica,Presencial,16,Bajo,1,50.0
+18,448519,Entre 250k y 1M,Básico,Generalista,Remoto,13,Bajo,0,50.0
+1,241520,Menos de 250k,Experto,Específica,Remoto,17,Bajo,1,70.0
+32,950895,Menos de 250k,Experto,Generalista,Remoto,11,Bajo,1,80.0
+8,622415,Más de 1M,Alto,Generalista,Híbrido,13,Alto,0,65.0
+25,897300,Entre 250k y 1M,Experto,Generalista,Remoto,14,Alto,1,80.0
+19,373632,Más de 1M,Experto,Generalista,Presencial,11,Dentro del mercado,1,95.0
+1,86901,Menos de 250k,Básico,Específica,Híbrido,1,Dentro del mercado,0,50.0
+21,388159,Más de 1M,Experto,Generalista,Presencial,17,Bajo,1,85.0
+4,176067,Más de 1M,Alto,Generalista,Presencial,4,Alto,1,65.0
+10,356133,Entre 250k y 1M,Experto,Generalista,Presencial,16,Dentro del mercado,0,80.0
+13,119890,Entre 250k y 1M,Alto,Generalista,Híbrido,15,Dentro del mercado,1,50.0
+26,709704,Menos de 250k,Alto,Específica,Híbrido,2,Alto,0,50.0
+19,558826,Entre 250k y 1M,Experto,Generalista,Presencial,7,Alto,0,80.0
+28,586515,Más de 1M,Básico,Generalista,Remoto,4,Bajo,0,75.0
+15,771941,Menos de 250k,Básico,Específica,Presencial,8,Alto,1,60.0
+9,71220,Más de 1M,Alto,Generalista,Remoto,13,Dentro del mercado,1,75.0
+5,891723,Más de 1M,Experto,Específica,Híbrido,6,Alto,0,85.0
+7,782966,Menos de 250k,Alto,Generalista,Híbrido,13,Alto,1,50.0
+15,292940,Menos de 250k,Alto,Generalista,Híbrido,10,Bajo,1,40.0
+35,497436,Entre 250k y 1M,Alto,Específica,Híbrido,2,Alto,0,40.0
+32,592525,Menos de 250k,Experto,Generalista,Presencial,11,Dentro del mercado,0,90.0
+4,585827,Más de 1M,Básico,Específica,Presencial,2,Dentro del mercado,0,85.0
+17,564725,Entre 250k y 1M,Básico,Generalista,Remoto,20,Bajo,1,60.0
+11,634834,Más de 1M,Experto,Generalista,Híbrido,13,Bajo,1,85.0
+16,408859,Más de 1M,Alto,Generalista,Híbrido,4,Dentro del mercado,1,65.0
+16,243640,Menos de 250k,Básico,Generalista,Presencial,20,Dentro del mercado,0,60.0
+35,168291,Más de 1M,Alto,Generalista,Híbrido,14,Bajo,1,55.0
+7,131067,Menos de 250k,Básico,Específica,Remoto,3,Dentro del mercado,1,60.0
+33,954512,Más de 1M,Alto,Generalista,Híbrido,11,Bajo,0,65.0
+34,100785,Menos de 250k,Experto,Generalista,Presencial,7,Dentro del mercado,0,80.0
+5,464872,Más de 1M,Básico,Generalista,Remoto,14,Bajo,1,65.0
+32,708447,Menos de 250k,Alto,Específica,Remoto,17,Dentro del mercado,1,70.0
+1,347185,Más de 1M,Alto,Generalista,Presencial,17,Dentro del mercado,0,75.0
+19,347366,Entre 250k y 1M,Básico,Específica,Híbrido,6,Alto,0,40.0
+15,111042,Menos de 250k,Alto,Generalista,Remoto,13,Dentro del mercado,1,60.0
+4,728210,Menos de 250k,Alto,Generalista,Remoto,1,Bajo,1,60.0
+17,303350,Más de 1M,Experto,Generalista,Presencial,4,Bajo,0,85.0
+25,525322,Entre 250k y 1M,Experto,Específica,Presencial,4,Dentro del mercado,1,90.0
+33,142198,Menos de 250k,Básico,Generalista,Híbrido,17,Bajo,1,40.0
+32,491585,Más de 1M,Experto,Generalista,Presencial,13,Bajo,0,85.0
+13,777715,Menos de 250k,Básico,Específica,Remoto,5,Alto,1,60.0
+32,629366,Entre 250k y 1M,Básico,Específica,Remoto,9,Bajo,0,60.0
+35,522764,Más de 1M,Alto,Generalista,Híbrido,9,Dentro del mercado,1,75.0
+31,482244,Menos de 250k,Básico,Específica,Presencial,15,Alto,0,50.0
+3,689125,Menos de 250k,Básico,Generalista,Híbrido,13,Alto,0,50.0
+17,63090,Más de 1M,Experto,Específica,Presencial,15,Alto,1,85.0
+34,847130,Menos de 250k,Alto,Generalista,Híbrido,12,Dentro del mercado,0,60.0
+8,644649,Menos de 250k,Básico,Específica,Presencial,3,Alto,1,60.0
+19,528311,Más de 1M,Básico,Específica,Híbrido,4,Bajo,0,65.0
+33,425065,Entre 250k y 1M,Alto,Específica,Híbrido,2,Dentro del mercado,0,50.0
+12,938017,Menos de 250k,Experto,Generalista,Híbrido,8,Bajo,0,70.0
+30,754604,Más de 1M,Experto,Generalista,Presencial,9,Bajo,0,95.0
+31,536860,Más de 1M,Experto,Específica,Presencial,8,Dentro del mercado,0,100.0
+27,546493,Menos de 250k,Alto,Generalista,Remoto,20,Alto,1,60.0
+15,593194,Más de 1M,Alto,Específica,Remoto,15,Alto,0,75.0
+19,429123,Entre 250k y 1M,Experto,Específica,Híbrido,10,Alto,1,60.0
+25,321743,Más de 1M,Experto,Generalista,Remoto,4,Alto,0,85.0
+13,996110,Más de 1M,Básico,Específica,Híbrido,11,Bajo,0,65.0
+32,87604,Más de 1M,Básico,Generalista,Remoto,18,Dentro del mercado,0,75.0
+15,91420,Entre 250k y 1M,Alto,Generalista,Remoto,5,Bajo,1,50.0
+21,670762,Más de 1M,Experto,Generalista,Presencial,9,Dentro del mercado,1,100.0
+13,528494,Menos de 250k,Experto,Generalista,Remoto,13,Bajo,1,80.0
+19,746191,Entre 250k y 1M,Alto,Generalista,Remoto,18,Bajo,1,60.0
+34,162388,Menos de 250k,Experto,Generalista,Híbrido,1,Dentro del mercado,0,70.0
+15,136654,Entre 250k y 1M,Básico,Generalista,Remoto,10,Bajo,0,50.0
+12,475489,Entre 250k y 1M,Alto,Específica,Híbrido,14,Bajo,0,40.0
+6,153166,Más de 1M,Alto,Específica,Presencial,1,Bajo,0,65.0
+34,240158,Entre 250k y 1M,Básico,Específica,Híbrido,9,Dentro del mercado,0,50.0
+22,149344,Más de 1M,Básico,Específica,Híbrido,16,Bajo,1,55.0
+35,548960,Entre 250k y 1M,Experto,Específica,Presencial,3,Dentro del mercado,1,90.0
+5,756236,Entre 250k y 1M,Básico,Generalista,Presencial,5,Bajo,0,60.0
+6,72655,Más de 1M,Básico,Específica,Híbrido,5,Alto,0,55.0
+11,619489,Entre 250k y 1M,Básico,Específica,Híbrido,16,Alto,1,50.0
+8,943731,Entre 250k y 1M,Alto,Generalista,Presencial,16,Alto,1,60.0
+6,852739,Menos de 250k,Básico,Generalista,Remoto,7,Bajo,1,60.0
+10,963177,Más de 1M,Alto,Específica,Remoto,1,Bajo,0,75.0
+4,710872,Menos de 250k,Experto,Específica,Remoto,2,Alto,1,80.0
+3,281101,Más de 1M,Alto,Generalista,Remoto,11,Bajo,1,65.0
+5,453943,Más de 1M,Alto,Específica,Presencial,14,Alto,1,65.0
+16,726963,Entre 250k y 1M,Básico,Generalista,Remoto,20,Dentro del mercado,1,70.0
+20,873958,Menos de 250k,Experto,Generalista,Presencial,6,Alto,0,80.0
+6,778796,Más de 1M,Básico,Específica,Presencial,15,Dentro del mercado,1,85.0
+15,562008,Entre 250k y 1M,Alto,Generalista,Híbrido,12,Alto,1,50.0
+13,381200,Entre 250k y 1M,Básico,Generalista,Presencial,14,Dentro del mercado,0,60.0
+30,329827,Menos de 250k,Experto,Específica,Presencial,13,Bajo,0,70.0
+4,951606,Menos de 250k,Básico,Generalista,Presencial,3,Alto,0,60.0
+14,891055,Entre 250k y 1M,Básico,Generalista,Remoto,12,Alto,0,60.0
+27,976104,Menos de 250k,Básico,Generalista,Presencial,2,Bajo,0,60.0
+30,308827,Más de 1M,Alto,Específica,Remoto,5,Dentro del mercado,0,75.0
+35,743125,Entre 250k y 1M,Experto,Específica,Remoto,11,Dentro del mercado,0,90.0
+33,935213,Más de 1M,Alto,Específica,Presencial,10,Alto,1,75.0
+1,995095,Más de 1M,Experto,Generalista,Presencial,17,Dentro del mercado,1,100.0
+13,214684,Menos de 250k,Experto,Específica,Remoto,8,Bajo,1,70.0
+5,229794,Menos de 250k,Alto,Específica,Híbrido,13,Dentro del mercado,0,50.0
+17,990005,Menos de 250k,Alto,Específica,Remoto,7,Bajo,1,60.0
+13,520119,Entre 250k y 1M,Experto,Específica,Híbrido,13,Bajo,0,70.0
+8,888000,Entre 250k y 1M,Básico,Específica,Presencial,6,Dentro del mercado,1,70.0
+35,331818,Más de 1M,Experto,Generalista,Remoto,19,Dentro del mercado,1,95.0
+19,81382,Entre 250k y 1M,Experto,Generalista,Remoto,7,Dentro del mercado,0,80.0
+24,172457,Menos de 250k,Básico,Generalista,Híbrido,1,Alto,1,40.0
+14,314227,Menos de 250k,Básico,Específica,Presencial,15,Alto,1,50.0
+34,614313,Entre 250k y 1M,Básico,Específica,Presencial,5,Bajo,0,60.0
+3,320346,Menos de 250k,Experto,Generalista,Remoto,12,Bajo,0,70.0
+34,991221,Entre 250k y 1M,Alto,Generalista,Remoto,20,Bajo,1,60.0
+35,383293,Entre 250k y 1M,Básico,Específica,Presencial,1,Alto,1,50.0
+30,597344,Menos de 250k,Experto,Específica,Híbrido,17,Alto,0,70.0
+1,423242,Menos de 250k,Alto,Específica,Híbrido,9,Bajo,0,40.0
+8,650477,Menos de 250k,Experto,Generalista,Remoto,4,Bajo,0,80.0
+21,976096,Menos de 250k,Alto,Generalista,Remoto,10,Dentro del mercado,1,70.0
+8,763762,Entre 250k y 1M,Alto,Generalista,Presencial,7,Dentro del mercado,1,70.0
+24,42413,Más de 1M,Alto,Específica,Híbrido,8,Alto,0,55.0
+18,287602,Menos de 250k,Básico,Específica,Presencial,9,Bajo,0,50.0
+11,714762,Más de 1M,Experto,Específica,Presencial,8,Alto,1,95.0
+2,299747,Menos de 250k,Alto,Específica,Híbrido,14,Alto,0,40.0
+1,584176,Menos de 250k,Básico,Generalista,Remoto,10,Alto,0,60.0
+4,206742,Menos de 250k,Alto,Específica,Presencial,10,Dentro del mercado,1,60.0
+33,961274,Menos de 250k,Alto,Específica,Presencial,8,Dentro del mercado,1,70.0
+28,929690,Entre 250k y 1M,Básico,Específica,Híbrido,3,Dentro del mercado,0,60.0
+35,192836,Entre 250k y 1M,Alto,Generalista,Presencial,2,Alto,1,50.0
+13,901298,Entre 250k y 1M,Básico,Generalista,Remoto,7,Bajo,1,60.0
+33,832059,Entre 250k y 1M,Básico,Generalista,Remoto,12,Bajo,1,60.0
+5,214548,Más de 1M,Básico,Específica,Presencial,7,Dentro del mercado,0,75.0
+3,784168,Entre 250k y 1M,Experto,Generalista,Presencial,20,Bajo,0,80.0
+29,410306,Más de 1M,Alto,Específica,Híbrido,10,Bajo,1,55.0
+28,881163,Menos de 250k,Alto,Específica,Presencial,13,Dentro del mercado,0,70.0
+29,710819,Entre 250k y 1M,Experto,Específica,Híbrido,13,Alto,0,70.0
+18,139251,Entre 250k y 1M,Alto,Específica,Remoto,5,Bajo,0,50.0
+9,224013,Más de 1M,Alto,Específica,Presencial,9,Alto,0,65.0
+9,740138,Más de 1M,Alto,Específica,Remoto,15,Dentro del mercado,0,85.0
+33,379954,Más de 1M,Básico,Generalista,Presencial,16,Bajo,1,65.0
+23,217858,Más de 1M,Alto,Específica,Presencial,8,Alto,1,65.0
+22,755405,Entre 250k y 1M,Alto,Generalista,Presencial,2,Alto,0,60.0
+30,286116,Entre 250k y 1M,Experto,Generalista,Presencial,7,Dentro del mercado,0,80.0
+15,799202,Entre 250k y 1M,Experto,Específica,Presencial,9,Alto,1,80.0
+34,846316,Menos de 250k,Alto,Específica,Híbrido,15,Dentro del mercado,0,60.0
+8,854720,Entre 250k y 1M,Experto,Específica,Presencial,19,Dentro del mercado,1,90.0
+34,426060,Más de 1M,Alto,Generalista,Remoto,5,Alto,0,65.0
+7,745355,Entre 250k y 1M,Experto,Específica,Presencial,3,Dentro del mercado,1,90.0
+12,925464,Más de 1M,Alto,Generalista,Remoto,14,Dentro del mercado,0,85.0
+6,718805,Más de 1M,Alto,Generalista,Remoto,1,Alto,1,75.0
+17,517111,Menos de 250k,Básico,Generalista,Híbrido,11,Alto,0,50.0
+6,604254,Menos de 250k,Básico,Generalista,Presencial,12,Alto,0,60.0
+34,94277,Menos de 250k,Experto,Específica,Presencial,13,Bajo,1,70.0
+19,495593,Más de 1M,Experto,Específica,Presencial,1,Alto,0,85.0
+16,792647,Entre 250k y 1M,Alto,Específica,Híbrido,15,Alto,1,50.0
+25,902550,Más de 1M,Alto,Específica,Presencial,2,Alto,1,75.0
+13,386144,Entre 250k y 1M,Alto,Específica,Remoto,6,Bajo,0,50.0
+1,70397,Menos de 250k,Básico,Generalista,Híbrido,18,Bajo,0,40.0
+34,991614,Más de 1M,Alto,Específica,Remoto,5,Dentro del mercado,0,85.0
+20,401011,Menos de 250k,Básico,Generalista,Presencial,6,Alto,1,50.0
+35,607391,Entre 250k y 1M,Básico,Específica,Híbrido,1,Alto,1,50.0
+27,357945,Entre 250k y 1M,Experto,Específica,Presencial,14,Bajo,0,70.0
+28,47814,Entre 250k y 1M,Alto,Generalista,Híbrido,18,Dentro del mercado,1,50.0
+13,317805,Más de 1M,Básico,Generalista,Híbrido,20,Bajo,1,55.0
+7,398749,Más de 1M,Experto,Generalista,Híbrido,16,Bajo,1,75.0
+33,741499,Menos de 250k,Básico,Generalista,Presencial,8,Bajo,1,60.0
+11,878501,Entre 250k y 1M,Experto,Específica,Presencial,11,Alto,1,80.0
+11,154999,Menos de 250k,Experto,Generalista,Híbrido,12,Dentro del mercado,0,70.0
+6,677722,Más de 1M,Alto,Específica,Presencial,19,Alto,0,75.0
+25,819001,Menos de 250k,Alto,Generalista,Presencial,16,Alto,1,60.0
+7,997220,Más de 1M,Experto,Específica,Híbrido,3,Bajo,0,85.0
+5,670720,Más de 1M,Alto,Generalista,Presencial,20,Alto,1,75.0
+29,149819,Entre 250k y 1M,Alto,Generalista,Remoto,5,Bajo,1,50.0
+21,460169,Entre 250k y 1M,Alto,Específica,Híbrido,16,Bajo,0,40.0
+11,887824,Entre 250k y 1M,Básico,Generalista,Presencial,14,Dentro del mercado,1,70.0
+13,653637,Entre 250k y 1M,Experto,Específica,Remoto,17,Alto,0,80.0
+29,723075,Menos de 250k,Básico,Específica,Híbrido,7,Bajo,1,50.0
+21,793643,Menos de 250k,Experto,Específica,Híbrido,16,Dentro del mercado,0,80.0
+36,638771,Más de 1M,Alto,Específica,Híbrido,4,Bajo,1,65.0
+11,198506,Entre 250k y 1M,Experto,Generalista,Presencial,4,Dentro del mercado,1,80.0
+1,13966,Menos de 250k,Experto,Específica,Remoto,11,Bajo,1,70.0
+1,543524,Entre 250k y 1M,Experto,Generalista,Presencial,10,Bajo,1,80.0
+3,743585,Entre 250k y 1M,Experto,Generalista,Remoto,10,Bajo,1,80.0
+18,586239,Menos de 250k,Alto,Específica,Híbrido,9,Bajo,1,50.0
+8,800402,Menos de 250k,Experto,Específica,Presencial,7,Bajo,0,80.0
+7,647827,Entre 250k y 1M,Experto,Generalista,Presencial,9,Alto,1,80.0
+22,620467,Entre 250k y 1M,Básico,Específica,Híbrido,20,Bajo,0,50.0
+10,582582,Más de 1M,Experto,Generalista,Presencial,15,Dentro del mercado,0,100.0
+31,489653,Más de 1M,Experto,Específica,Remoto,15,Alto,0,85.0
+24,248816,Entre 250k y 1M,Básico,Específica,Remoto,15,Bajo,1,50.0
+13,145349,Más de 1M,Básico,Específica,Presencial,17,Dentro del mercado,1,75.0
+17,541720,Más de 1M,Alto,Generalista,Presencial,19,Dentro del mercado,1,85.0
+12,249865,Menos de 250k,Alto,Específica,Presencial,18,Bajo,0,50.0
+2,336280,Más de 1M,Básico,Específica,Presencial,1,Dentro del mercado,1,75.0
+22,233048,Menos de 250k,Experto,Generalista,Remoto,15,Alto,1,70.0
+16,588291,Menos de 250k,Experto,Generalista,Presencial,17,Dentro del mercado,0,90.0
+6,405046,Entre 250k y 1M,Experto,Específica,Híbrido,7,Dentro del mercado,1,70.0
+1,145773,Más de 1M,Alto,Generalista,Remoto,16,Dentro del mercado,0,75.0
+23,448602,Menos de 250k,Básico,Específica,Remoto,14,Dentro del mercado,0,60.0
+4,854229,Más de 1M,Alto,Específica,Remoto,13,Bajo,0,75.0
+2,154396,Más de 1M,Alto,Específica,Remoto,6,Bajo,1,65.0
+9,759138,Menos de 250k,Experto,Específica,Híbrido,10,Dentro del mercado,0,80.0
+20,224392,Más de 1M,Básico,Generalista,Híbrido,13,Bajo,1,55.0
+21,305950,Menos de 250k,Alto,Generalista,Híbrido,17,Bajo,1,40.0
+36,797411,Más de 1M,Básico,Generalista,Híbrido,9,Dentro del mercado,0,75.0
+31,649348,Entre 250k y 1M,Alto,Específica,Remoto,8,Dentro del mercado,0,70.0
+7,975483,Menos de 250k,Experto,Generalista,Remoto,9,Dentro del mercado,0,90.0
+3,42211,Entre 250k y 1M,Básico,Generalista,Presencial,9,Bajo,0,50.0
+21,995811,Más de 1M,Alto,Específica,Híbrido,10,Bajo,0,65.0
+20,685196,Menos de 250k,Básico,Específica,Híbrido,4,Dentro del mercado,0,60.0
+18,697657,Menos de 250k,Básico,Específica,Presencial,18,Alto,1,60.0
+28,702202,Entre 250k y 1M,Alto,Específica,Remoto,12,Alto,1,60.0
+28,19183,Entre 250k y 1M,Básico,Generalista,Presencial,17,Dentro del mercado,1,60.0
+5,229500,Más de 1M,Alto,Generalista,Remoto,18,Dentro del mercado,0,75.0
+6,979282,Más de 1M,Básico,Generalista,Remoto,10,Bajo,0,75.0
+25,344265,Menos de 250k,Experto,Generalista,Híbrido,19,Alto,0,60.0
+22,292389,Menos de 250k,Alto,Específica,Presencial,7,Bajo,1,50.0
+35,632079,Entre 250k y 1M,Alto,Específica,Remoto,15,Alto,1,60.0
+2,449765,Más de 1M,Alto,Específica,Remoto,13,Alto,0,65.0
+34,963069,Entre 250k y 1M,Alto,Específica,Remoto,20,Alto,0,60.0
+17,958713,Entre 250k y 1M,Básico,Generalista,Remoto,7,Dentro del mercado,1,70.0
+14,739307,Menos de 250k,Básico,Específica,Híbrido,7,Dentro del mercado,0,60.0
+34,192904,Entre 250k y 1M,Básico,Generalista,Presencial,14,Bajo,0,50.0
+3,235224,Más de 1M,Experto,Generalista,Remoto,18,Alto,0,85.0
+35,21702,Entre 250k y 1M,Básico,Generalista,Presencial,13,Alto,1,50.0
+2,259783,Entre 250k y 1M,Básico,Específica,Remoto,3,Alto,0,50.0
+5,91201,Entre 250k y 1M,Básico,Generalista,Remoto,4,Bajo,0,50.0
+32,921333,Más de 1M,Alto,Específica,Remoto,19,Dentro del mercado,0,85.0
+17,57863,Más de 1M,Básico,Generalista,Presencial,9,Alto,0,65.0
+16,711662,Menos de 250k,Alto,Específica,Presencial,14,Alto,0,60.0
+29,463009,Menos de 250k,Experto,Generalista,Híbrido,13,Dentro del mercado,0,70.0
+17,855344,Entre 250k y 1M,Básico,Generalista,Remoto,4,Alto,1,60.0
+4,343454,Entre 250k y 1M,Alto,Específica,Híbrido,16,Dentro del mercado,1,50.0
+7,343736,Entre 250k y 1M,Básico,Generalista,Híbrido,19,Bajo,0,40.0
+36,124577,Más de 1M,Experto,Específica,Presencial,17,Bajo,0,85.0
+14,494202,Más de 1M,Básico,Específica,Híbrido,4,Alto,0,55.0
+7,73160,Más de 1M,Experto,Específica,Remoto,19,Bajo,1,85.0
+19,313012,Entre 250k y 1M,Alto,Específica,Presencial,16,Alto,0,50.0
+27,10582,Más de 1M,Experto,Generalista,Remoto,12,Alto,0,85.0
+10,995501,Menos de 250k,Alto,Generalista,Híbrido,20,Bajo,1,50.0
+26,96659,Menos de 250k,Experto,Específica,Híbrido,17,Alto,1,60.0
+36,822809,Entre 250k y 1M,Alto,Generalista,Híbrido,14,Alto,1,50.0
+25,784359,Menos de 250k,Alto,Generalista,Híbrido,13,Dentro del mercado,0,60.0
+18,40355,Entre 250k y 1M,Alto,Generalista,Presencial,20,Dentro del mercado,0,60.0
+19,131328,Menos de 250k,Experto,Generalista,Presencial,8,Dentro del mercado,1,80.0
+34,93021,Menos de 250k,Básico,Específica,Presencial,20,Bajo,1,50.0
+17,184965,Entre 250k y 1M,Experto,Específica,Remoto,19,Dentro del mercado,1,80.0
+2,501553,Entre 250k y 1M,Básico,Generalista,Presencial,4,Dentro del mercado,1,70.0
+30,64375,Más de 1M,Experto,Específica,Híbrido,7,Bajo,0,75.0
+33,428334,Más de 1M,Básico,Específica,Remoto,19,Bajo,0,65.0
+35,744684,Más de 1M,Básico,Generalista,Remoto,17,Bajo,1,75.0
+16,216834,Entre 250k y 1M,Alto,Específica,Híbrido,15,Dentro del mercado,0,50.0
+24,829399,Menos de 250k,Alto,Específica,Híbrido,18,Dentro del mercado,0,60.0
+29,901030,Entre 250k y 1M,Básico,Generalista,Híbrido,4,Bajo,0,50.0
+22,126604,Más de 1M,Experto,Generalista,Presencial,8,Dentro del mercado,1,95.0
+20,779177,Menos de 250k,Básico,Generalista,Presencial,6,Dentro del mercado,0,70.0
+12,238409,Entre 250k y 1M,Básico,Generalista,Híbrido,10,Alto,0,40.0
+22,536064,Entre 250k y 1M,Alto,Específica,Remoto,1,Dentro del mercado,0,70.0
+24,240330,Entre 250k y 1M,Alto,Específica,Híbrido,13,Alto,1,40.0
+19,57919,Más de 1M,Básico,Específica,Híbrido,1,Bajo,1,55.0
+5,943314,Más de 1M,Básico,Específica,Híbrido,6,Dentro del mercado,0,75.0
+35,381253,Más de 1M,Básico,Específica,Presencial,6,Dentro del mercado,1,75.0
+13,618715,Menos de 250k,Experto,Específica,Remoto,4,Bajo,0,80.0
+25,314028,Entre 250k y 1M,Básico,Generalista,Remoto,1,Alto,1,50.0
+10,592891,Más de 1M,Básico,Generalista,Presencial,6,Dentro del mercado,0,85.0
+18,143878,Menos de 250k,Experto,Generalista,Presencial,18,Dentro del mercado,1,80.0
+9,827747,Más de 1M,Básico,Específica,Híbrido,17,Bajo,1,65.0
+13,511118,Más de 1M,Alto,Generalista,Remoto,18,Alto,1,75.0
+27,837291,Entre 250k y 1M,Experto,Generalista,Presencial,2,Bajo,0,80.0
+26,592548,Entre 250k y 1M,Alto,Específica,Híbrido,2,Bajo,1,50.0
+2,105433,Entre 250k y 1M,Experto,Específica,Híbrido,4,Bajo,0,60.0
+13,38125,Más de 1M,Experto,Específica,Remoto,20,Dentro del mercado,1,95.0
+19,447785,Entre 250k y 1M,Básico,Generalista,Híbrido,3,Alto,0,40.0
+16,734145,Menos de 250k,Alto,Generalista,Presencial,7,Alto,0,60.0
+10,363848,Más de 1M,Experto,Generalista,Presencial,10,Dentro del mercado,1,95.0
+32,574539,Entre 250k y 1M,Alto,Específica,Remoto,13,Alto,1,60.0
+15,571289,Menos de 250k,Alto,Específica,Presencial,17,Alto,0,60.0
+12,689522,Más de 1M,Experto,Específica,Remoto,12,Alto,0,95.0
+22,479589,Entre 250k y 1M,Alto,Generalista,Remoto,6,Bajo,0,50.0
+14,806410,Menos de 250k,Experto,Específica,Híbrido,16,Alto,0,70.0
+6,490601,Más de 1M,Experto,Generalista,Remoto,20,Dentro del mercado,1,95.0
