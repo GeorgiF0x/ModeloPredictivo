@@ -1,0 +1,27 @@
+{
+    "duracion": 0,                        // Número entero, duración en meses (ej: 12, 18, etc.)
+    "presupuesto": 0.0,                   // Número decimal o entero, presupuesto del proyecto (ej: 300000, 500000, etc.)
+    "facturacion_anual": "",              // Cadena de texto, categoría de facturación (ej: "Más de 1M", "Entre 500K y 1M", "Menos de 500K")
+    "fortaleza_tecnologica": "",          // Cadena de texto, nivel tecnológico (ej: "Básico", "Intermedio", "Avanzado", "Experto")
+    "experiencia_requerida": "",          // Cadena de texto, nivel de experiencia (ej: "Sin experiencia", "General", "Moderada", "Específica")
+    "lugar_trabajo": "",                  // Cadena de texto, ubicación de trabajo (ej: "Presencial", "Remoto", "Mixto")
+    "numero_perfiles_requeridos": 0,      // Número entero, cantidad de perfiles necesarios (ej: 4, 5, 10, etc.)
+    "precio_hora": "",                    // Cadena de texto, comparación de precios (ej: "Dentro del mercado", "Por encima del mercado", "Por debajo del mercado")
+    "volumetria": 0                       // Número binario, indica sí (1) o no (0)
+  }
+
+  
+  //ejemplo 
+
+  {
+    "duracion": 12,
+    "presupuesto": 500000.0,
+    "facturacion_anual": "Más de 1M",
+    "fortaleza_tecnologica": "Avanzado",
+    "experiencia_requerida": "Moderada",
+    "lugar_trabajo": "Mixto",
+    "numero_perfiles_requeridos": 5,
+    "precio_hora": "Dentro del mercado",
+    "volumetria": 1
+  }
+  
