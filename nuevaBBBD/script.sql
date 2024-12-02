@@ -26,6 +26,7 @@ CREATE TABLE proyectos (
     solvencia_economica_empresa VARCHAR(255) DEFAULT NULL,
     titulaciones_empleados_id INT DEFAULT NULL,
     volumetria_id INT DEFAULT NULL,
+    porcentaje_exito DECIMAL(5, 2) DEFAULT NULL,
 
     -- Claves foráneas
     FOREIGN KEY (certificaciones_requeridas_id) REFERENCES certificaciones_requeridas(id),
@@ -39,6 +40,7 @@ CREATE TABLE proyectos (
     FOREIGN KEY (titulaciones_empleados_id) REFERENCES titulacion_empleados(id),
     FOREIGN KEY (volumetria_id) REFERENCES volumetria(id)
 );
+
 
 -- Crear tablas de referencia para columnas categóricas
 CREATE TABLE certificaciones_requeridas (
