@@ -1,0 +1,1001 @@
+duracion,presupuesto,facturacion_anual,fortaleza_tecnologica,experiencia_requerida,lugar_trabajo,numero_perfiles_requeridos,precio_hora,volumetria,exito,prob_exito
+15,450812,250k a 1M,Experto,Específica,Remoto,20,Por debajo del mercado,482,0,73.97
+9,2772982,Más de 1M,Intermedio,Sin Experiencia,Presencial,16,Por debajo del mercado,391,1,61.46
+27,1509071,Más de 1M,Básico,Específica,Presencial,5,Por encima del mercado,29,0,39.71
+26,2250513,250k a 1M,Básico,General,Remoto,11,Por encima del mercado,230,1,47.66
+33,2709827,Más de 1M,Intermedio,Específica,Híbrido,8,Dentro del mercado,473,1,77.29
+36,2609205,250k a 1M,Intermedio,Sin Experiencia,Presencial,2,Dentro del mercado,299,0,46.56
+28,1920054,250k a 1M,Básico,General,Híbrido,7,Por debajo del mercado,4,0,34.57
+6,896249,250k a 1M,Básico,Específica,Presencial,15,Dentro del mercado,159,0,44.98
+33,211008,Más de 1M,Experto,Sin Experiencia,Presencial,3,Por encima del mercado,354,0,34.98
+34,351433,Más de 1M,Intermedio,Sin Experiencia,Híbrido,14,Por debajo del mercado,170,0,29.11
+15,2766777,Menos de 250k,Experto,Específica,Híbrido,9,Por encima del mercado,458,1,88.16
+29,577617,250k a 1M,Intermedio,Específica,Híbrido,12,Dentro del mercado,11,0,45.11
+8,200845,Más de 1M,Intermedio,Sin Experiencia,Híbrido,5,Por encima del mercado,279,0,24.13
+15,2206901,250k a 1M,Intermedio,Sin Experiencia,Presencial,6,Por debajo del mercado,490,0,51.27
+10,2929483,Menos de 250k,Básico,Específica,Remoto,9,Dentro del mercado,440,0,69.24
+4,2569014,Menos de 250k,Experto,Específica,Híbrido,9,Por encima del mercado,422,1,85.1
+17,2696491,Más de 1M,Experto,General,Remoto,9,Por debajo del mercado,254,1,71.33
+11,2582019,Más de 1M,Básico,Específica,Híbrido,14,Por debajo del mercado,239,1,63.49
+22,1177332,Menos de 250k,Intermedio,General,Híbrido,19,Por debajo del mercado,492,0,60.78
+18,176506,Menos de 250k,Básico,General,Remoto,19,Por debajo del mercado,256,1,33.7
+6,1276786,Menos de 250k,Intermedio,Sin Experiencia,Remoto,9,Dentro del mercado,280,1,37.92
+16,1916346,250k a 1M,Experto,Sin Experiencia,Remoto,16,Dentro del mercado,316,1,60.64
+10,229265,Menos de 250k,Experto,General,Presencial,11,Por debajo del mercado,263,1,48.43
+32,1637375,250k a 1M,Experto,Sin Experiencia,Remoto,12,Dentro del mercado,310,1,54.67
+8,1339924,250k a 1M,Básico,Sin Experiencia,Presencial,5,Por encima del mercado,143,1,21.44
+15,2713195,Más de 1M,Intermedio,Sin Experiencia,Híbrido,10,Dentro del mercado,454,1,58.25
+21,2318404,Más de 1M,Intermedio,Específica,Híbrido,15,Por encima del mercado,103,0,67.52
+19,2392938,Menos de 250k,Básico,Específica,Híbrido,16,Por debajo del mercado,421,1,68.56
+11,498122,Más de 1M,Intermedio,Sin Experiencia,Híbrido,4,Por encima del mercado,378,1,29.32
+12,1738186,Menos de 250k,Básico,Sin Experiencia,Presencial,10,Por encima del mercado,259,0,32.65
+9,1420117,Más de 1M,Experto,General,Presencial,5,Por encima del mercado,436,1,61.03
+26,218937,Menos de 250k,Básico,Específica,Híbrido,15,Dentro del mercado,196,1,39.32
+34,89247,250k a 1M,Intermedio,Específica,Híbrido,12,Por debajo del mercado,32,0,40.85
+15,1870520,Menos de 250k,Experto,Específica,Presencial,2,Por debajo del mercado,194,1,66.03
+34,2109797,Más de 1M,Experto,Específica,Remoto,15,Dentro del mercado,391,1,84.08
+30,461043,250k a 1M,Experto,General,Híbrido,7,Por encima del mercado,120,1,43.46
+10,1950749,Más de 1M,Intermedio,General,Remoto,18,Dentro del mercado,475,0,67.26
+13,2458736,250k a 1M,Intermedio,General,Remoto,20,Por encima del mercado,28,0,60.43
+4,1057284,Más de 1M,Intermedio,Específica,Presencial,8,Por debajo del mercado,190,1,52.27
+28,2201902,250k a 1M,Básico,Sin Experiencia,Híbrido,7,Dentro del mercado,215,1,33.72
+18,2095309,250k a 1M,Básico,General,Remoto,1,Por debajo del mercado,97,0,34.61
+26,2498107,Menos de 250k,Básico,Sin Experiencia,Remoto,10,Dentro del mercado,232,1,39.44
+35,2850949,250k a 1M,Básico,General,Híbrido,17,Dentro del mercado,277,0,59.57
+1,1760092,250k a 1M,Básico,Sin Experiencia,Remoto,17,Por debajo del mercado,11,0,30.68
+3,896428,Más de 1M,Experto,Sin Experiencia,Híbrido,2,Por debajo del mercado,232,0,37.42
+33,2010449,250k a 1M,Experto,Específica,Híbrido,11,Por debajo del mercado,403,1,80.44
+8,199196,Menos de 250k,Experto,Específica,Híbrido,16,Por encima del mercado,118,0,57.53
+12,57695,250k a 1M,Básico,General,Remoto,16,Dentro del mercado,472,1,36.74
+31,2708165,Más de 1M,Intermedio,General,Híbrido,6,Por encima del mercado,267,1,59.59
+12,2110382,Más de 1M,Experto,Específica,Remoto,1,Dentro del mercado,210,0,68.15
+4,440592,250k a 1M,Básico,Sin Experiencia,Remoto,18,Por debajo del mercado,33,0,18.9
+35,23933,250k a 1M,Básico,Sin Experiencia,Presencial,17,Por debajo del mercado,287,0,21.6
+26,1412878,Más de 1M,Intermedio,General,Híbrido,12,Por debajo del mercado,208,0,49.37
+12,195300,250k a 1M,Intermedio,Sin Experiencia,Remoto,4,Por debajo del mercado,92,0,17.71
+13,818117,250k a 1M,Intermedio,Específica,Remoto,3,Por debajo del mercado,81,0,42.86
+15,2385829,Más de 1M,Básico,Específica,Remoto,10,Por debajo del mercado,318,1,60.9
+26,329439,250k a 1M,Básico,General,Remoto,4,Por encima del mercado,90,0,18.99
+11,578118,Más de 1M,Básico,Específica,Híbrido,6,Por encima del mercado,456,0,43.96
+7,2199851,250k a 1M,Básico,Sin Experiencia,Presencial,19,Por debajo del mercado,484,0,50.77
+31,583888,Menos de 250k,Experto,Sin Experiencia,Remoto,7,Dentro del mercado,447,1,44.5
+18,1540870,Más de 1M,Básico,Específica,Presencial,3,Por encima del mercado,75,1,39.91
+24,1208582,Más de 1M,Básico,General,Remoto,10,Por debajo del mercado,462,1,43.45
+28,644162,Más de 1M,Básico,General,Presencial,2,Por debajo del mercado,408,0,30.18
+5,1198712,Menos de 250k,Experto,General,Híbrido,13,Por debajo del mercado,199,1,57.71
+4,1599174,Más de 1M,Básico,General,Presencial,3,Por encima del mercado,348,0,38.68
+4,449781,Más de 1M,Intermedio,General,Híbrido,20,Dentro del mercado,491,0,54.23
+13,2811527,250k a 1M,Intermedio,Sin Experiencia,Remoto,4,Por debajo del mercado,288,0,49.76
+17,2422560,250k a 1M,Intermedio,General,Presencial,3,Por encima del mercado,9,0,46.75
+12,1203661,250k a 1M,Intermedio,Sin Experiencia,Híbrido,4,Dentro del mercado,21,1,25.67
+31,307925,Más de 1M,Básico,Sin Experiencia,Presencial,2,Por debajo del mercado,340,0,14.78
+23,366784,Más de 1M,Básico,Sin Experiencia,Remoto,16,Dentro del mercado,184,0,21.19
+9,736765,250k a 1M,Básico,Sin Experiencia,Remoto,16,Por encima del mercado,344,1,29.69
+34,2030211,Menos de 250k,Experto,Específica,Presencial,17,Por debajo del mercado,257,1,80.76
+29,1532330,Menos de 250k,Experto,General,Remoto,10,Dentro del mercado,473,1,67.01
+4,237644,Menos de 250k,Intermedio,General,Híbrido,5,Dentro del mercado,341,0,36.36
+5,500082,Más de 1M,Básico,General,Híbrido,10,Dentro del mercado,175,1,27.75
+8,1787318,Más de 1M,Experto,Específica,Remoto,14,Dentro del mercado,191,0,74.1
+19,1525258,Más de 1M,Intermedio,General,Híbrido,17,Por debajo del mercado,18,0,48.54
+12,580626,Más de 1M,Intermedio,General,Remoto,4,Por debajo del mercado,440,0,42.01
+13,1638828,250k a 1M,Básico,Sin Experiencia,Presencial,17,Por encima del mercado,378,0,40.48
+26,2218370,Menos de 250k,Experto,General,Presencial,11,Dentro del mercado,313,1,69.82
+22,1484144,250k a 1M,Experto,General,Presencial,5,Por debajo del mercado,123,0,52.28
+5,1233315,250k a 1M,Básico,Sin Experiencia,Presencial,7,Dentro del mercado,421,1,30.21
+10,1103663,Menos de 250k,Experto,Específica,Remoto,3,Por encima del mercado,499,0,68.26
+12,2257801,250k a 1M,Experto,Específica,Remoto,4,Por debajo del mercado,346,0,75.96
+8,715390,250k a 1M,Experto,Sin Experiencia,Híbrido,5,Dentro del mercado,62,1,32.76
+3,226432,Menos de 250k,Intermedio,General,Remoto,20,Por encima del mercado,471,0,51.39
+5,1215424,250k a 1M,Intermedio,General,Híbrido,7,Dentro del mercado,232,1,44.36
+28,2887858,250k a 1M,Experto,Específica,Híbrido,6,Por encima del mercado,28,1,74.22
+16,2341963,Más de 1M,Intermedio,Específica,Remoto,16,Dentro del mercado,444,1,78.74
+10,36943,250k a 1M,Experto,Sin Experiencia,Presencial,2,Dentro del mercado,16,1,22.35
+11,2207961,250k a 1M,Experto,Sin Experiencia,Remoto,1,Por debajo del mercado,305,1,51.98
+29,2101974,250k a 1M,Experto,Sin Experiencia,Presencial,20,Por encima del mercado,21,1,56.65
+23,1115676,250k a 1M,Experto,General,Remoto,19,Por encima del mercado,185,1,60.96
+27,1917519,Menos de 250k,Experto,General,Presencial,12,Por debajo del mercado,298,1,67.12
+16,1119534,Más de 1M,Básico,Sin Experiencia,Presencial,5,Por debajo del mercado,244,1,22.27
+22,2425268,Más de 1M,Intermedio,General,Híbrido,20,Por encima del mercado,139,1,63.42
+7,2480110,Más de 1M,Básico,General,Remoto,16,Por encima del mercado,296,1,55.68
+33,714356,Más de 1M,Básico,General,Presencial,12,Dentro del mercado,448,1,39.58
+26,1337842,Más de 1M,Intermedio,Específica,Híbrido,18,Por encima del mercado,57,0,58.59
+26,1944263,Más de 1M,Básico,General,Presencial,4,Por debajo del mercado,9,0,32.71
+13,2733532,Más de 1M,Intermedio,Específica,Híbrido,4,Dentro del mercado,237,0,67.45
+25,2855901,Más de 1M,Básico,Sin Experiencia,Híbrido,13,Por debajo del mercado,262,0,46.17
+4,2689438,Más de 1M,Intermedio,Sin Experiencia,Híbrido,12,Dentro del mercado,356,1,56.57
+26,1834683,Más de 1M,Experto,Específica,Híbrido,19,Dentro del mercado,275,1,80.85
+15,1840548,Más de 1M,Intermedio,Específica,Remoto,16,Dentro del mercado,298,1,69.35
+4,1904968,Menos de 250k,Intermedio,Específica,Remoto,11,Por debajo del mercado,347,1,67.71
+23,272915,Más de 1M,Intermedio,Sin Experiencia,Remoto,7,Por debajo del mercado,124,1,21.7
+5,895220,Menos de 250k,Experto,General,Híbrido,2,Por encima del mercado,444,1,53.77
+7,2775776,Más de 1M,Básico,General,Remoto,12,Por debajo del mercado,203,1,52.85
+8,1479551,250k a 1M,Intermedio,Sin Experiencia,Híbrido,7,Por debajo del mercado,489,1,44.72
+31,2327811,250k a 1M,Intermedio,General,Remoto,4,Por encima del mercado,286,1,54.86
+6,876801,Menos de 250k,Básico,Sin Experiencia,Remoto,3,Por encima del mercado,76,0,13.3
+28,1857663,250k a 1M,Intermedio,Específica,Presencial,18,Por debajo del mercado,444,1,75.4
+13,2619965,250k a 1M,Básico,Sin Experiencia,Híbrido,4,Dentro del mercado,203,1,35.29
+9,1168600,Más de 1M,Intermedio,Sin Experiencia,Remoto,20,Por encima del mercado,370,0,47.79
+34,2831253,250k a 1M,Intermedio,Sin Experiencia,Híbrido,17,Por debajo del mercado,229,1,57.93
+3,2981107,250k a 1M,Intermedio,Específica,Presencial,1,Dentro del mercado,310,1,69.86
+18,1892007,Más de 1M,Experto,Sin Experiencia,Remoto,2,Por encima del mercado,9,0,40.69
+28,2272828,250k a 1M,Básico,Específica,Remoto,14,Dentro del mercado,287,1,61.84
+30,1777117,Menos de 250k,Experto,General,Presencial,12,Dentro del mercado,293,1,65.56
+19,521031,250k a 1M,Intermedio,Específica,Híbrido,9,Por encima del mercado,411,1,54.29
+29,2802887,Menos de 250k,Intermedio,Sin Experiencia,Presencial,18,Dentro del mercado,250,1,59.03
+24,2094048,Más de 1M,Básico,Sin Experiencia,Remoto,19,Por encima del mercado,402,0,47.25
+3,1639685,Menos de 250k,Intermedio,General,Híbrido,12,Por encima del mercado,208,0,51.64
+19,251472,250k a 1M,Experto,Específica,Híbrido,18,Dentro del mercado,110,1,59.31
+19,2968761,Menos de 250k,Básico,Sin Experiencia,Remoto,2,Por encima del mercado,45,1,32.54
+11,1254257,250k a 1M,Experto,General,Híbrido,12,Por encima del mercado,122,1,55.2
+21,2630346,250k a 1M,Intermedio,Específica,Remoto,19,Dentro del mercado,426,0,83.33
+1,1684756,Más de 1M,Experto,General,Remoto,12,Por debajo del mercado,475,1,70.1
+34,2892357,250k a 1M,Experto,Específica,Híbrido,7,Por debajo del mercado,393,1,85.96
+12,21840,Menos de 250k,Experto,Sin Experiencia,Remoto,1,Dentro del mercado,499,1,35.94
+5,128662,Menos de 250k,Experto,Específica,Remoto,18,Por debajo del mercado,494,1,69.61
+33,1847433,Más de 1M,Básico,General,Remoto,13,Por encima del mercado,35,0,39.27
+25,1608508,Más de 1M,Experto,Sin Experiencia,Presencial,16,Por encima del mercado,65,1,50.04
+31,2157301,Más de 1M,Intermedio,General,Presencial,17,Por debajo del mercado,366,1,65.3
+3,1722275,Menos de 250k,Experto,Específica,Remoto,4,Dentro del mercado,60,0,62.02
+2,112921,Más de 1M,Básico,Específica,Híbrido,13,Por encima del mercado,83,1,33.37
+6,2370120,Más de 1M,Experto,General,Remoto,12,Dentro del mercado,470,1,76.8
+31,1953303,250k a 1M,Básico,Específica,Remoto,8,Por debajo del mercado,426,0,58.31
+22,2629170,Más de 1M,Intermedio,General,Presencial,3,Por encima del mercado,377,0,59.85
+1,560483,Menos de 250k,Intermedio,Sin Experiencia,Remoto,5,Por encima del mercado,255,1,27.0
+34,2273411,250k a 1M,Intermedio,Específica,Remoto,11,Dentro del mercado,42,0,62.24
+11,704910,Menos de 250k,Experto,General,Remoto,3,Por debajo del mercado,491,0,54.03
+28,1209056,250k a 1M,Intermedio,General,Presencial,16,Por debajo del mercado,453,1,57.68
+31,465932,Menos de 250k,Intermedio,Sin Experiencia,Presencial,6,Por debajo del mercado,205,0,25.31
+20,647619,250k a 1M,Experto,Sin Experiencia,Híbrido,20,Dentro del mercado,460,1,55.28
+19,434864,Más de 1M,Básico,General,Remoto,15,Por debajo del mercado,3,1,25.69
+2,663274,250k a 1M,Intermedio,General,Híbrido,3,Por debajo del mercado,453,0,42.47
+36,2010322,Menos de 250k,Básico,General,Híbrido,11,Dentro del mercado,212,0,44.71
+9,2775005,Menos de 250k,Básico,Específica,Presencial,18,Por debajo del mercado,316,1,70.73
+6,2425309,250k a 1M,Experto,Sin Experiencia,Híbrido,4,Por debajo del mercado,133,0,51.24
+18,246724,250k a 1M,Experto,General,Presencial,7,Por debajo del mercado,403,0,49.81
+8,2285176,Más de 1M,Experto,Específica,Presencial,14,Dentro del mercado,375,1,84.6
+4,534615,250k a 1M,Básico,Sin Experiencia,Presencial,4,Por encima del mercado,76,0,10.63
+3,2748936,Más de 1M,Básico,General,Remoto,2,Dentro del mercado,245,1,46.34
+25,1163613,Menos de 250k,Básico,Específica,Híbrido,7,Por encima del mercado,390,0,48.59
+17,550782,Menos de 250k,Intermedio,Sin Experiencia,Remoto,10,Por debajo del mercado,89,1,25.68
+33,1784010,Menos de 250k,Experto,Sin Experiencia,Híbrido,9,Por encima del mercado,472,0,58.75
+18,327436,Menos de 250k,Básico,Sin Experiencia,Híbrido,17,Dentro del mercado,71,0,18.15
+13,1319666,250k a 1M,Intermedio,Sin Experiencia,Híbrido,1,Por debajo del mercado,245,1,31.3
+11,2875375,Más de 1M,Intermedio,Específica,Remoto,3,Por debajo del mercado,368,0,72.04
+32,2965312,250k a 1M,Experto,Específica,Presencial,14,Dentro del mercado,76,0,82.43
+30,1695115,250k a 1M,Intermedio,General,Híbrido,4,Dentro del mercado,434,0,52.97
+24,2589607,Menos de 250k,Experto,General,Remoto,17,Por debajo del mercado,160,0,73.45
+7,2946567,Menos de 250k,Básico,Específica,Remoto,9,Dentro del mercado,158,1,60.96
+8,304772,250k a 1M,Experto,Sin Experiencia,Presencial,5,Por encima del mercado,415,1,39.25
+23,1320824,250k a 1M,Básico,Específica,Remoto,17,Por debajo del mercado,5,0,46.11
+21,996479,Más de 1M,Básico,Sin Experiencia,Presencial,5,Por debajo del mercado,214,0,20.13
+35,2539034,250k a 1M,Básico,General,Presencial,20,Por encima del mercado,471,1,64.52
+25,1190029,250k a 1M,Intermedio,Específica,Remoto,2,Por debajo del mercado,465,1,57.35
+20,2660434,250k a 1M,Experto,Sin Experiencia,Híbrido,8,Dentro del mercado,172,0,57.76
+32,1821925,Menos de 250k,Intermedio,Específica,Híbrido,8,Por debajo del mercado,5,0,54.37
+31,301399,250k a 1M,Básico,Sin Experiencia,Híbrido,6,Por debajo del mercado,304,0,16.63
+35,148576,250k a 1M,Intermedio,General,Remoto,13,Dentro del mercado,258,0,38.98
+1,222075,Más de 1M,Experto,Específica,Híbrido,17,Por encima del mercado,459,1,68.74
+30,1945498,Más de 1M,Básico,Sin Experiencia,Remoto,18,Por debajo del mercado,330,0,42.85
+7,271887,250k a 1M,Intermedio,Sin Experiencia,Híbrido,1,Por debajo del mercado,132,0,17.43
+7,2670866,Más de 1M,Básico,Específica,Remoto,16,Por debajo del mercado,10,1,59.01
+1,1365175,250k a 1M,Intermedio,General,Presencial,18,Por debajo del mercado,399,0,59.12
+33,1250909,Menos de 250k,Intermedio,Específica,Remoto,8,Por debajo del mercado,78,1,50.85
+6,1277741,Más de 1M,Intermedio,Sin Experiencia,Híbrido,15,Por encima del mercado,78,1,36.37
+26,1830026,Menos de 250k,Intermedio,Sin Experiencia,Presencial,18,Por debajo del mercado,30,1,42.7
+36,171981,Más de 1M,Intermedio,Sin Experiencia,Presencial,8,Por debajo del mercado,41,1,18.95
+23,1685684,250k a 1M,Intermedio,Específica,Híbrido,11,Por encima del mercado,222,0,61.77
+36,436321,250k a 1M,Intermedio,General,Remoto,3,Por encima del mercado,67,0,28.62
+13,2516464,Menos de 250k,Intermedio,General,Híbrido,1,Dentro del mercado,167,1,50.92
+12,1780545,250k a 1M,Básico,General,Presencial,14,Dentro del mercado,410,1,50.61
+11,2928892,250k a 1M,Intermedio,Sin Experiencia,Presencial,5,Dentro del mercado,129,1,46.91
+31,1719062,250k a 1M,Intermedio,General,Remoto,15,Por encima del mercado,253,1,56.03
+17,1586609,Menos de 250k,Experto,General,Presencial,11,Dentro del mercado,409,0,66.39
+6,1548539,250k a 1M,Intermedio,Sin Experiencia,Híbrido,8,Por debajo del mercado,149,1,35.96
+16,813423,250k a 1M,Experto,General,Presencial,18,Por debajo del mercado,466,1,65.61
+33,1899131,Menos de 250k,Experto,General,Remoto,1,Por debajo del mercado,309,1,59.01
+29,2651641,Menos de 250k,Intermedio,Específica,Híbrido,7,Por encima del mercado,112,0,65.13
+35,2365093,Menos de 250k,Básico,General,Presencial,20,Dentro del mercado,101,0,51.68
+30,1322693,Menos de 250k,Básico,Sin Experiencia,Presencial,13,Por encima del mercado,407,0,35.19
+32,2088496,250k a 1M,Experto,Específica,Remoto,10,Dentro del mercado,390,0,80.08
+8,2780826,Más de 1M,Experto,Específica,Híbrido,9,Por encima del mercado,126,1,78.34
+34,2042673,Más de 1M,Experto,Específica,Remoto,12,Por debajo del mercado,291,0,78.16
+14,993871,250k a 1M,Básico,Sin Experiencia,Presencial,1,Dentro del mercado,63,0,12.58
+17,2847349,Menos de 250k,Básico,Sin Experiencia,Remoto,3,Dentro del mercado,151,0,35.25
+11,790768,Menos de 250k,Experto,Sin Experiencia,Presencial,18,Dentro del mercado,260,0,49.21
+21,1824679,250k a 1M,Intermedio,Específica,Presencial,6,Por debajo del mercado,338,1,62.89
+35,2045465,Más de 1M,Experto,Específica,Remoto,3,Dentro del mercado,115,1,66.15
+27,1324973,Menos de 250k,Experto,General,Presencial,18,Por debajo del mercado,43,1,58.04
+13,147884,Más de 1M,Intermedio,Específica,Híbrido,1,Por debajo del mercado,120,0,35.83
+3,1069288,Menos de 250k,Experto,Específica,Remoto,14,Dentro del mercado,32,1,62.15
+7,126115,Menos de 250k,Básico,Específica,Híbrido,15,Por encima del mercado,338,1,42.65
+15,1556197,Más de 1M,Intermedio,Específica,Presencial,11,Dentro del mercado,184,0,59.33
+16,877489,Más de 1M,Experto,Sin Experiencia,Híbrido,11,Por debajo del mercado,48,1,38.46
+2,1917417,250k a 1M,Experto,General,Remoto,17,Por debajo del mercado,294,1,70.74
+9,1091543,Menos de 250k,Básico,General,Remoto,20,Por debajo del mercado,416,1,48.4
+32,2761691,250k a 1M,Intermedio,Específica,Híbrido,20,Por encima del mercado,211,1,78.95
+23,1593548,Menos de 250k,Experto,General,Presencial,8,Por debajo del mercado,494,0,66.76
+7,1334008,Más de 1M,Básico,Sin Experiencia,Híbrido,2,Dentro del mercado,484,1,29.36
+19,39368,250k a 1M,Experto,General,Híbrido,19,Por debajo del mercado,427,1,57.45
+25,1358348,250k a 1M,Básico,Sin Experiencia,Remoto,18,Dentro del mercado,20,0,27.68
+8,2161616,Menos de 250k,Experto,Sin Experiencia,Remoto,17,Dentro del mercado,430,0,67.27
+11,2266891,250k a 1M,Básico,General,Remoto,2,Dentro del mercado,480,0,48.57
+4,1113161,Menos de 250k,Experto,Específica,Híbrido,9,Por debajo del mercado,20,1,58.48
+5,1448758,Menos de 250k,Intermedio,General,Híbrido,19,Por debajo del mercado,385,1,60.29
+28,2243670,250k a 1M,Intermedio,Específica,Presencial,7,Por encima del mercado,437,1,70.8
+19,2763129,Menos de 250k,Experto,Sin Experiencia,Híbrido,12,Dentro del mercado,326,1,66.41
+9,1680244,250k a 1M,Experto,Sin Experiencia,Presencial,10,Por encima del mercado,338,0,54.44
+8,121196,Menos de 250k,Básico,General,Híbrido,1,Por encima del mercado,62,0,13.82
+2,2177632,250k a 1M,Experto,General,Híbrido,2,Por encima del mercado,440,1,66.48
+8,521037,Más de 1M,Intermedio,Sin Experiencia,Híbrido,8,Por encima del mercado,152,0,25.77
+20,2896784,250k a 1M,Experto,Específica,Presencial,20,Por debajo del mercado,21,1,84.6
+35,73660,Menos de 250k,Experto,Específica,Remoto,9,Por encima del mercado,405,1,59.64
+17,1799966,Menos de 250k,Experto,Específica,Presencial,5,Dentro del mercado,244,1,69.07
+7,135856,250k a 1M,Básico,Específica,Presencial,1,Por encima del mercado,195,1,27.96
+10,2158798,Más de 1M,Intermedio,Sin Experiencia,Remoto,18,Por debajo del mercado,206,1,51.27
+23,2472483,Menos de 250k,Intermedio,General,Presencial,7,Por encima del mercado,476,1,64.25
+30,2044484,250k a 1M,Intermedio,General,Presencial,11,Dentro del mercado,1,0,48.72
+26,342857,Más de 1M,Intermedio,Sin Experiencia,Remoto,15,Por encima del mercado,9,0,24.95
+8,1624720,Menos de 250k,Básico,Específica,Remoto,12,Por encima del mercado,436,1,58.33
+28,2630994,Menos de 250k,Básico,General,Presencial,3,Por encima del mercado,92,0,41.32
+4,1278291,Menos de 250k,Intermedio,Específica,Presencial,1,Dentro del mercado,269,1,51.6
+2,1382201,Más de 1M,Experto,Sin Experiencia,Híbrido,18,Por encima del mercado,89,0,49.99
+11,244481,250k a 1M,Básico,Específica,Híbrido,20,Por debajo del mercado,272,1,45.6
+7,37793,Menos de 250k,Experto,General,Remoto,14,Por encima del mercado,95,0,43.73
+20,2066787,250k a 1M,Básico,Específica,Presencial,2,Por encima del mercado,250,0,49.67
+13,2746859,Menos de 250k,Básico,Específica,Híbrido,17,Dentro del mercado,98,1,63.16
+36,1957532,Menos de 250k,Experto,Específica,Presencial,12,Por encima del mercado,195,1,74.43
+33,499919,250k a 1M,Intermedio,Específica,Híbrido,5,Por encima del mercado,289,1,47.42
+20,698482,250k a 1M,Intermedio,General,Remoto,13,Por debajo del mercado,252,0,44.29
+21,430597,Más de 1M,Intermedio,Específica,Híbrido,9,Por encima del mercado,198,0,47.0
+5,1761937,Menos de 250k,Básico,Específica,Remoto,11,Dentro del mercado,438,1,59.01
+18,1979548,Más de 1M,Básico,Sin Experiencia,Híbrido,17,Por encima del mercado,140,0,36.75
+33,879576,Más de 1M,Básico,Sin Experiencia,Remoto,16,Por debajo del mercado,25,0,21.55
+13,800594,Más de 1M,Básico,General,Híbrido,6,Por encima del mercado,135,0,26.56
+12,498024,250k a 1M,Intermedio,Específica,Remoto,1,Dentro del mercado,259,0,43.5
+32,2032476,250k a 1M,Intermedio,Específica,Híbrido,13,Dentro del mercado,228,1,66.91
+21,1910414,Más de 1M,Intermedio,General,Híbrido,19,Por debajo del mercado,230,1,60.25
+5,599721,250k a 1M,Básico,General,Híbrido,15,Por encima del mercado,19,1,27.82
+33,772116,250k a 1M,Básico,Específica,Híbrido,2,Dentro del mercado,345,0,39.57
+28,1704253,Menos de 250k,Experto,Sin Experiencia,Presencial,19,Por debajo del mercado,84,0,53.81
+32,48115,Más de 1M,Experto,General,Remoto,14,Dentro del mercado,282,0,49.44
+15,1785520,Menos de 250k,Básico,General,Híbrido,4,Dentro del mercado,127,0,34.67
+23,223550,Menos de 250k,Experto,General,Híbrido,19,Por encima del mercado,107,0,49.7
+23,443445,Menos de 250k,Experto,Específica,Presencial,18,Por debajo del mercado,312,1,67.29
+31,2240985,Más de 1M,Intermedio,General,Híbrido,2,Dentro del mercado,399,0,55.88
+1,1159799,Menos de 250k,Experto,General,Híbrido,20,Por debajo del mercado,278,0,64.94
+10,2714461,Menos de 250k,Intermedio,General,Remoto,4,Por encima del mercado,130,0,54.04
+17,465863,Menos de 250k,Intermedio,Sin Experiencia,Híbrido,13,Por debajo del mercado,107,0,27.62
+3,604947,Menos de 250k,Básico,Sin Experiencia,Remoto,4,Por encima del mercado,437,0,22.16
+1,1589453,250k a 1M,Intermedio,General,Remoto,9,Por encima del mercado,434,1,55.66
+32,2028531,Más de 1M,Experto,General,Híbrido,18,Por debajo del mercado,67,1,65.8
+29,1296580,Menos de 250k,Básico,Sin Experiencia,Híbrido,20,Dentro del mercado,93,1,30.76
+25,236535,250k a 1M,Básico,General,Presencial,3,Por encima del mercado,326,0,24.4
+29,2091210,Más de 1M,Experto,Específica,Remoto,15,Por encima del mercado,87,1,74.77
+36,98630,Menos de 250k,Básico,Sin Experiencia,Presencial,15,Dentro del mercado,63,0,14.13
+9,1466864,Más de 1M,Intermedio,Específica,Remoto,14,Dentro del mercado,237,1,62.28
+17,1300641,250k a 1M,Básico,General,Remoto,18,Por encima del mercado,139,1,40.68
+25,2425526,Menos de 250k,Básico,Específica,Remoto,4,Dentro del mercado,87,1,49.87
+31,1097519,250k a 1M,Intermedio,Específica,Presencial,18,Por debajo del mercado,253,0,62.07
+8,2235523,Más de 1M,Básico,General,Presencial,14,Dentro del mercado,123,0,46.55
+31,2996608,Más de 1M,Intermedio,Sin Experiencia,Remoto,11,Por debajo del mercado,76,1,50.5
+32,2086033,250k a 1M,Experto,Específica,Remoto,11,Por debajo del mercado,46,1,70.49
+9,2792910,250k a 1M,Intermedio,Específica,Híbrido,1,Por debajo del mercado,361,1,69.51
+11,101882,Más de 1M,Básico,Específica,Híbrido,9,Por debajo del mercado,285,1,36.32
+22,2239505,250k a 1M,Experto,General,Presencial,13,Por debajo del mercado,214,0,68.57
+20,31935,Menos de 250k,Experto,Sin Experiencia,Remoto,10,Por encima del mercado,85,1,30.37
+34,1361207,Más de 1M,Intermedio,General,Presencial,19,Por debajo del mercado,323,0,57.55
+27,809247,Más de 1M,Básico,Sin Experiencia,Híbrido,2,Por encima del mercado,338,0,19.73
+34,1067968,250k a 1M,Básico,General,Híbrido,4,Por encima del mercado,296,0,32.56
+15,315494,250k a 1M,Básico,Específica,Presencial,7,Por encima del mercado,407,1,40.61
+2,633076,250k a 1M,Básico,Sin Experiencia,Presencial,6,Dentro del mercado,125,0,14.58
+16,2378160,Menos de 250k,Básico,Específica,Remoto,3,Por encima del mercado,220,1,52.63
+32,2743098,Más de 1M,Intermedio,Específica,Remoto,15,Dentro del mercado,310,1,77.98
+18,773075,Más de 1M,Experto,Sin Experiencia,Híbrido,9,Por encima del mercado,373,1,45.67
+34,2051815,Más de 1M,Básico,General,Remoto,4,Dentro del mercado,45,0,34.87
+24,1583691,250k a 1M,Básico,Específica,Presencial,16,Dentro del mercado,23,0,48.53
+9,19801,Menos de 250k,Experto,Sin Experiencia,Híbrido,20,Dentro del mercado,48,0,36.64
+28,1192673,250k a 1M,Intermedio,General,Híbrido,15,Por debajo del mercado,215,1,49.63
+24,2370529,Menos de 250k,Experto,Específica,Remoto,20,Dentro del mercado,337,1,88.82
+8,547331,Más de 1M,Básico,Específica,Presencial,15,Dentro del mercado,40,0,37.92
+3,2645119,250k a 1M,Intermedio,Sin Experiencia,Presencial,11,Por encima del mercado,461,1,58.53
+7,1886313,250k a 1M,Experto,General,Presencial,6,Por encima del mercado,158,0,58.1
+20,1703061,Menos de 250k,Intermedio,Sin Experiencia,Presencial,18,Dentro del mercado,119,0,44.1
+32,2450543,250k a 1M,Básico,Sin Experiencia,Híbrido,15,Dentro del mercado,200,0,41.76
+29,2404365,Más de 1M,Experto,Específica,Remoto,13,Dentro del mercado,484,1,88.31
+9,593440,250k a 1M,Básico,Sin Experiencia,Presencial,15,Por debajo del mercado,448,1,30.62
+24,2586493,Más de 1M,Básico,Específica,Híbrido,17,Por encima del mercado,390,1,70.31
+10,796766,250k a 1M,Experto,General,Híbrido,9,Por debajo del mercado,195,1,50.57
+36,940011,Menos de 250k,Básico,Específica,Híbrido,14,Por debajo del mercado,324,1,49.62
+2,1361001,Menos de 250k,Intermedio,Específica,Remoto,9,Por encima del mercado,81,0,52.79
+13,2795183,Más de 1M,Intermedio,General,Híbrido,6,Por encima del mercado,373,1,63.64
+20,1646058,250k a 1M,Intermedio,Sin Experiencia,Híbrido,4,Por debajo del mercado,203,1,35.55
+33,2793302,250k a 1M,Básico,General,Remoto,13,Por debajo del mercado,96,0,50.56
+16,514661,250k a 1M,Intermedio,General,Híbrido,20,Por debajo del mercado,389,1,51.82
+17,1536929,Más de 1M,Intermedio,General,Híbrido,18,Por encima del mercado,358,1,59.61
+9,1754115,Más de 1M,Básico,General,Remoto,8,Por debajo del mercado,65,0,35.49
+6,514593,250k a 1M,Intermedio,General,Presencial,16,Dentro del mercado,47,1,38.56
+19,2531478,Menos de 250k,Básico,Específica,Presencial,4,Por debajo del mercado,176,0,53.59
+35,771382,Menos de 250k,Básico,Sin Experiencia,Híbrido,14,Dentro del mercado,142,0,22.47
+18,940261,Menos de 250k,Experto,Específica,Remoto,4,Por debajo del mercado,50,0,53.9
+2,1319108,Más de 1M,Intermedio,Específica,Híbrido,14,Por debajo del mercado,317,0,63.2
+27,2013252,Más de 1M,Experto,Específica,Presencial,10,Dentro del mercado,242,1,74.89
+25,1204208,Más de 1M,Experto,Sin Experiencia,Presencial,19,Dentro del mercado,211,1,52.62
+20,864829,Más de 1M,Experto,Sin Experiencia,Híbrido,4,Dentro del mercado,2,1,31.71
+21,299379,Menos de 250k,Básico,General,Híbrido,12,Por encima del mercado,351,0,32.52
+36,68278,Menos de 250k,Básico,Específica,Remoto,7,Por debajo del mercado,357,0,36.64
+11,85032,Menos de 250k,Básico,Sin Experiencia,Remoto,16,Por debajo del mercado,84,0,15.37
+10,1425204,250k a 1M,Experto,Específica,Híbrido,5,Por encima del mercado,7,0,58.21
+23,2483895,Más de 1M,Intermedio,General,Híbrido,5,Por debajo del mercado,224,1,55.31
+9,379716,Más de 1M,Experto,General,Remoto,5,Por debajo del mercado,14,1,37.97
+24,1928361,Más de 1M,Básico,Específica,Híbrido,3,Por encima del mercado,277,0,49.84
+30,1859247,250k a 1M,Experto,Específica,Presencial,1,Por debajo del mercado,428,1,72.18
+22,1866129,Menos de 250k,Básico,Sin Experiencia,Presencial,2,Por debajo del mercado,244,1,27.48
+3,2164439,Más de 1M,Experto,Sin Experiencia,Híbrido,19,Por encima del mercado,358,1,66.63
+10,2770273,250k a 1M,Experto,General,Presencial,16,Dentro del mercado,438,1,82.84
+6,2993101,Más de 1M,Básico,Específica,Híbrido,5,Dentro del mercado,51,0,55.21
+32,2804307,250k a 1M,Experto,General,Presencial,18,Dentro del mercado,56,0,73.22
+26,2365478,250k a 1M,Experto,Sin Experiencia,Remoto,17,Por debajo del mercado,24,1,57.12
+18,160057,Menos de 250k,Básico,Específica,Presencial,10,Por debajo del mercado,341,0,39.33
+1,612012,250k a 1M,Básico,General,Remoto,18,Por encima del mercado,184,1,35.14
+23,2406288,Más de 1M,Experto,Sin Experiencia,Presencial,19,Dentro del mercado,117,1,61.82
+5,562758,Más de 1M,Básico,Específica,Híbrido,16,Dentro del mercado,158,0,42.37
+1,1632883,250k a 1M,Básico,General,Presencial,1,Por encima del mercado,17,0,27.59
+17,2344330,250k a 1M,Experto,General,Presencial,19,Por debajo del mercado,193,1,73.48
+13,2831073,250k a 1M,Experto,General,Presencial,14,Dentro del mercado,58,1,70.55
+4,150833,Más de 1M,Básico,General,Híbrido,2,Dentro del mercado,263,0,20.9
+24,1915675,Más de 1M,Básico,Específica,Remoto,14,Por encima del mercado,285,1,58.21
+19,594220,250k a 1M,Intermedio,General,Híbrido,19,Por encima del mercado,301,1,49.22
+21,1990173,Más de 1M,Experto,Sin Experiencia,Presencial,9,Dentro del mercado,270,0,54.75
+11,342315,Menos de 250k,Experto,Sin Experiencia,Híbrido,6,Por debajo del mercado,30,1,28.82
+28,737704,Menos de 250k,Experto,Sin Experiencia,Remoto,7,Por encima del mercado,330,0,42.53
+16,783412,250k a 1M,Experto,General,Presencial,14,Dentro del mercado,89,0,51.0
+7,1132254,Menos de 250k,Básico,Sin Experiencia,Presencial,6,Dentro del mercado,448,0,29.26
+5,2390061,250k a 1M,Básico,General,Remoto,18,Por debajo del mercado,137,0,51.51
+18,1080549,Menos de 250k,Experto,Sin Experiencia,Presencial,1,Dentro del mercado,496,1,46.44
+32,1876310,Más de 1M,Intermedio,Específica,Híbrido,9,Por encima del mercado,335,1,65.56
+30,363306,Más de 1M,Experto,General,Híbrido,20,Dentro del mercado,181,0,54.06
+33,1054860,250k a 1M,Básico,Sin Experiencia,Híbrido,16,Por debajo del mercado,132,0,26.51
+8,2897183,Más de 1M,Intermedio,Específica,Híbrido,11,Dentro del mercado,158,1,71.96
+2,1248667,250k a 1M,Básico,General,Presencial,12,Por encima del mercado,273,0,39.68
+21,2121027,250k a 1M,Experto,Sin Experiencia,Remoto,2,Dentro del mercado,19,0,43.28
+20,667635,Más de 1M,Experto,Sin Experiencia,Remoto,8,Por debajo del mercado,426,0,45.46
+17,2291674,Menos de 250k,Intermedio,General,Híbrido,6,Por debajo del mercado,446,1,60.8
+25,2958251,Más de 1M,Intermedio,Específica,Presencial,1,Por encima del mercado,202,0,66.39
+15,679148,250k a 1M,Experto,General,Híbrido,18,Por debajo del mercado,55,1,51.94
+15,2763345,250k a 1M,Experto,Específica,Híbrido,8,Dentro del mercado,216,1,80.11
+19,517923,250k a 1M,Intermedio,General,Presencial,1,Por debajo del mercado,47,0,27.34
+19,1758520,250k a 1M,Experto,Específica,Híbrido,2,Por debajo del mercado,317,1,68.6
+12,1893818,250k a 1M,Intermedio,Sin Experiencia,Híbrido,9,Dentro del mercado,314,0,45.11
+8,356167,Menos de 250k,Intermedio,General,Presencial,15,Dentro del mercado,129,0,38.68
+24,2226879,Menos de 250k,Experto,Específica,Presencial,12,Por debajo del mercado,384,1,82.79
+21,1637614,250k a 1M,Básico,Sin Experiencia,Híbrido,6,Por debajo del mercado,108,0,24.12
+9,1777331,250k a 1M,Intermedio,General,Remoto,10,Por encima del mercado,54,0,46.89
+11,2307372,Menos de 250k,Experto,General,Presencial,6,Por encima del mercado,469,1,71.64
+23,823545,Menos de 250k,Experto,Sin Experiencia,Híbrido,15,Por debajo del mercado,118,0,43.03
+3,428037,250k a 1M,Experto,General,Remoto,15,Por encima del mercado,25,1,46.28
+36,2216750,Más de 1M,Intermedio,General,Híbrido,14,Por debajo del mercado,199,1,58.64
+15,1220159,Menos de 250k,Básico,Sin Experiencia,Remoto,18,Por encima del mercado,468,0,39.74
+34,2317408,Más de 1M,Intermedio,Específica,Híbrido,16,Por encima del mercado,90,1,67.87
+10,1003424,250k a 1M,Experto,General,Híbrido,3,Por debajo del mercado,150,0,46.78
+23,579604,Menos de 250k,Intermedio,Específica,Remoto,13,Por encima del mercado,89,1,48.22
+22,238304,Menos de 250k,Básico,Sin Experiencia,Remoto,4,Por debajo del mercado,101,0,8.41
+28,2247278,Más de 1M,Básico,Sin Experiencia,Presencial,9,Por debajo del mercado,213,0,35.61
+22,833724,Más de 1M,Básico,Sin Experiencia,Presencial,6,Por debajo del mercado,378,0,24.18
+4,2080786,Menos de 250k,Intermedio,Específica,Híbrido,9,Por debajo del mercado,467,0,71.57
+3,1944743,Menos de 250k,Experto,Específica,Híbrido,17,Por debajo del mercado,74,0,74.42
+15,1670105,Más de 1M,Intermedio,Específica,Remoto,4,Dentro del mercado,179,1,55.07
+13,689891,Más de 1M,Experto,General,Presencial,17,Por debajo del mercado,108,0,52.89
+33,2333118,Más de 1M,Básico,Específica,Remoto,1,Dentro del mercado,208,1,50.32
+2,1237839,250k a 1M,Experto,General,Remoto,13,Por encima del mercado,244,1,59.45
+4,1643004,Más de 1M,Intermedio,General,Remoto,18,Por encima del mercado,239,1,57.1
+28,1593623,250k a 1M,Intermedio,Sin Experiencia,Presencial,5,Por debajo del mercado,368,0,40.73
+5,2564152,250k a 1M,Intermedio,General,Remoto,9,Por debajo del mercado,470,1,66.49
+29,1504761,Menos de 250k,Intermedio,General,Híbrido,9,Por encima del mercado,390,1,53.5
+11,1000941,Menos de 250k,Básico,Específica,Remoto,3,Por debajo del mercado,85,1,34.81
+35,685228,Menos de 250k,Básico,Sin Experiencia,Híbrido,10,Dentro del mercado,387,1,25.96
+35,2170458,250k a 1M,Básico,Sin Experiencia,Híbrido,10,Dentro del mercado,187,0,34.81
+9,1259783,250k a 1M,Básico,Sin Experiencia,Remoto,3,Por debajo del mercado,195,0,20.7
+28,2770011,250k a 1M,Intermedio,Específica,Remoto,11,Por encima del mercado,436,1,79.03
+26,511740,Menos de 250k,Intermedio,General,Remoto,16,Dentro del mercado,300,0,46.12
+23,2774369,Más de 1M,Experto,Sin Experiencia,Presencial,3,Por debajo del mercado,372,1,61.15
+25,251080,250k a 1M,Intermedio,Sin Experiencia,Híbrido,1,Dentro del mercado,190,0,18.96
+18,1766801,Más de 1M,Intermedio,Específica,Remoto,6,Por encima del mercado,317,1,61.68
+1,1571395,Menos de 250k,Básico,Sin Experiencia,Híbrido,8,Por encima del mercado,6,0,21.89
+24,2923419,Más de 1M,Intermedio,General,Híbrido,8,Por debajo del mercado,75,1,57.48
+7,2727799,Más de 1M,Experto,Específica,Híbrido,12,Dentro del mercado,3,0,76.37
+33,1117469,Más de 1M,Experto,Específica,Híbrido,19,Dentro del mercado,244,1,72.74
+9,2477717,Menos de 250k,Básico,General,Híbrido,17,Por debajo del mercado,321,1,57.16
+12,2740100,Menos de 250k,Básico,Específica,Presencial,18,Dentro del mercado,160,0,65.7
+13,2414967,250k a 1M,Intermedio,Sin Experiencia,Remoto,8,Por debajo del mercado,457,0,53.86
+15,2197058,Menos de 250k,Intermedio,Sin Experiencia,Presencial,14,Dentro del mercado,127,1,46.28
+34,1195384,Más de 1M,Básico,Sin Experiencia,Remoto,18,Por encima del mercado,362,0,36.31
+15,335066,Menos de 250k,Experto,Sin Experiencia,Presencial,20,Por debajo del mercado,363,0,49.24
+26,2617859,250k a 1M,Básico,Sin Experiencia,Híbrido,2,Dentro del mercado,187,1,33.29
+5,460148,Más de 1M,Intermedio,Sin Experiencia,Remoto,2,Dentro del mercado,34,0,17.12
+25,947648,Menos de 250k,Intermedio,Sin Experiencia,Híbrido,13,Dentro del mercado,255,1,36.88
+33,1309494,Menos de 250k,Intermedio,Específica,Presencial,17,Dentro del mercado,417,0,68.35
+17,2573540,250k a 1M,Experto,Sin Experiencia,Presencial,7,Por debajo del mercado,7,1,51.2
+14,1568902,250k a 1M,Básico,Específica,Remoto,12,Por encima del mercado,428,0,57.53
+5,694641,Más de 1M,Experto,Específica,Remoto,19,Por encima del mercado,147,1,65.61
+15,1809314,250k a 1M,Experto,Sin Experiencia,Remoto,9,Dentro del mercado,136,0,48.92
+8,23351,250k a 1M,Intermedio,General,Híbrido,17,Dentro del mercado,54,0,34.6
+30,966690,Más de 1M,Intermedio,General,Presencial,16,Por encima del mercado,354,0,52.29
+10,656961,250k a 1M,Experto,General,Presencial,16,Por encima del mercado,14,0,48.99
+8,223467,250k a 1M,Experto,Específica,Híbrido,7,Por debajo del mercado,308,0,56.72
+2,2150330,Más de 1M,Experto,Sin Experiencia,Híbrido,19,Por encima del mercado,181,0,61.18
+24,1062209,Más de 1M,Básico,General,Remoto,1,Dentro del mercado,35,0,22.42
+16,821325,Menos de 250k,Básico,Sin Experiencia,Presencial,14,Por encima del mercado,17,0,19.22
+5,248962,Más de 1M,Intermedio,Sin Experiencia,Remoto,13,Por encima del mercado,357,0,32.95
+28,2350416,Más de 1M,Intermedio,General,Remoto,1,Dentro del mercado,144,1,48.57
+33,2786922,Menos de 250k,Básico,Sin Experiencia,Presencial,7,Por debajo del mercado,206,1,39.3
+21,2418333,Menos de 250k,Básico,Específica,Híbrido,16,Por debajo del mercado,298,0,65.12
+34,940297,250k a 1M,Intermedio,General,Presencial,10,Por encima del mercado,299,1,45.87
+17,2145107,Menos de 250k,Experto,Sin Experiencia,Híbrido,17,Por debajo del mercado,455,1,67.85
+16,1111501,Más de 1M,Intermedio,General,Remoto,8,Dentro del mercado,81,1,39.55
+22,1342273,Más de 1M,Intermedio,Específica,Híbrido,14,Por debajo del mercado,99,1,56.89
+11,2624765,Menos de 250k,Intermedio,Sin Experiencia,Híbrido,6,Por debajo del mercado,20,1,41.35
+6,789452,Menos de 250k,Básico,General,Presencial,8,Por debajo del mercado,136,0,27.97
+14,1696563,Más de 1M,Básico,Específica,Híbrido,10,Dentro del mercado,427,0,57.28
+10,2971912,Menos de 250k,Experto,Sin Experiencia,Presencial,18,Dentro del mercado,346,1,73.6
+30,2315718,Más de 1M,Básico,Específica,Presencial,10,Por encima del mercado,92,1,53.42
+34,2435577,250k a 1M,Básico,Específica,Presencial,15,Por encima del mercado,20,1,56.21
+31,490404,Más de 1M,Experto,General,Presencial,9,Dentro del mercado,351,0,52.18
+1,92796,250k a 1M,Básico,Específica,Remoto,4,Por encima del mercado,380,0,35.33
+35,2798413,Menos de 250k,Básico,Específica,Híbrido,19,Por encima del mercado,238,1,69.37
+36,2442087,Menos de 250k,Experto,Sin Experiencia,Presencial,3,Por debajo del mercado,127,1,50.48
+27,450152,250k a 1M,Intermedio,Específica,Híbrido,14,Dentro del mercado,367,1,56.01
+18,2528325,Menos de 250k,Básico,Sin Experiencia,Presencial,9,Por debajo del mercado,162,0,36.89
+33,1507936,Más de 1M,Intermedio,Sin Experiencia,Híbrido,3,Dentro del mercado,81,0,29.76
+36,758282,Menos de 250k,Básico,Específica,Presencial,16,Por debajo del mercado,349,1,50.05
+34,2718934,Menos de 250k,Experto,Sin Experiencia,Presencial,8,Por encima del mercado,121,1,56.82
+19,2749604,250k a 1M,Experto,Sin Experiencia,Híbrido,8,Por encima del mercado,356,0,64.18
+26,1099380,250k a 1M,Experto,General,Híbrido,5,Por encima del mercado,6,1,44.92
+23,954320,Más de 1M,Intermedio,General,Híbrido,5,Dentro del mercado,237,0,40.4
+33,1002818,Más de 1M,Experto,Específica,Híbrido,1,Por encima del mercado,374,1,62.0
+16,1106837,Más de 1M,Básico,Específica,Presencial,4,Por encima del mercado,453,0,47.66
+34,342856,250k a 1M,Intermedio,Sin Experiencia,Remoto,3,Por encima del mercado,108,0,18.92
+23,1712953,Menos de 250k,Intermedio,Sin Experiencia,Presencial,2,Por debajo del mercado,445,1,41.98
+28,1997200,250k a 1M,Intermedio,General,Presencial,20,Por encima del mercado,489,0,69.64
+32,1306338,Más de 1M,Básico,General,Híbrido,12,Por debajo del mercado,110,1,35.36
+19,2475447,Menos de 250k,Experto,General,Presencial,17,Por debajo del mercado,418,1,80.04
+7,781349,250k a 1M,Básico,General,Híbrido,15,Dentro del mercado,475,1,43.31
+14,1107088,Menos de 250k,Intermedio,Sin Experiencia,Remoto,14,Por debajo del mercado,59,0,33.34
+12,724451,250k a 1M,Experto,General,Híbrido,17,Por encima del mercado,499,1,64.96
+32,1315277,250k a 1M,Experto,Sin Experiencia,Remoto,7,Por debajo del mercado,483,0,52.89
+12,2707423,250k a 1M,Experto,Sin Experiencia,Presencial,13,Por debajo del mercado,128,0,60.66
+7,517192,250k a 1M,Intermedio,Sin Experiencia,Remoto,18,Dentro del mercado,473,0,42.86
+1,585225,Más de 1M,Experto,Específica,Remoto,15,Dentro del mercado,393,1,68.89
+36,2353354,Menos de 250k,Intermedio,General,Híbrido,8,Por debajo del mercado,363,1,60.42
+31,2195235,Más de 1M,Intermedio,General,Presencial,3,Por debajo del mercado,478,0,58.54
+9,2989425,Menos de 250k,Experto,Sin Experiencia,Remoto,16,Por debajo del mercado,70,0,63.99
+10,2284800,Menos de 250k,Experto,Específica,Híbrido,4,Por debajo del mercado,239,1,73.02
+34,2330686,250k a 1M,Básico,General,Híbrido,5,Dentro del mercado,401,1,49.09
+14,1564022,Más de 1M,Intermedio,General,Presencial,2,Por debajo del mercado,172,1,42.3
+33,403805,Menos de 250k,Básico,Sin Experiencia,Presencial,18,Por debajo del mercado,54,0,19.16
+1,368487,Menos de 250k,Experto,Sin Experiencia,Remoto,3,Por encima del mercado,44,0,27.25
+20,2542609,250k a 1M,Básico,Sin Experiencia,Híbrido,17,Dentro del mercado,138,1,42.32
+35,766535,250k a 1M,Intermedio,Específica,Presencial,3,Dentro del mercado,294,0,48.74
+1,1764464,Menos de 250k,Experto,Sin Experiencia,Presencial,16,Dentro del mercado,182,1,55.1
+22,330559,Más de 1M,Intermedio,Específica,Remoto,14,Por debajo del mercado,328,1,53.65
+13,2040132,Más de 1M,Intermedio,Sin Experiencia,Remoto,3,Dentro del mercado,71,0,34.78
+25,904722,Menos de 250k,Básico,Sin Experiencia,Híbrido,15,Por debajo del mercado,167,0,25.31
+27,1143030,Más de 1M,Básico,Sin Experiencia,Híbrido,2,Dentro del mercado,40,0,14.13
+17,2403211,Menos de 250k,Intermedio,General,Híbrido,9,Por encima del mercado,77,1,53.09
+1,1110264,250k a 1M,Experto,Específica,Remoto,17,Por debajo del mercado,133,0,67.84
+12,1511411,250k a 1M,Experto,Específica,Híbrido,1,Dentro del mercado,194,1,61.68
+11,1609335,Menos de 250k,Intermedio,Sin Experiencia,Híbrido,11,Por debajo del mercado,300,0,43.34
+1,584213,250k a 1M,Básico,Sin Experiencia,Presencial,8,Dentro del mercado,490,0,26.54
+27,532249,250k a 1M,Intermedio,General,Remoto,12,Por encima del mercado,201,0,40.35
+9,2750505,250k a 1M,Experto,Específica,Híbrido,17,Dentro del mercado,239,0,87.43
+28,2228041,250k a 1M,Experto,Sin Experiencia,Híbrido,8,Por encima del mercado,112,0,51.64
+23,2641971,Más de 1M,Básico,General,Presencial,7,Por debajo del mercado,22,0,42.33
+16,912884,Más de 1M,Intermedio,Específica,Presencial,17,Dentro del mercado,475,0,66.13
+21,490248,Más de 1M,Básico,General,Remoto,16,Por encima del mercado,43,0,28.19
+22,793952,Más de 1M,Intermedio,General,Presencial,10,Dentro del mercado,196,1,41.32
+10,703420,Menos de 250k,Básico,General,Remoto,9,Por debajo del mercado,473,1,37.97
+18,125779,250k a 1M,Experto,General,Híbrido,16,Dentro del mercado,499,0,58.23
+1,861948,Menos de 250k,Básico,Específica,Remoto,13,Por encima del mercado,407,1,50.58
+15,2949960,Más de 1M,Intermedio,General,Remoto,2,Por encima del mercado,26,0,51.78
+28,2786397,Menos de 250k,Básico,General,Híbrido,3,Por encima del mercado,194,0,45.93
+2,1384814,250k a 1M,Experto,Específica,Remoto,13,Dentro del mercado,142,0,67.86
+2,1108474,250k a 1M,Básico,General,Remoto,7,Por encima del mercado,339,0,36.5
+14,1932288,Más de 1M,Intermedio,Específica,Presencial,4,Dentro del mercado,280,0,60.72
+5,2171548,Más de 1M,Experto,Específica,Híbrido,14,Dentro del mercado,299,1,81.19
+25,2820671,250k a 1M,Básico,Sin Experiencia,Híbrido,5,Por encima del mercado,389,0,43.63
+19,429567,250k a 1M,Intermedio,Sin Experiencia,Remoto,7,Dentro del mercado,492,0,34.31
+22,1748607,Más de 1M,Básico,Específica,Presencial,12,Dentro del mercado,363,0,57.38
+1,1237252,Más de 1M,Intermedio,General,Remoto,15,Por debajo del mercado,49,1,45.09
+7,59845,Menos de 250k,Experto,Sin Experiencia,Presencial,1,Por encima del mercado,382,0,32.81
+7,359156,Menos de 250k,Básico,Específica,Presencial,20,Dentro del mercado,407,0,50.8
+8,119391,250k a 1M,Experto,Específica,Híbrido,8,Dentro del mercado,385,0,58.74
+36,74070,Menos de 250k,Experto,Específica,Presencial,12,Por debajo del mercado,373,1,60.93
+13,1713885,250k a 1M,Experto,Sin Experiencia,Híbrido,1,Por debajo del mercado,11,0,38.22
+1,1609282,Menos de 250k,Experto,Sin Experiencia,Remoto,10,Por encima del mercado,156,1,48.27
+7,129606,Menos de 250k,Básico,General,Presencial,4,Dentro del mercado,61,0,16.13
+11,2119960,Menos de 250k,Experto,Específica,Remoto,14,Por encima del mercado,110,1,75.0
+25,645581,250k a 1M,Experto,General,Remoto,12,Por debajo del mercado,63,0,47.35
+29,2248329,250k a 1M,Básico,Específica,Remoto,14,Por encima del mercado,275,1,61.23
+11,364597,Más de 1M,Experto,General,Presencial,9,Dentro del mercado,230,0,47.3
+35,2978982,Menos de 250k,Básico,General,Híbrido,18,Por debajo del mercado,119,1,56.86
+12,1896286,Más de 1M,Básico,Sin Experiencia,Presencial,18,Por debajo del mercado,296,0,41.34
+8,411156,Más de 1M,Intermedio,Sin Experiencia,Híbrido,7,Dentro del mercado,118,0,22.9
+26,2563281,250k a 1M,Básico,General,Remoto,13,Por encima del mercado,132,0,49.34
+22,1672380,Más de 1M,Básico,Sin Experiencia,Híbrido,11,Dentro del mercado,75,0,27.22
+22,326887,Menos de 250k,Intermedio,Específica,Presencial,13,Dentro del mercado,13,0,43.41
+33,2691369,Menos de 250k,Experto,General,Presencial,6,Dentro del mercado,90,0,64.11
+33,1434302,Menos de 250k,Experto,Sin Experiencia,Remoto,6,Por debajo del mercado,219,0,45.41
+13,2877194,Más de 1M,Experto,Específica,Remoto,7,Dentro del mercado,413,1,86.41
+22,1352250,250k a 1M,Experto,General,Híbrido,3,Dentro del mercado,294,1,54.59
+21,108703,Menos de 250k,Básico,General,Remoto,12,Dentro del mercado,199,0,26.06
+25,2620810,250k a 1M,Experto,Sin Experiencia,Presencial,6,Dentro del mercado,21,1,51.34
+2,1904730,250k a 1M,Experto,Específica,Presencial,18,Por encima del mercado,87,0,75.16
+1,1335536,Más de 1M,Básico,General,Presencial,9,Dentro del mercado,46,0,31.49
+30,350692,Menos de 250k,Experto,Específica,Presencial,20,Por encima del mercado,81,0,60.94
+23,1115261,Más de 1M,Experto,Sin Experiencia,Híbrido,15,Por debajo del mercado,496,1,57.28
+29,2413599,250k a 1M,Experto,General,Presencial,6,Dentro del mercado,60,1,60.44
+27,2770319,Menos de 250k,Intermedio,General,Híbrido,7,Por encima del mercado,226,1,59.73
+30,1026663,250k a 1M,Básico,General,Remoto,15,Por encima del mercado,311,0,40.85
+34,1440545,Menos de 250k,Intermedio,Sin Experiencia,Híbrido,9,Por encima del mercado,228,1,38.0
+21,1398611,250k a 1M,Intermedio,General,Híbrido,19,Por debajo del mercado,344,1,58.56
+27,1304038,Menos de 250k,Básico,Sin Experiencia,Presencial,14,Por debajo del mercado,73,0,25.73
+26,1248364,250k a 1M,Intermedio,Específica,Híbrido,11,Por encima del mercado,199,1,56.7
+26,1981954,Menos de 250k,Experto,Sin Experiencia,Remoto,20,Dentro del mercado,314,1,64.24
+7,2431306,Menos de 250k,Básico,Específica,Híbrido,14,Por debajo del mercado,142,1,59.07
+24,2904524,Menos de 250k,Básico,General,Híbrido,16,Por debajo del mercado,29,1,51.92
+18,1783116,250k a 1M,Intermedio,General,Presencial,8,Por encima del mercado,232,1,50.79
+26,2531015,Menos de 250k,Intermedio,Específica,Presencial,4,Por debajo del mercado,452,1,71.87
+27,1105892,250k a 1M,Básico,Específica,Híbrido,11,Por debajo del mercado,457,0,53.02
+23,870089,Más de 1M,Intermedio,Específica,Presencial,13,Por debajo del mercado,398,1,60.39
+18,250224,Menos de 250k,Intermedio,Sin Experiencia,Híbrido,3,Por encima del mercado,6,0,14.93
+10,1150219,250k a 1M,Básico,Específica,Presencial,12,Dentro del mercado,302,0,49.56
+3,2070558,Menos de 250k,Experto,Sin Experiencia,Remoto,3,Dentro del mercado,3,0,43.05
+26,948518,Más de 1M,Básico,Específica,Presencial,14,Dentro del mercado,320,1,49.59
+34,721827,Más de 1M,Experto,General,Híbrido,6,Por encima del mercado,96,0,44.6
+17,2452004,250k a 1M,Experto,General,Remoto,8,Dentro del mercado,397,0,72.43
+19,175524,Más de 1M,Básico,Sin Experiencia,Presencial,15,Dentro del mercado,306,0,22.19
+30,1298526,Más de 1M,Intermedio,Específica,Remoto,7,Por debajo del mercado,62,1,50.1
+14,2761053,Menos de 250k,Básico,Sin Experiencia,Presencial,12,Por debajo del mercado,451,0,50.14
+15,2004227,250k a 1M,Básico,Específica,Presencial,20,Por debajo del mercado,345,0,65.39
+10,713453,Menos de 250k,Intermedio,Sin Experiencia,Presencial,19,Dentro del mercado,464,0,45.3
+33,59264,Menos de 250k,Básico,General,Presencial,5,Dentro del mercado,440,0,27.54
+2,1983396,Más de 1M,Experto,Sin Experiencia,Remoto,11,Por encima del mercado,224,0,54.8
+16,2909845,Más de 1M,Experto,Sin Experiencia,Remoto,14,Por debajo del mercado,281,1,68.03
+35,430173,250k a 1M,Intermedio,Sin Experiencia,Híbrido,7,Dentro del mercado,281,0,27.98
+31,1612128,250k a 1M,Experto,Sin Experiencia,Híbrido,18,Por debajo del mercado,170,1,54.72
+11,1991564,Menos de 250k,Intermedio,Específica,Remoto,13,Por encima del mercado,214,0,66.09
+3,764951,Más de 1M,Experto,General,Híbrido,11,Por encima del mercado,133,1,49.89
+35,2654859,Más de 1M,Experto,General,Remoto,11,Por encima del mercado,360,1,75.6
+17,911824,Menos de 250k,Experto,Sin Experiencia,Híbrido,10,Dentro del mercado,254,1,44.24
+4,1244675,Más de 1M,Experto,Sin Experiencia,Remoto,20,Dentro del mercado,283,1,55.94
+28,432292,250k a 1M,Básico,General,Híbrido,18,Por debajo del mercado,178,1,33.16
+15,1306783,Más de 1M,Intermedio,Específica,Remoto,19,Por debajo del mercado,464,1,71.24
+20,1410631,Menos de 250k,Experto,General,Híbrido,17,Dentro del mercado,179,1,62.23
+15,472240,250k a 1M,Experto,General,Remoto,6,Por encima del mercado,397,1,51.13
+35,2115018,Menos de 250k,Básico,General,Híbrido,12,Dentro del mercado,448,1,53.59
+12,130189,250k a 1M,Experto,Sin Experiencia,Remoto,2,Dentro del mercado,393,0,34.59
+33,2381994,Más de 1M,Experto,Sin Experiencia,Remoto,4,Dentro del mercado,392,0,58.58
+20,2967802,Más de 1M,Intermedio,General,Presencial,11,Dentro del mercado,72,1,60.09
+5,971257,Menos de 250k,Intermedio,Sin Experiencia,Presencial,16,Dentro del mercado,231,0,38.64
+29,2645112,Más de 1M,Experto,Sin Experiencia,Remoto,12,Por encima del mercado,38,0,56.59
+22,2041001,Menos de 250k,Experto,Sin Experiencia,Híbrido,20,Por encima del mercado,125,0,59.16
+34,1743540,Menos de 250k,Experto,Sin Experiencia,Híbrido,3,Por encima del mercado,392,0,51.45
+11,1136662,Más de 1M,Experto,General,Presencial,13,Dentro del mercado,137,0,55.23
+13,2197143,Menos de 250k,Intermedio,Sin Experiencia,Presencial,9,Por debajo del mercado,219,1,45.29
+15,500684,250k a 1M,Intermedio,Sin Experiencia,Híbrido,5,Dentro del mercado,392,0,30.52
+7,1859251,Más de 1M,Básico,Sin Experiencia,Híbrido,15,Dentro del mercado,190,0,35.54
+18,2924025,250k a 1M,Básico,Específica,Remoto,13,Por debajo del mercado,395,0,70.84
+23,1224083,Más de 1M,Experto,General,Híbrido,18,Por debajo del mercado,161,1,60.57
+7,2490660,Más de 1M,Experto,General,Híbrido,1,Por debajo del mercado,24,0,56.38
+26,2261887,Menos de 250k,Básico,Sin Experiencia,Presencial,15,Por encima del mercado,479,0,48.24
+21,2076979,Menos de 250k,Experto,Sin Experiencia,Remoto,16,Dentro del mercado,62,1,54.63
+7,1439324,Menos de 250k,Experto,Específica,Presencial,1,Por encima del mercado,433,0,68.13
+12,500823,Más de 1M,Intermedio,General,Remoto,5,Dentro del mercado,223,0,35.45
+4,1314048,250k a 1M,Experto,General,Remoto,15,Dentro del mercado,313,1,63.78
+17,1726364,Más de 1M,Intermedio,General,Híbrido,9,Por encima del mercado,23,0,44.7
+32,992495,250k a 1M,Experto,Sin Experiencia,Híbrido,8,Dentro del mercado,104,1,39.04
+19,1132518,Más de 1M,Experto,General,Presencial,7,Por encima del mercado,7,0,46.79
+31,2639965,250k a 1M,Intermedio,Sin Experiencia,Híbrido,7,Por debajo del mercado,7,0,41.86
+2,56773,Menos de 250k,Experto,Sin Experiencia,Presencial,20,Por encima del mercado,395,1,47.42
+2,449743,250k a 1M,Experto,General,Presencial,6,Dentro del mercado,319,0,48.57
+7,2171686,Más de 1M,Intermedio,General,Remoto,18,Dentro del mercado,106,1,58.4
+12,1414995,Más de 1M,Intermedio,Sin Experiencia,Híbrido,1,Dentro del mercado,4,0,25.02
+9,2485297,250k a 1M,Básico,Específica,Híbrido,8,Dentro del mercado,340,0,61.05
+29,2262429,Menos de 250k,Básico,Específica,Presencial,1,Por debajo del mercado,414,0,55.79
+28,2281252,250k a 1M,Intermedio,Específica,Remoto,10,Dentro del mercado,118,1,63.85
+32,1187380,Menos de 250k,Experto,Sin Experiencia,Presencial,18,Por encima del mercado,282,1,53.83
+1,2182859,250k a 1M,Experto,Específica,Híbrido,6,Dentro del mercado,324,1,76.05
+29,2747757,Más de 1M,Básico,General,Híbrido,3,Dentro del mercado,303,0,48.82
+27,2609773,250k a 1M,Básico,General,Remoto,3,Por debajo del mercado,148,1,42.79
+20,748355,250k a 1M,Básico,General,Remoto,19,Por encima del mercado,434,0,44.75
+6,774797,250k a 1M,Experto,Sin Experiencia,Remoto,4,Por debajo del mercado,48,0,32.19
+3,1123205,Más de 1M,Intermedio,General,Remoto,20,Por encima del mercado,156,1,50.91
+26,627029,Más de 1M,Intermedio,Sin Experiencia,Remoto,19,Por encima del mercado,36,1,31.6
+32,1797515,250k a 1M,Experto,Sin Experiencia,Remoto,6,Dentro del mercado,244,0,49.8
+34,2266514,Más de 1M,Intermedio,General,Presencial,18,Dentro del mercado,16,1,56.65
+7,1248257,Más de 1M,Básico,General,Presencial,20,Por debajo del mercado,194,0,43.3
+23,464570,250k a 1M,Básico,General,Remoto,20,Dentro del mercado,85,0,32.2
+24,2008402,Menos de 250k,Experto,Sin Experiencia,Remoto,14,Por debajo del mercado,121,1,54.21
+17,1083543,250k a 1M,Básico,Sin Experiencia,Remoto,14,Por encima del mercado,452,0,34.9
+36,2919841,Menos de 250k,Experto,General,Presencial,4,Por debajo del mercado,155,1,66.85
+22,2934692,Menos de 250k,Experto,General,Presencial,13,Dentro del mercado,391,1,80.83
+7,2754085,Más de 1M,Básico,Sin Experiencia,Presencial,3,Por debajo del mercado,154,1,34.41
+29,1812015,250k a 1M,Intermedio,General,Presencial,20,Por debajo del mercado,59,1,54.89
+9,2047239,250k a 1M,Intermedio,Sin Experiencia,Presencial,16,Por debajo del mercado,75,0,44.72
+30,2530299,250k a 1M,Experto,Específica,Híbrido,9,Por debajo del mercado,110,1,75.35
+32,594682,250k a 1M,Básico,Específica,Presencial,19,Por encima del mercado,165,0,45.15
+24,1014068,Menos de 250k,Básico,Sin Experiencia,Híbrido,6,Por encima del mercado,19,0,15.21
+21,1082898,Más de 1M,Intermedio,Específica,Híbrido,3,Por encima del mercado,441,1,56.31
+29,818144,Más de 1M,Intermedio,General,Presencial,7,Dentro del mercado,199,1,39.4
+6,792682,250k a 1M,Experto,Sin Experiencia,Híbrido,5,Por encima del mercado,460,0,45.48
+9,1151409,250k a 1M,Básico,Sin Experiencia,Remoto,17,Por debajo del mercado,392,0,36.02
+14,1600781,250k a 1M,Intermedio,General,Híbrido,6,Por debajo del mercado,441,0,53.74
+4,2008671,Menos de 250k,Intermedio,Específica,Presencial,5,Por encima del mercado,314,1,63.26
+30,1044306,Más de 1M,Experto,General,Híbrido,19,Dentro del mercado,307,0,63.9
+26,2450752,Más de 1M,Experto,Sin Experiencia,Presencial,15,Por debajo del mercado,83,0,58.25
+4,97217,Menos de 250k,Intermedio,General,Híbrido,5,Por debajo del mercado,212,0,31.08
+5,687578,Más de 1M,Básico,Específica,Híbrido,2,Por debajo del mercado,475,0,42.63
+28,1219120,Más de 1M,Experto,Sin Experiencia,Presencial,9,Dentro del mercado,322,1,48.6
+19,2028797,Menos de 250k,Básico,General,Híbrido,3,Dentro del mercado,36,0,33.62
+32,2854183,Menos de 250k,Intermedio,Sin Experiencia,Híbrido,16,Por debajo del mercado,324,0,60.26
+15,934688,Menos de 250k,Intermedio,Sin Experiencia,Híbrido,7,Dentro del mercado,158,0,29.34
+14,1383228,Menos de 250k,Básico,Específica,Híbrido,7,Por encima del mercado,183,1,44.57
+4,285415,Menos de 250k,Básico,Sin Experiencia,Presencial,11,Por debajo del mercado,50,0,12.6
+4,351809,Menos de 250k,Intermedio,General,Remoto,12,Por encima del mercado,458,1,46.26
+14,2598884,Más de 1M,Básico,Sin Experiencia,Remoto,18,Por debajo del mercado,59,0,41.26
+28,2007693,Menos de 250k,Experto,General,Remoto,1,Por encima del mercado,207,0,57.04
+33,1789282,Más de 1M,Intermedio,General,Presencial,1,Por debajo del mercado,75,0,40.89
+32,794807,Más de 1M,Experto,Específica,Remoto,13,Por debajo del mercado,343,0,67.99
+34,298845,Menos de 250k,Básico,Sin Experiencia,Remoto,2,Por debajo del mercado,486,0,19.07
+13,1684589,Más de 1M,Básico,Sin Experiencia,Híbrido,10,Por debajo del mercado,494,1,39.17
+29,152808,Menos de 250k,Básico,Sin Experiencia,Presencial,13,Por debajo del mercado,140,0,15.48
+24,2996336,Menos de 250k,Intermedio,Sin Experiencia,Presencial,19,Por encima del mercado,297,0,63.12
+27,2090597,Menos de 250k,Intermedio,Sin Experiencia,Híbrido,17,Dentro del mercado,138,0,47.8
+21,548898,Menos de 250k,Intermedio,Específica,Presencial,9,Dentro del mercado,37,1,43.35
+27,2333618,Más de 1M,Básico,Específica,Presencial,5,Dentro del mercado,249,0,54.56
+16,893563,Más de 1M,Experto,Específica,Presencial,17,Dentro del mercado,262,1,69.55
+14,90687,Menos de 250k,Básico,Sin Experiencia,Remoto,18,Por debajo del mercado,105,0,17.56
+27,447527,250k a 1M,Básico,Sin Experiencia,Presencial,5,Por debajo del mercado,325,0,17.98
+10,1597068,250k a 1M,Experto,Sin Experiencia,Remoto,12,Por debajo del mercado,154,0,49.59
+4,216767,Menos de 250k,Intermedio,Específica,Presencial,6,Por debajo del mercado,286,1,45.25
+29,2997875,250k a 1M,Básico,Sin Experiencia,Presencial,9,Dentro del mercado,300,1,45.73
+27,1852307,Más de 1M,Intermedio,Sin Experiencia,Remoto,12,Dentro del mercado,69,1,39.59
+22,1610418,Más de 1M,Básico,Específica,Presencial,12,Por encima del mercado,370,1,56.2
+12,1161514,250k a 1M,Básico,Específica,Híbrido,8,Dentro del mercado,469,1,51.69
+31,2138493,250k a 1M,Básico,Sin Experiencia,Híbrido,16,Dentro del mercado,403,0,45.47
+2,2397592,Menos de 250k,Básico,Sin Experiencia,Presencial,17,Por encima del mercado,168,0,41.77
+13,2974359,250k a 1M,Básico,Sin Experiencia,Híbrido,9,Dentro del mercado,57,0,38.2
+10,1737234,Menos de 250k,Básico,Sin Experiencia,Híbrido,8,Dentro del mercado,113,0,26.76
+29,1237686,Más de 1M,Básico,General,Presencial,18,Por debajo del mercado,323,0,45.57
+32,1520969,250k a 1M,Experto,Específica,Remoto,20,Por debajo del mercado,195,1,76.06
+2,1692082,250k a 1M,Intermedio,Sin Experiencia,Remoto,14,Por encima del mercado,207,0,43.63
+17,542198,Más de 1M,Intermedio,Sin Experiencia,Remoto,3,Por encima del mercado,411,0,30.0
+18,2622932,250k a 1M,Básico,Sin Experiencia,Presencial,16,Por encima del mercado,77,1,40.54
+35,1293753,250k a 1M,Básico,Específica,Híbrido,12,Por debajo del mercado,83,1,44.43
+9,2267797,Más de 1M,Intermedio,Específica,Remoto,7,Dentro del mercado,451,1,71.46
+14,817752,Menos de 250k,Básico,Sin Experiencia,Presencial,1,Por debajo del mercado,272,1,17.09
+3,1457199,Más de 1M,Intermedio,General,Remoto,17,Por encima del mercado,78,1,49.66
+16,26254,Menos de 250k,Intermedio,General,Presencial,6,Dentro del mercado,243,0,32.05
+24,1257730,Menos de 250k,Experto,Sin Experiencia,Presencial,16,Por debajo del mercado,106,1,47.76
+27,2248959,Menos de 250k,Experto,General,Presencial,10,Por debajo del mercado,296,0,68.87
+33,107760,250k a 1M,Experto,Sin Experiencia,Híbrido,9,Dentro del mercado,232,0,34.79
+19,641923,250k a 1M,Básico,General,Híbrido,12,Dentro del mercado,237,0,32.53
+33,2224309,Más de 1M,Experto,Sin Experiencia,Híbrido,2,Por debajo del mercado,411,1,56.07
+12,2166349,Menos de 250k,Experto,General,Presencial,18,Por encima del mercado,12,1,65.52
+31,1655656,Menos de 250k,Intermedio,Sin Experiencia,Remoto,9,Por encima del mercado,209,0,39.58
+27,2866228,Menos de 250k,Básico,Específica,Presencial,19,Por encima del mercado,263,1,70.8
+32,379209,250k a 1M,Experto,General,Remoto,8,Dentro del mercado,417,0,52.3
+23,1115793,Menos de 250k,Básico,General,Híbrido,12,Por encima del mercado,440,1,43.36
+8,1091964,Más de 1M,Intermedio,Específica,Remoto,17,Dentro del mercado,324,0,63.39
+2,29378,Menos de 250k,Básico,Específica,Remoto,16,Por debajo del mercado,121,0,35.92
+6,2136090,Menos de 250k,Experto,Sin Experiencia,Presencial,14,Dentro del mercado,339,0,62.03
+31,1383389,250k a 1M,Experto,General,Presencial,13,Dentro del mercado,468,0,67.62
+17,1821666,250k a 1M,Básico,Específica,Presencial,3,Dentro del mercado,480,0,54.87
+34,1338717,Menos de 250k,Básico,Sin Experiencia,Presencial,20,Dentro del mercado,398,0,40.33
+12,987185,250k a 1M,Intermedio,Sin Experiencia,Híbrido,11,Dentro del mercado,147,0,32.53
+16,2964526,250k a 1M,Intermedio,General,Híbrido,9,Por encima del mercado,48,1,57.84
+34,132164,Menos de 250k,Intermedio,Específica,Presencial,14,Por debajo del mercado,143,0,46.11
+35,982086,Más de 1M,Experto,Sin Experiencia,Remoto,8,Por debajo del mercado,197,0,41.73
+14,2546878,Menos de 250k,Experto,Sin Experiencia,Remoto,3,Por debajo del mercado,76,1,50.0
+13,2829683,Menos de 250k,Experto,Específica,Remoto,11,Por encima del mercado,287,1,85.16
+3,1954654,250k a 1M,Experto,Específica,Remoto,11,Dentro del mercado,474,0,82.02
+6,1062013,250k a 1M,Experto,General,Remoto,19,Por debajo del mercado,147,0,59.28
+25,2964782,250k a 1M,Experto,Sin Experiencia,Remoto,17,Por debajo del mercado,345,1,72.75
+33,192904,250k a 1M,Intermedio,General,Híbrido,13,Por debajo del mercado,100,0,34.68
+21,2218677,250k a 1M,Básico,General,Híbrido,1,Por debajo del mercado,166,1,37.92
+21,1502154,250k a 1M,Experto,Sin Experiencia,Híbrido,10,Por debajo del mercado,140,1,46.72
+7,2731375,Menos de 250k,Intermedio,General,Presencial,15,Por encima del mercado,145,1,62.91
+23,2585851,250k a 1M,Básico,Específica,Presencial,11,Por encima del mercado,29,0,54.98
+12,492525,Menos de 250k,Básico,Sin Experiencia,Híbrido,13,Por encima del mercado,268,1,22.72
+26,599506,Más de 1M,Básico,Específica,Híbrido,10,Dentro del mercado,269,0,41.57
+13,340996,Más de 1M,Básico,Específica,Híbrido,17,Por encima del mercado,150,0,40.66
+22,1245955,250k a 1M,Experto,Específica,Híbrido,17,Dentro del mercado,367,0,76.22
+22,2858855,Más de 1M,Intermedio,Sin Experiencia,Remoto,20,Por encima del mercado,105,1,56.74
+6,2987251,250k a 1M,Intermedio,Sin Experiencia,Remoto,6,Por debajo del mercado,107,1,47.58
+10,898323,Más de 1M,Intermedio,General,Remoto,15,Por encima del mercado,469,1,54.3
+23,506781,Más de 1M,Experto,General,Presencial,12,Por encima del mercado,83,0,46.56
+32,1825258,Más de 1M,Intermedio,General,Híbrido,17,Dentro del mercado,174,0,56.22
+6,1229373,Más de 1M,Básico,General,Híbrido,7,Por debajo del mercado,88,0,30.18
+9,2212152,250k a 1M,Intermedio,Sin Experiencia,Remoto,1,Por encima del mercado,2,0,32.93
+23,122713,250k a 1M,Experto,Específica,Híbrido,6,Por encima del mercado,433,1,58.72
+33,1675558,250k a 1M,Básico,Específica,Remoto,1,Por debajo del mercado,238,0,44.65
+13,993984,250k a 1M,Intermedio,General,Remoto,16,Por debajo del mercado,38,1,43.08
+35,2565363,Menos de 250k,Experto,Específica,Presencial,11,Por debajo del mercado,228,0,80.74
+4,2900413,Menos de 250k,Básico,Específica,Presencial,9,Dentro del mercado,292,1,64.51
+33,2782188,Menos de 250k,Básico,Sin Experiencia,Presencial,12,Por debajo del mercado,202,1,42.88
+12,1500475,Menos de 250k,Básico,Específica,Remoto,6,Por encima del mercado,245,0,46.85
+36,1290177,250k a 1M,Básico,Sin Experiencia,Presencial,19,Dentro del mercado,178,1,32.49
+26,2337889,Más de 1M,Básico,Sin Experiencia,Presencial,8,Por debajo del mercado,430,1,42.28
+27,545011,Menos de 250k,Experto,Sin Experiencia,Remoto,19,Por encima del mercado,239,1,46.87
+15,2079975,Menos de 250k,Intermedio,Sin Experiencia,Remoto,6,Dentro del mercado,191,0,41.03
+18,584031,Más de 1M,Experto,Específica,Presencial,5,Por debajo del mercado,493,0,64.38
+24,235196,250k a 1M,Básico,Sin Experiencia,Híbrido,10,Dentro del mercado,320,0,19.45
+31,2419781,Más de 1M,Básico,Sin Experiencia,Remoto,19,Dentro del mercado,448,1,51.89
+27,1961541,Más de 1M,Experto,Sin Experiencia,Híbrido,11,Dentro del mercado,176,0,53.15
+21,2629436,Menos de 250k,Básico,General,Presencial,4,Por encima del mercado,50,1,40.79
+26,2938682,250k a 1M,Experto,General,Presencial,19,Por encima del mercado,113,1,77.03
+28,1113065,Menos de 250k,Intermedio,General,Presencial,5,Dentro del mercado,209,1,41.15
+34,2657287,Menos de 250k,Intermedio,General,Híbrido,16,Por debajo del mercado,72,0,60.73
+11,71799,Más de 1M,Experto,Sin Experiencia,Híbrido,3,Dentro del mercado,331,0,32.9
+14,2988103,Menos de 250k,Intermedio,General,Híbrido,10,Por encima del mercado,356,1,68.06
+23,2026685,Menos de 250k,Básico,Específica,Presencial,13,Por encima del mercado,167,1,55.03
+29,2452529,Menos de 250k,Básico,General,Presencial,15,Por debajo del mercado,175,1,51.03
+6,2367615,250k a 1M,Experto,General,Remoto,1,Dentro del mercado,127,1,58.24
+22,2376344,Más de 1M,Básico,General,Presencial,14,Dentro del mercado,489,0,58.93
+35,176911,250k a 1M,Experto,General,Híbrido,14,Por encima del mercado,232,0,49.23
+29,1116238,250k a 1M,Experto,Sin Experiencia,Híbrido,19,Por encima del mercado,238,0,52.55
+21,138818,250k a 1M,Básico,Específica,Remoto,19,Dentro del mercado,324,1,45.36
+25,2080643,Menos de 250k,Experto,Sin Experiencia,Presencial,14,Dentro del mercado,386,0,62.89
+23,1871594,Más de 1M,Intermedio,General,Presencial,19,Por debajo del mercado,459,1,66.74
+21,1301653,Menos de 250k,Experto,General,Presencial,5,Dentro del mercado,46,0,48.15
+25,535015,Más de 1M,Intermedio,Específica,Remoto,7,Por debajo del mercado,497,1,55.51
+31,55616,Menos de 250k,Experto,Específica,Remoto,9,Dentro del mercado,420,0,59.91
+34,1283174,Menos de 250k,Experto,Sin Experiencia,Presencial,4,Por debajo del mercado,270,1,43.93
+36,1974708,250k a 1M,Experto,Sin Experiencia,Remoto,18,Por debajo del mercado,133,1,57.24
+5,2778017,Más de 1M,Intermedio,General,Remoto,10,Por debajo del mercado,390,1,66.98
+26,1672731,250k a 1M,Intermedio,General,Híbrido,2,Dentro del mercado,282,0,46.69
+13,2074429,Más de 1M,Básico,Sin Experiencia,Presencial,14,Por debajo del mercado,186,0,36.82
+19,2047818,250k a 1M,Intermedio,Sin Experiencia,Híbrido,19,Por debajo del mercado,267,1,52.74
+17,715803,Más de 1M,Experto,General,Presencial,2,Dentro del mercado,452,1,52.22
+21,1729525,Más de 1M,Intermedio,General,Presencial,20,Por debajo del mercado,407,1,64.51
+13,2494168,Menos de 250k,Experto,General,Remoto,12,Por debajo del mercado,338,1,74.08
+16,2713221,Menos de 250k,Básico,Específica,Remoto,3,Dentro del mercado,249,1,56.85
+3,1406249,Menos de 250k,Básico,General,Híbrido,19,Dentro del mercado,279,0,46.68
+12,192887,250k a 1M,Básico,General,Híbrido,15,Por encima del mercado,130,1,27.08
+24,829467,Menos de 250k,Básico,Sin Experiencia,Híbrido,4,Por debajo del mercado,363,0,22.18
+18,2488589,250k a 1M,Básico,General,Híbrido,20,Dentro del mercado,495,1,64.74
+23,2486952,Menos de 250k,Experto,General,Remoto,1,Por debajo del mercado,380,0,67.02
+2,740391,Más de 1M,Básico,General,Presencial,9,Por debajo del mercado,42,0,25.41
+11,2474916,Más de 1M,Intermedio,General,Presencial,16,Por encima del mercado,412,1,69.11
+33,897213,Más de 1M,Intermedio,Específica,Presencial,7,Por encima del mercado,372,1,55.38
+9,2124412,Más de 1M,Experto,Sin Experiencia,Presencial,17,Por debajo del mercado,109,0,57.26
+24,1530157,Menos de 250k,Básico,Específica,Presencial,12,Por debajo del mercado,87,1,46.91
+23,545301,Menos de 250k,Básico,Específica,Remoto,9,Por encima del mercado,106,1,35.38
+3,1874195,Más de 1M,Básico,General,Híbrido,11,Por encima del mercado,447,0,50.4
+8,1937787,250k a 1M,Básico,Sin Experiencia,Híbrido,16,Dentro del mercado,26,1,32.16
+3,2120448,Más de 1M,Intermedio,Específica,Remoto,5,Por debajo del mercado,22,1,55.61
+26,2738089,250k a 1M,Intermedio,Sin Experiencia,Presencial,13,Por encima del mercado,346,1,57.51
+12,1501607,Menos de 250k,Experto,General,Presencial,14,Por encima del mercado,282,0,63.98
+17,2957206,Más de 1M,Básico,General,Presencial,12,Dentro del mercado,25,1,49.32
+6,968481,Más de 1M,Intermedio,Sin Experiencia,Remoto,13,Dentro del mercado,291,1,38.16
+9,681818,Más de 1M,Intermedio,Específica,Presencial,11,Por debajo del mercado,457,0,58.78
+31,2189326,Menos de 250k,Básico,General,Híbrido,6,Dentro del mercado,331,1,46.32
+12,1028082,Menos de 250k,Experto,Específica,Híbrido,15,Por debajo del mercado,426,0,74.31
+35,321862,Menos de 250k,Básico,Sin Experiencia,Remoto,7,Por debajo del mercado,165,0,13.42
+23,687052,250k a 1M,Experto,Sin Experiencia,Presencial,10,Por debajo del mercado,107,0,37.58
+16,1728726,Más de 1M,Básico,Sin Experiencia,Híbrido,4,Por debajo del mercado,287,0,28.9
+11,978014,Menos de 250k,Experto,General,Presencial,3,Por encima del mercado,51,1,43.56
+34,693709,Menos de 250k,Básico,Específica,Presencial,10,Por encima del mercado,308,1,43.68
+32,1633909,Más de 1M,Intermedio,Sin Experiencia,Remoto,14,Dentro del mercado,363,0,47.73
+28,1708414,Menos de 250k,Intermedio,Sin Experiencia,Híbrido,7,Por debajo del mercado,58,1,34.07
+36,1507029,Menos de 250k,Básico,General,Remoto,14,Por encima del mercado,238,0,42.71
+1,1525678,Más de 1M,Intermedio,Específica,Remoto,20,Dentro del mercado,140,0,64.46
+6,373231,250k a 1M,Experto,Específica,Híbrido,7,Por encima del mercado,14,1,49.4
+10,366080,Más de 1M,Experto,General,Remoto,12,Por encima del mercado,147,0,47.07
+9,1160007,Más de 1M,Intermedio,Específica,Híbrido,16,Por encima del mercado,24,0,54.32
+13,1615060,Menos de 250k,Básico,Específica,Remoto,12,Dentro del mercado,191,1,50.88
+23,1631549,Más de 1M,Intermedio,General,Presencial,9,Por encima del mercado,43,1,44.36
+31,307474,Más de 1M,Experto,Sin Experiencia,Presencial,7,Dentro del mercado,242,0,35.58
+6,2750865,250k a 1M,Básico,General,Remoto,2,Dentro del mercado,342,1,49.27
+34,1531158,Menos de 250k,Experto,Sin Experiencia,Presencial,3,Por debajo del mercado,453,1,51.15
+6,1336528,250k a 1M,Básico,Sin Experiencia,Remoto,8,Por debajo del mercado,37,0,20.48
+27,154200,Menos de 250k,Experto,General,Remoto,6,Dentro del mercado,56,0,37.72
+23,490313,Más de 1M,Experto,Sin Experiencia,Presencial,5,Por encima del mercado,313,1,38.04
+8,1434160,250k a 1M,Experto,General,Remoto,20,Por debajo del mercado,370,1,70.44
+22,2832412,250k a 1M,Experto,General,Presencial,6,Dentro del mercado,303,1,71.91
+2,1141109,250k a 1M,Experto,Sin Experiencia,Híbrido,7,Por debajo del mercado,370,0,47.76
+30,2444614,Menos de 250k,Intermedio,Sin Experiencia,Híbrido,16,Dentro del mercado,102,0,49.51
+4,2023013,Menos de 250k,Básico,General,Presencial,11,Dentro del mercado,30,1,39.38
+4,287709,250k a 1M,Básico,Sin Experiencia,Híbrido,6,Dentro del mercado,439,0,20.55
+24,2897850,Menos de 250k,Intermedio,General,Híbrido,5,Por encima del mercado,317,0,62.24
+34,1877069,250k a 1M,Básico,Sin Experiencia,Presencial,9,Por debajo del mercado,393,0,37.31
+28,106187,250k a 1M,Experto,General,Híbrido,16,Por encima del mercado,81,0,45.49
+4,1328547,Menos de 250k,Básico,General,Presencial,12,Por debajo del mercado,77,1,34.6
+30,382754,Más de 1M,Experto,Específica,Remoto,3,Por encima del mercado,458,1,59.82
+26,421028,Menos de 250k,Básico,General,Remoto,14,Por debajo del mercado,331,0,34.64
+31,2027657,250k a 1M,Intermedio,Sin Experiencia,Remoto,13,Por debajo del mercado,301,1,49.06
+23,2329919,Más de 1M,Intermedio,Específica,Remoto,3,Por encima del mercado,419,0,68.12
+15,326361,250k a 1M,Experto,General,Híbrido,1,Por debajo del mercado,88,0,36.65
+33,2948370,250k a 1M,Básico,General,Remoto,8,Dentro del mercado,432,1,58.44
+18,2044537,250k a 1M,Intermedio,Sin Experiencia,Híbrido,15,Por encima del mercado,427,0,54.51
+2,1735512,Menos de 250k,Intermedio,Sin Experiencia,Presencial,7,Por encima del mercado,440,0,45.81
+12,2991971,Menos de 250k,Básico,Sin Experiencia,Híbrido,13,Por debajo del mercado,456,1,53.35
+4,2790779,Más de 1M,Básico,Sin Experiencia,Remoto,12,Por debajo del mercado,35,0,37.96
+28,234153,Menos de 250k,Básico,Específica,Híbrido,18,Por encima del mercado,92,0,38.6
+8,353421,Más de 1M,Intermedio,Sin Experiencia,Híbrido,13,Por debajo del mercado,9,1,23.55
+6,1658727,Más de 1M,Intermedio,Específica,Presencial,15,Por encima del mercado,81,0,60.27
+25,73237,250k a 1M,Experto,Específica,Presencial,7,Por debajo del mercado,21,1,46.61
+32,975864,Más de 1M,Intermedio,General,Híbrido,5,Por debajo del mercado,304,1,42.63
+2,1776430,Más de 1M,Intermedio,Específica,Presencial,13,Por debajo del mercado,245,1,64.86
+4,1250565,Menos de 250k,Experto,General,Híbrido,3,Por encima del mercado,222,0,51.42
+34,1883285,Más de 1M,Básico,General,Híbrido,6,Por debajo del mercado,331,1,43.26
+4,2516254,Más de 1M,Intermedio,Sin Experiencia,Remoto,12,Por debajo del mercado,26,1,44.94
+18,2364260,Menos de 250k,Intermedio,Sin Experiencia,Remoto,5,Por debajo del mercado,195,0,43.24
+5,1694216,250k a 1M,Experto,Sin Experiencia,Remoto,6,Dentro del mercado,255,0,49.09
+16,404037,Más de 1M,Básico,Sin Experiencia,Remoto,13,Dentro del mercado,228,0,20.63
+14,860928,Más de 1M,Experto,Específica,Presencial,9,Por debajo del mercado,355,1,66.01
+11,2035149,Menos de 250k,Experto,General,Presencial,17,Por debajo del mercado,76,1,65.38
+28,1195867,250k a 1M,Experto,General,Híbrido,18,Dentro del mercado,499,1,70.43
+15,1640577,250k a 1M,Experto,Sin Experiencia,Remoto,1,Por encima del mercado,390,0,48.86
+36,1802302,250k a 1M,Experto,Específica,Remoto,16,Por encima del mercado,408,1,82.26
+28,1587655,250k a 1M,Intermedio,Sin Experiencia,Presencial,15,Por encima del mercado,342,0,47.39
+28,681036,Más de 1M,Experto,Sin Experiencia,Presencial,12,Por debajo del mercado,225,1,42.56
+22,951343,Menos de 250k,Intermedio,Específica,Híbrido,17,Dentro del mercado,380,0,63.66
+23,2272980,Menos de 250k,Experto,Sin Experiencia,Presencial,2,Dentro del mercado,377,1,55.54
+27,2232779,250k a 1M,Intermedio,Específica,Presencial,4,Dentro del mercado,123,0,59.02
+20,2547452,Más de 1M,Experto,General,Remoto,20,Dentro del mercado,356,1,81.15
+31,515603,Menos de 250k,Intermedio,General,Híbrido,20,Por debajo del mercado,295,1,49.01
+21,1510692,250k a 1M,Intermedio,Sin Experiencia,Híbrido,16,Por encima del mercado,282,0,45.57
+16,1401015,Más de 1M,Experto,General,Presencial,6,Dentro del mercado,310,1,57.81
+32,2602912,Menos de 250k,Experto,General,Presencial,12,Por encima del mercado,428,1,77.87
+31,80315,250k a 1M,Experto,Específica,Remoto,17,Dentro del mercado,85,0,56.1
+26,81756,Menos de 250k,Experto,Específica,Remoto,7,Dentro del mercado,236,1,53.15
+36,2477226,Menos de 250k,Intermedio,Sin Experiencia,Presencial,14,Dentro del mercado,58,0,47.01
+25,2034695,Menos de 250k,Intermedio,General,Híbrido,2,Por encima del mercado,489,0,56.52
+9,2835956,250k a 1M,Experto,Específica,Remoto,10,Dentro del mercado,354,1,86.48
+29,2068647,250k a 1M,Experto,General,Remoto,20,Dentro del mercado,281,1,74.12
+25,503365,Menos de 250k,Básico,General,Híbrido,5,Por debajo del mercado,419,1,31.35
+31,993327,250k a 1M,Intermedio,Sin Experiencia,Presencial,1,Dentro del mercado,460,0,34.48
+22,281733,Más de 1M,Experto,Específica,Híbrido,9,Dentro del mercado,287,0,58.18
+27,2840076,Más de 1M,Básico,Sin Experiencia,Presencial,10,Dentro del mercado,349,1,46.37
+3,1823136,Más de 1M,Básico,General,Híbrido,5,Por encima del mercado,93,1,34.77
+1,519123,Menos de 250k,Básico,Sin Experiencia,Remoto,1,Por debajo del mercado,69,0,8.01
+9,2184435,Más de 1M,Intermedio,Sin Experiencia,Híbrido,2,Por encima del mercado,459,1,47.11
+12,2567090,Más de 1M,Experto,Sin Experiencia,Híbrido,20,Por debajo del mercado,286,1,69.25
+34,1068409,250k a 1M,Experto,Sin Experiencia,Híbrido,19,Por encima del mercado,297,1,53.84
+23,361177,250k a 1M,Básico,General,Presencial,14,Por encima del mercado,341,0,34.34
+24,628202,Más de 1M,Básico,General,Presencial,2,Por encima del mercado,261,1,25.61
+4,607574,Menos de 250k,Experto,Sin Experiencia,Híbrido,20,Por encima del mercado,445,0,54.43
+3,2302292,Menos de 250k,Básico,Sin Experiencia,Remoto,2,Por debajo del mercado,202,0,30.58
+24,1675078,250k a 1M,Básico,Específica,Remoto,19,Dentro del mercado,20,1,51.6
+22,2415107,Más de 1M,Básico,General,Híbrido,11,Dentro del mercado,127,0,46.21
+12,159397,Más de 1M,Intermedio,Sin Experiencia,Presencial,14,Por encima del mercado,241,0,29.32
+16,2865498,250k a 1M,Básico,General,Presencial,1,Por debajo del mercado,454,0,53.02
+14,2192939,250k a 1M,Experto,Específica,Remoto,15,Por debajo del mercado,413,1,85.57
+30,1797415,250k a 1M,Intermedio,Sin Experiencia,Presencial,10,Por debajo del mercado,172,1,40.63
+1,1655788,Menos de 250k,Intermedio,Sin Experiencia,Presencial,13,Por debajo del mercado,340,0,46.51
+25,619251,250k a 1M,Básico,General,Presencial,16,Por debajo del mercado,297,1,37.1
+5,128534,Menos de 250k,Intermedio,General,Híbrido,16,Por encima del mercado,333,1,43.28
+26,2871760,Más de 1M,Intermedio,Sin Experiencia,Presencial,16,Por encima del mercado,168,1,55.76
+30,1510121,Más de 1M,Intermedio,Sin Experiencia,Remoto,16,Por debajo del mercado,400,1,49.1
+18,2738688,Más de 1M,Experto,Sin Experiencia,Presencial,4,Dentro del mercado,497,1,65.3
+2,2021592,Más de 1M,Experto,Específica,Híbrido,2,Dentro del mercado,497,0,76.63
+11,848294,Menos de 250k,Básico,General,Híbrido,7,Por encima del mercado,2,0,23.79
+8,2498210,Menos de 250k,Experto,Específica,Híbrido,7,Por debajo del mercado,435,1,83.28
+7,1063495,Menos de 250k,Básico,Sin Experiencia,Presencial,7,Por debajo del mercado,398,1,27.82
+4,2322717,Menos de 250k,Intermedio,General,Remoto,11,Por debajo del mercado,60,0,53.28
+35,816446,Menos de 250k,Experto,Sin Experiencia,Presencial,14,Por debajo del mercado,21,0,39.29
+27,907446,250k a 1M,Intermedio,Sin Experiencia,Presencial,9,Por encima del mercado,293,1,34.61
+14,2274764,Más de 1M,Básico,General,Presencial,6,Por encima del mercado,488,0,51.89
+33,2785811,250k a 1M,Experto,Sin Experiencia,Presencial,4,Dentro del mercado,246,0,58.24
+23,995508,250k a 1M,Experto,General,Híbrido,12,Por debajo del mercado,371,1,60.09
+4,2410062,Más de 1M,Básico,Específica,Presencial,19,Dentro del mercado,122,0,62.01
+15,614580,250k a 1M,Experto,Específica,Híbrido,20,Por debajo del mercado,125,0,64.9
+30,2845002,Menos de 250k,Básico,Sin Experiencia,Híbrido,1,Dentro del mercado,30,1,30.1
+27,2798947,Más de 1M,Intermedio,General,Remoto,19,Dentro del mercado,400,0,74.24
+24,2519621,250k a 1M,Básico,Sin Experiencia,Híbrido,15,Por debajo del mercado,39,1,37.62
+26,316298,Más de 1M,Intermedio,Específica,Híbrido,14,Por encima del mercado,275,0,51.91
+17,515869,Menos de 250k,Básico,Específica,Presencial,5,Por debajo del mercado,361,0,39.74
+6,2625088,250k a 1M,Experto,Específica,Presencial,9,Por debajo del mercado,362,1,83.86
+6,232351,Menos de 250k,Experto,Sin Experiencia,Remoto,18,Dentro del mercado,16,0,36.3
+10,2256823,Más de 1M,Básico,Específica,Híbrido,16,Por encima del mercado,268,0,62.61
+1,862905,Más de 1M,Experto,General,Remoto,20,Por debajo del mercado,327,1,63.44
+25,2617548,250k a 1M,Intermedio,Sin Experiencia,Híbrido,16,Por debajo del mercado,318,1,57.72
+31,2417899,Más de 1M,Intermedio,Sin Experiencia,Híbrido,4,Por encima del mercado,283,1,45.67
+35,2945175,Más de 1M,Básico,Específica,Remoto,11,Por debajo del mercado,51,1,59.23
+22,970190,Menos de 250k,Experto,Sin Experiencia,Remoto,12,Por encima del mercado,28,1,39.54
+23,1521510,250k a 1M,Intermedio,General,Híbrido,14,Por encima del mercado,267,1,53.73
+7,2331196,Más de 1M,Básico,Específica,Remoto,16,Dentro del mercado,130,0,59.21
+9,46992,250k a 1M,Básico,Sin Experiencia,Remoto,11,Por debajo del mercado,299,1,17.69
+31,2462768,Más de 1M,Intermedio,Sin Experiencia,Remoto,14,Dentro del mercado,189,1,50.8
+15,1439083,250k a 1M,Básico,Sin Experiencia,Híbrido,7,Por debajo del mercado,249,0,27.11
+29,92076,Menos de 250k,Intermedio,General,Híbrido,12,Por debajo del mercado,318,1,39.46
+34,226450,250k a 1M,Básico,Específica,Híbrido,11,Por debajo del mercado,290,0,39.21
+18,1982919,250k a 1M,Básico,General,Híbrido,3,Por debajo del mercado,407,1,44.29
+10,1958303,250k a 1M,Intermedio,Específica,Híbrido,10,Por debajo del mercado,333,1,67.07
+16,1776268,Menos de 250k,Intermedio,General,Híbrido,5,Por debajo del mercado,208,1,47.75
+30,2348797,Más de 1M,Experto,Sin Experiencia,Presencial,13,Por debajo del mercado,214,0,59.66
+35,1295552,Más de 1M,Intermedio,General,Remoto,4,Por encima del mercado,210,1,42.26
+10,2807786,250k a 1M,Experto,General,Híbrido,10,Por debajo del mercado,426,1,78.36
+31,2885708,Más de 1M,Intermedio,General,Remoto,17,Por debajo del mercado,84,1,64.13
+11,607751,Más de 1M,Experto,Sin Experiencia,Híbrido,12,Dentro del mercado,312,0,44.44
+21,788517,250k a 1M,Básico,General,Remoto,20,Dentro del mercado,374,1,44.11
+16,1849248,Menos de 250k,Experto,Sin Experiencia,Híbrido,13,Por debajo del mercado,437,1,61.35
+19,470522,250k a 1M,Básico,Sin Experiencia,Presencial,15,Por debajo del mercado,329,0,25.83
+36,1762076,Menos de 250k,Experto,Sin Experiencia,Remoto,15,Dentro del mercado,19,1,49.44
+30,1894021,250k a 1M,Básico,General,Remoto,14,Por encima del mercado,434,0,52.46
+9,1180671,Menos de 250k,Intermedio,Sin Experiencia,Presencial,2,Dentro del mercado,22,0,23.97
+31,2433129,250k a 1M,Experto,General,Presencial,14,Dentro del mercado,282,1,73.29
+18,2546154,Más de 1M,Experto,Específica,Presencial,19,Por encima del mercado,186,0,85.29
+23,614067,Menos de 250k,Experto,Específica,Presencial,9,Dentro del mercado,411,0,65.22
+28,1760306,Más de 1M,Básico,General,Híbrido,13,Dentro del mercado,389,1,49.02
+17,2379948,Más de 1M,Experto,General,Híbrido,12,Por debajo del mercado,26,0,63.58
+3,2680774,Más de 1M,Experto,Sin Experiencia,Presencial,2,Por debajo del mercado,360,0,59.11
+27,1875377,Más de 1M,Experto,General,Remoto,7,Por encima del mercado,136,1,58.08
+9,1640303,Más de 1M,Intermedio,Sin Experiencia,Presencial,6,Dentro del mercado,147,0,35.31
+10,1976764,250k a 1M,Experto,Sin Experiencia,Híbrido,4,Por encima del mercado,188,0,48.41
+18,226465,Menos de 250k,Básico,Sin Experiencia,Remoto,6,Por encima del mercado,207,0,12.97
+8,1338056,250k a 1M,Básico,General,Remoto,9,Dentro del mercado,147,0,34.54
+16,1794536,Más de 1M,Básico,Sin Experiencia,Presencial,1,Por encima del mercado,247,0,26.11
+22,1238564,250k a 1M,Básico,General,Presencial,17,Por encima del mercado,401,0,47.17
+13,320968,250k a 1M,Experto,General,Presencial,11,Por debajo del mercado,149,0,45.93
+11,1743257,250k a 1M,Básico,General,Híbrido,2,Por debajo del mercado,417,0,41.44
+12,962729,Más de 1M,Experto,General,Remoto,17,Dentro del mercado,244,1,59.7
+29,1302103,250k a 1M,Experto,General,Híbrido,11,Por encima del mercado,324,1,60.99
+1,1986518,Más de 1M,Experto,General,Presencial,18,Por debajo del mercado,273,1,71.56
+10,1903042,Menos de 250k,Intermedio,Sin Experiencia,Remoto,20,Por debajo del mercado,351,0,54.56
+16,1579416,250k a 1M,Experto,General,Híbrido,15,Por encima del mercado,229,1,63.91
+4,1898657,250k a 1M,Intermedio,Específica,Remoto,19,Por debajo del mercado,52,0,64.8
+35,1869108,250k a 1M,Intermedio,General,Presencial,8,Dentro del mercado,359,1,55.46
+11,2403322,Menos de 250k,Experto,Sin Experiencia,Remoto,18,Por debajo del mercado,459,1,71.3
+11,1901962,Más de 1M,Básico,Específica,Presencial,14,Por debajo del mercado,199,0,55.49
+2,2105555,250k a 1M,Básico,Específica,Remoto,19,Dentro del mercado,322,0,64.97
+18,1208935,Más de 1M,Experto,Sin Experiencia,Híbrido,15,Por debajo del mercado,371,0,54.47
+34,1468553,Menos de 250k,Experto,Específica,Híbrido,4,Por debajo del mercado,114,1,61.11
+36,2549247,Más de 1M,Básico,General,Híbrido,15,Por encima del mercado,477,0,61.05
+35,1442210,Menos de 250k,Experto,General,Híbrido,4,Por debajo del mercado,250,0,54.92
+25,2627335,Más de 1M,Intermedio,Sin Experiencia,Presencial,11,Por encima del mercado,421,1,57.15
+5,186655,Menos de 250k,Intermedio,General,Híbrido,10,Por encima del mercado,101,0,32.4
+17,2812253,250k a 1M,Básico,Sin Experiencia,Presencial,11,Dentro del mercado,323,1,46.06
+29,1189575,Menos de 250k,Experto,General,Presencial,13,Dentro del mercado,369,1,62.72
+18,2749231,Menos de 250k,Básico,General,Remoto,6,Dentro del mercado,156,0,46.67
+15,747126,Menos de 250k,Básico,General,Remoto,5,Por encima del mercado,469,1,35.29
+2,1407080,Más de 1M,Básico,Específica,Presencial,11,Por encima del mercado,225,1,49.07
+8,2131279,250k a 1M,Básico,Sin Experiencia,Híbrido,13,Por encima del mercado,283,0,39.55
+15,542220,Más de 1M,Intermedio,General,Presencial,6,Por debajo del mercado,431,1,42.85
+22,1318774,Menos de 250k,Experto,General,Híbrido,2,Dentro del mercado,408,1,56.93
+1,2418561,Menos de 250k,Básico,Específica,Presencial,2,Dentro del mercado,470,1,59.79
+25,2018520,Menos de 250k,Básico,Específica,Presencial,2,Por debajo del mercado,206,0,47.87
+21,741312,250k a 1M,Intermedio,General,Presencial,19,Dentro del mercado,133,1,45.65
+27,1776527,Menos de 250k,Experto,General,Híbrido,7,Por encima del mercado,470,0,67.12
+28,306333,250k a 1M,Básico,General,Híbrido,20,Dentro del mercado,273,1,36.25
+12,2699942,Menos de 250k,Básico,General,Híbrido,15,Dentro del mercado,371,1,59.38
+3,364418,Menos de 250k,Experto,Específica,Remoto,14,Por debajo del mercado,135,0,58.19
+19,1269445,Más de 1M,Intermedio,General,Híbrido,20,Dentro del mercado,49,1,49.16
+30,1300261,Más de 1M,Básico,Sin Experiencia,Presencial,1,Dentro del mercado,129,0,17.62
+18,2943959,Más de 1M,Intermedio,Sin Experiencia,Híbrido,7,Por debajo del mercado,195,0,50.54
+22,1225844,250k a 1M,Intermedio,General,Remoto,4,Dentro del mercado,103,0,38.35
+20,2314462,Más de 1M,Experto,Específica,Híbrido,15,Dentro del mercado,422,1,87.05
+18,1189466,Menos de 250k,Experto,General,Presencial,18,Por debajo del mercado,286,0,63.97
+30,1600923,Menos de 250k,Básico,Específica,Presencial,15,Por debajo del mercado,219,0,53.83
+33,141477,250k a 1M,Experto,Sin Experiencia,Híbrido,9,Por debajo del mercado,231,0,35.09
+9,1006993,Menos de 250k,Experto,General,Presencial,20,Dentro del mercado,102,1,58.13
+8,2380585,Más de 1M,Intermedio,General,Remoto,18,Dentro del mercado,375,1,68.56
+1,1583253,Más de 1M,Experto,Específica,Remoto,11,Por debajo del mercado,186,1,69.66
+21,1855024,Más de 1M,Intermedio,Específica,Remoto,7,Por encima del mercado,176,0,59.08
+6,2401216,250k a 1M,Intermedio,General,Presencial,2,Dentro del mercado,471,1,59.64
+18,1546888,250k a 1M,Intermedio,Sin Experiencia,Híbrido,19,Por debajo del mercado,349,0,50.19
+22,607605,Menos de 250k,Intermedio,Sin Experiencia,Presencial,7,Dentro del mercado,214,0,27.75
+19,937745,Más de 1M,Básico,General,Presencial,9,Dentro del mercado,112,0,29.49
+13,2901063,Más de 1M,Experto,Sin Experiencia,Híbrido,17,Dentro del mercado,28,1,62.6
+30,2905692,Más de 1M,Intermedio,Específica,Remoto,6,Por debajo del mercado,54,0,65.18
+15,525747,Más de 1M,Intermedio,Específica,Remoto,5,Por debajo del mercado,62,1,40.87
+4,1061793,Más de 1M,Experto,General,Presencial,12,Por debajo del mercado,353,1,60.21
+10,945757,250k a 1M,Experto,Sin Experiencia,Remoto,8,Por debajo del mercado,304,0,44.58
+19,36679,Más de 1M,Básico,Específica,Remoto,12,Por encima del mercado,309,1,38.64
+24,943191,250k a 1M,Intermedio,General,Presencial,19,Por encima del mercado,469,0,57.75
+25,1536254,Más de 1M,Experto,Específica,Híbrido,8,Dentro del mercado,90,0,64.06
+12,1634573,Menos de 250k,Básico,Específica,Remoto,5,Por encima del mercado,379,0,51.47
+19,292625,Menos de 250k,Experto,General,Presencial,18,Dentro del mercado,224,1,53.15
+2,1873541,250k a 1M,Básico,General,Remoto,7,Por encima del mercado,279,0,42.36
+27,953890,Más de 1M,Experto,Específica,Híbrido,3,Por debajo del mercado,403,1,63.88
+31,2360037,250k a 1M,Experto,General,Híbrido,5,Por encima del mercado,423,1,70.04

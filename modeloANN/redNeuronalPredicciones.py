@@ -2,146 +2,161 @@ import pandas as pd
 from sklearn.model_selection import train_test_split
 from sklearn.preprocessing import StandardScaler, OneHotEncoder
 from sklearn.compose import ColumnTransformer
-from sklearn.metrics import mean_squared_error, r2_score
-from sklearn.pipeline import Pipeline
-from sklearn.base import BaseEstimator, TransformerMixin
 import tensorflow as tf
 from tensorflow.keras.models import Sequential
-from tensorflow.keras.layers import Dense, Dropout
-from tensorflow.keras.regularizers import l2
+from tensorflow.keras.layers import Dense
 import os
-import matplotlib.pyplot as plt
-import numpy as np
 import joblib
+import matplotlib.pyplot as plt
+from sklearn.metrics import mean_squared_error, mean_absolute_error, r2_score
+import numpy as np
 
-# Verificar si TensorFlow detecta dispositivos disponibles
+# Verificar si TensorFlow detecta la GPU
 print("Dispositivos detectados:", tf.config.list_physical_devices())
 
 # Obtener la ruta absoluta del script
 script_dir = os.path.dirname(os.path.abspath(__file__))
-file_path = os.path.join(script_dir, 'dataset_v8.csv')
+file_path = os.path.join(script_dir, 'new_training_dataset.csv')
 
 # Cargar los datos
 data = pd.read_csv(file_path)
 
 # Separar características (X) y la variable objetivo (y)
-X = data.drop(columns=['prob_exito'])  # Características
+X = data.drop(columns=['prob_exito'])  # Características, incluyendo 'exito'
 y = data['prob_exito'] / 100  # Normalizar el porcentaje a rango [0, 1]
 
 # Identificar columnas categóricas y numéricas
 categorical_columns = ['facturacion_anual', 'fortaleza_tecnologica', 
                        'experiencia_requerida', 'lugar_trabajo', 'precio_hora']
-numerical_columns = ['duracion', 'presupuesto', 'numero_perfiles_requeridos', 'volumetria', 'exito']
+numerical_columns = ['duracion', 'presupuesto', 'numero_perfiles_requeridos', 'volumetria', 'exito']  # Incluye 'exito'
 
-# Clase personalizada para crear características derivadas dinámicamente
-class FeatureEngineer(BaseEstimator, TransformerMixin):
-    def fit(self, X, y=None):
-        return self
+# Definir categorías posibles para cada columna categórica
+categorical_categories = {
+    'facturacion_anual': ["Menos de 250k", "250k a 1M", "Más de 1M"],
+    'fortaleza_tecnologica': ["Básico", "Intermedio", "Experto"],
+    'experiencia_requerida': ["Sin Experiencia", "General", "Específica"],
+    'lugar_trabajo': ["Presencial", "Remoto", "Híbrido"],  # Añadido 'Híbrido'
+    'precio_hora': ["Por debajo del mercado", "Dentro del mercado", "Por encima del mercado"]
+}
 
-    def transform(self, X):
-        X = X.copy()
-        X['presupuesto_por_duracion'] = X['presupuesto'] / (X['duracion'] + 1e-9)
-        X['perfiles_por_presupuesto'] = X['numero_perfiles_requeridos'] / (X['presupuesto'] + 1e-9)
-        return X
+# Preprocesador para entrenamiento (incluye 'exito')
+train_preprocessor = ColumnTransformer(
+    transformers=[
+        ('num', StandardScaler(), numerical_columns),  # Incluye 'exito'
+        ('cat', OneHotEncoder(categories=[categorical_categories[col] for col in categorical_columns],
+                              handle_unknown='ignore'), categorical_columns)
+    ]
+)
 
-# Crear el pipeline de preprocesamiento
-preprocessor = Pipeline(steps=[
-    ('feature_engineering', FeatureEngineer()),
-    ('transformer', ColumnTransformer(
-        transformers=[
-            ('num', StandardScaler(), numerical_columns + ['presupuesto_por_duracion', 'perfiles_por_presupuesto']),
-            ('cat', OneHotEncoder(categories=[
-                ["Menos de 250k", "250k a 1M", "Más de 1M"], 
-                ["Básico", "Intermedio", "Experto"], 
-                ["Sin Experiencia", "General", "Específica"], 
-                ["Presencial", "Remoto", "Híbrido"],
-                ["Por debajo del mercado", "Dentro del mercado", "Por encima del mercado"]
-            ], handle_unknown='ignore'), categorical_columns)
-        ]
-    ))
-])
+# Ajustar el preprocesador para entrenamiento
+X_processed = train_preprocessor.fit_transform(X)
 
-# Preprocesar los datos
-X_processed = preprocessor.fit_transform(X)
+# Guardar el preprocesador de entrenamiento
+train_preprocessor_path = os.path.join(script_dir, 'train_preprocessor.pkl')
+joblib.dump(train_preprocessor, train_preprocessor_path)
+print(f"Preprocesador de entrenamiento guardado en: {train_preprocessor_path}")
+
+# Preprocesador para predicción (incluye 'exito' con valor predeterminado si no está presente)
+prediction_preprocessor = ColumnTransformer(
+    transformers=[
+        ('num', StandardScaler(), numerical_columns),  # Incluye 'exito'
+        ('cat', OneHotEncoder(categories=[categorical_categories[col] for col in categorical_columns],
+                              handle_unknown='ignore'), categorical_columns)
+    ]
+)
+
+# Ajustar el preprocesador para predicción
+X_with_exito = X.copy()  # Asegurarse de que incluye la columna 'exito'
+prediction_preprocessor.fit(X_with_exito)
+
+# Guardar el preprocesador de predicción
+prediction_preprocessor_path = os.path.join(script_dir, 'prediction_preprocessor.pkl')
+joblib.dump(prediction_preprocessor, prediction_preprocessor_path)
+print(f"Preprocesador de predicción guardado en: {prediction_preprocessor_path}")
 
 # Dividir datos en conjuntos de entrenamiento y prueba
 X_train, X_test, y_train, y_test = train_test_split(X_processed, y, test_size=0.2, random_state=42)
 
-# Guardar el preprocesador
-preprocessor_path = os.path.join(script_dir, 'preprocessor_v4.pkl')
-joblib.dump(preprocessor, preprocessor_path)
-print(f"Preprocesador guardado en: {preprocessor_path}")
-
-# Crear el modelo con arquitectura simplificada
+# Crear el modelo
 model = Sequential()
 
-# Capa de entrada + Capa oculta 1
-model.add(Dense(64, input_dim=X_train.shape[1], activation='relu', kernel_regularizer=l2(0.005)))
-model.add(Dropout(0.2))  # Apaga el 20% de las neuronas en esta capa
+# Arquitectura estándar sin dar peso adicional al presupuesto
+model.add(Dense(64, input_dim=X_train.shape[1], activation='relu'))  # Capa de entrada
+model.add(Dense(32, activation='relu'))  # Primera capa oculta
+model.add(Dense(16, activation='relu'))  # Segunda capa oculta
+model.add(Dense(1, activation='sigmoid'))  # Capa de salida (normalizada a [0, 1])
 
-# Capa oculta 2
-model.add(Dense(32, activation='relu', kernel_regularizer=l2(0.005)))
-model.add(Dropout(0.2))  # Apaga el 20% de las neuronas en esta capa
+# Compilar el modelo
+model.compile(optimizer='adam', loss='mean_squared_error', metrics=['mae'])
 
-# Capa de salida
-model.add(Dense(1, activation='sigmoid'))  # Salida para regresión normalizada
+# Forzar el uso de la GPU (si está disponible)
+try:
+    with tf.device('/GPU:0'):
+        # Entrenar el modelo
+        history = model.fit(
+            X_train, y_train,
+            validation_data=(X_test, y_test),
+            epochs=50,
+            batch_size=32,
+            verbose=1
+        )
+except RuntimeError as e:
+    print("Error al configurar la GPU:", e)
+    print("Entrenando en CPU en su lugar...")
+    history = model.fit(
+        X_train, y_train,
+        validation_data=(X_test, y_test),
+        epochs=50,
+        batch_size=32,
+        verbose=1
+    )
 
-# Compilar el modelo con tasa de aprendizaje ajustada y función de pérdida MSE
-optimizer = tf.keras.optimizers.Adam(learning_rate=0.001)
-model.compile(optimizer=optimizer, loss='mean_squared_error', metrics=['mae'])
-
-# Entrenar el modelo
-history = model.fit(
-    X_train, y_train,
-    validation_data=(X_test, y_test),
-    epochs=50,
-    batch_size=32,
-    verbose=1
-)
+# Guardar el modelo entrenado
+model_path = os.path.join(script_dir, 'modelo_exito.h5')
+model.save(model_path)
+print(f"Modelo guardado en: {model_path}")
 
 # Evaluar el modelo
 loss, mae = model.evaluate(X_test, y_test, verbose=0)
-print(f'Mean Absolute Error (MAE): {mae:.2f}')
+predictions = model.predict(X_test)
 
-# Visualizar métricas de entrenamiento
+# Calcular métricas adicionales
+mse = mean_squared_error(y_test, predictions)
+rmse = np.sqrt(mse)
+r2 = r2_score(y_test, predictions)
+
+# Mostrar las métricas
+print(f"Mean Absolute Error (MAE): {mae:.4f}")
+print(f"Mean Squared Error (MSE): {mse:.4f}")
+print(f"Root Mean Squared Error (RMSE): {rmse:.4f}")
+print(f"R² Score: {r2:.4f}")
+
+# Visualizar la pérdida durante el entrenamiento
+plt.figure(figsize=(10, 5))
 plt.plot(history.history['loss'], label='Pérdida de entrenamiento')
 plt.plot(history.history['val_loss'], label='Pérdida de validación')
 plt.xlabel('Épocas')
-plt.ylabel('Pérdida (MSE)')
+plt.ylabel('Pérdida')
 plt.legend()
+plt.title("Pérdida durante el entrenamiento y validación")
 plt.show()
 
+# Visualizar MAE durante el entrenamiento
+plt.figure(figsize=(10, 5))
 plt.plot(history.history['mae'], label='MAE de entrenamiento')
 plt.plot(history.history['val_mae'], label='MAE de validación')
 plt.xlabel('Épocas')
 plt.ylabel('MAE')
 plt.legend()
+plt.title("MAE durante el entrenamiento y validación")
 plt.show()
 
-# **Análisis visual de predicciones**
-predictions = model.predict(X_test).flatten()
-
-# Comparar valores reales vs predicciones
-plt.scatter(y_test, predictions, alpha=0.6)
-plt.plot([0, 1], [0, 1], '--', color='red')  # Línea ideal
-plt.xlabel("Valores Reales")
+# Comparar predicciones con valores reales
+plt.figure(figsize=(8, 8))
+plt.scatter(y_test, predictions, alpha=0.6, label="Predicciones")
+plt.plot([0, 1], [0, 1], '--', color='red', label='Línea ideal')
+plt.xlabel("Valores reales")
 plt.ylabel("Predicciones")
-plt.title("Comparación: Valores Reales vs Predicciones")
+plt.title("Comparación: Valores reales vs Predicciones")
+plt.legend()
 plt.show()
-
-# **Calcular otros índices**
-# MSE y RMSE
-mse = mean_squared_error(y_test, predictions)
-rmse = np.sqrt(mse)
-
-# R² Score
-r2 = r2_score(y_test, predictions)
-
-print(f"Mean Squared Error (MSE): {mse:.4f}")
-print(f"Root Mean Squared Error (RMSE): {rmse:.4f}")
-print(f"R² Score: {r2:.2f}")
-
-# Guardar el modelo entrenado
-model_path = os.path.join(script_dir, 'modelo_exito_v4_regresion.keras')
-model.save(model_path)
-print(f"Modelo guardado en: {model_path}")

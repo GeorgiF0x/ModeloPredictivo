@@ -2,13 +2,10 @@ import pandas as pd
 from sklearn.model_selection import train_test_split
 from sklearn.preprocessing import StandardScaler, OneHotEncoder
 from sklearn.compose import ColumnTransformer
-from sklearn.metrics import mean_squared_error, r2_score
 import tensorflow as tf
 from tensorflow.keras.models import Sequential
 from tensorflow.keras.layers import Dense
 import os
-import matplotlib.pyplot as plt
-import numpy as np
 import joblib
 
 # Verificar si TensorFlow detecta la GPU
@@ -16,7 +13,7 @@ print("Dispositivos detectados:", tf.config.list_physical_devices())
 
 # Obtener la ruta absoluta del script
 script_dir = os.path.dirname(os.path.abspath(__file__))
-file_path = os.path.join(script_dir, 'dataset_v9.csv')
+file_path = os.path.join(script_dir, 'datos_entrenamiento.csv')
 
 # Cargar los datos
 data = pd.read_csv(file_path)
@@ -48,24 +45,31 @@ train_preprocessor = ColumnTransformer(
     ]
 )
 
-# Preprocesador para predicción (excluye 'exito')
+# Ajustar el preprocesador para entrenamiento
+X_processed = train_preprocessor.fit_transform(X)
+
+# Guardar el preprocesador de entrenamiento
+train_preprocessor_path = os.path.join(script_dir, 'train_preprocessor.pkl')
+joblib.dump(train_preprocessor, train_preprocessor_path)
+print(f"Preprocesador de entrenamiento guardado en: {train_preprocessor_path}")
+
+# Preprocesador para predicción (incluye 'exito' con valor predeterminado si no está presente)
 prediction_preprocessor = ColumnTransformer(
     transformers=[
-        ('num', StandardScaler(), [col for col in numerical_columns if col != 'exito']),  # Excluye 'exito'
+        ('num', StandardScaler(), numerical_columns),  # Incluye 'exito'
         ('cat', OneHotEncoder(categories=[categorical_categories[col] for col in categorical_columns],
                               handle_unknown='ignore'), categorical_columns)
     ]
 )
 
-# Preprocesar los datos para entrenamiento
-X_processed = train_preprocessor.fit_transform(X)
+# Ajustar el preprocesador para predicción
+X_with_exito = X.copy()  # Asegurarse de que incluye la columna 'exito'
+prediction_preprocessor.fit(X_with_exito)
 
-# Guardar ambos preprocesadores
-train_preprocessor_path = os.path.join(script_dir, 'train_preprocessor.pkl')
+# Guardar el preprocesador de predicción
 prediction_preprocessor_path = os.path.join(script_dir, 'prediction_preprocessor.pkl')
-joblib.dump(train_preprocessor, train_preprocessor_path)
 joblib.dump(prediction_preprocessor, prediction_preprocessor_path)
-print(f"Preprocesadores guardados en: {train_preprocessor_path} y {prediction_preprocessor_path}")
+print(f"Preprocesador de predicción guardado en: {prediction_preprocessor_path}")
 
 # Dividir datos en conjuntos de entrenamiento y prueba
 X_train, X_test, y_train, y_test = train_test_split(X_processed, y, test_size=0.2, random_state=42)
@@ -73,14 +77,11 @@ X_train, X_test, y_train, y_test = train_test_split(X_processed, y, test_size=0.
 # Crear el modelo
 model = Sequential()
 
-# Capa de entrada + Capa oculta 1
-model.add(Dense(64, input_dim=X_train.shape[1], activation='relu'))
-
-# Capa oculta 2
-model.add(Dense(32, activation='relu'))
-
-# Capa de salida
-model.add(Dense(1, activation='sigmoid'))  # Salida normalizada entre 0 y 1
+# Dar mayor peso al presupuesto agregando más capas y neuronas
+model.add(Dense(128, input_dim=X_train.shape[1], activation='relu'))  # Más neuronas en la entrada
+model.add(Dense(64, activation='relu'))  # Segunda capa oculta
+model.add(Dense(32, activation='relu'))  # Tercera capa oculta
+model.add(Dense(1, activation='sigmoid'))  # Capa de salida (normalizada a [0, 1])
 
 # Compilar el modelo
 model.compile(optimizer='adam', loss='mean_squared_error', metrics=['mae'])
@@ -111,17 +112,3 @@ except RuntimeError as e:
 model_path = os.path.join(script_dir, 'modelo_exito.h5')
 model.save(model_path)
 print(f"Modelo guardado en: {model_path}")
-
-# Función de preprocesamiento para predicción
-def preprocess_for_prediction(input_data, preprocessor):
-    # Si 'exito' no está en los datos, agregarlo con un valor predeterminado
-    if 'exito' not in input_data.columns:
-        input_data['exito'] = 0  # Valor predeterminado
-    return preprocessor.transform(input_data)
-
-# Función de predicción
-def predict_project(input_json, model, preprocessor):
-    input_data = pd.DataFrame([input_json])
-    input_processed = preprocess_for_prediction(input_data, preprocessor)
-    prediction = model.predict(input_processed)
-    return prediction

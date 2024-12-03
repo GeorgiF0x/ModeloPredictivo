@@ -15,13 +15,12 @@
 
   {
     "duracion": 12,
-    "presupuesto": 500000.0,
-    "facturacion_anual": "Más de 1M",
-    "fortaleza_tecnologica": "Avanzado",
-    "experiencia_requerida": "Moderada",
-    "lugar_trabajo": "Mixto",
+    "presupuesto": 1000000,
+    "facturacion_anual": "250k a 1M",
+    "fortaleza_tecnologica": "Intermedio",
+    "experiencia_requerida": "General",
+    "lugar_trabajo": "Híbrido",
     "numero_perfiles_requeridos": 5,
     "precio_hora": "Dentro del mercado",
-    "volumetria": 1
-  }
-  
+    "volumetria": 50
+}
