@@ -18,15 +18,15 @@ app.add_middleware(
     allow_headers=["*"],  # Permitir todos los encabezados.
 )
 
-# Cargar el modelo y el preprocesador
+# Cargar el modelo y el preprocesador para predicciones
 script_dir = os.path.dirname(os.path.abspath(__file__))
 model_path = os.path.join(script_dir, 'modelo_exito_v2.h5')
-preprocessor_path = os.path.join(script_dir, 'preprocessor.pkl')
+preprocessor_path = os.path.join(script_dir, 'prediction_preprocessor.pkl')
 
 try:
     model = load_model(model_path)
     preprocessor = joblib.load(preprocessor_path)
-    print("Modelo y preprocesador cargados correctamente.")
+    print("Modelo y preprocesador para predicciones cargados correctamente.")
 except Exception as e:
     print(f"Error al cargar el modelo o preprocesador: {e}")
     model, preprocessor = None, None
@@ -43,6 +43,13 @@ class ProjectData(BaseModel):
     precio_hora: str
     volumetria: int
 
+# Preprocesamiento de datos para predicción
+def preprocess_for_prediction(input_data, preprocessor):
+    # Si 'exito' no está presente, agregarla con un valor predeterminado
+    if 'exito' not in input_data.columns:
+        input_data['exito'] = 0  # Valor predeterminado para predicciones
+    return preprocessor.transform(input_data)
+
 # Endpoint para predecir el porcentaje de éxito
 @app.post("/predict")
 @app.post("/predict/")
@@ -56,7 +63,7 @@ def predict_project(data: ProjectData):
     
     # Preprocesar los datos
     try:
-        input_processed = preprocessor.transform(input_data)
+        input_processed = preprocess_for_prediction(input_data, preprocessor)
     except ValueError as e:
         raise HTTPException(status_code=400, detail=f"Error en el preprocesamiento: {str(e)}")
     
