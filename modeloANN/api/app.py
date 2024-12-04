@@ -1,5 +1,6 @@
 from fastapi import FastAPI, HTTPException
 from pydantic import BaseModel
+from typing import Literal
 from tensorflow.keras.models import load_model
 import joblib
 import pandas as pd
@@ -38,19 +39,47 @@ except Exception as e:
 class ProjectData(BaseModel):
     duracion: int
     presupuesto: float
-    facturacion_anual: str
-    fortaleza_tecnologica: str
-    experiencia_requerida: str
-    lugar_trabajo: str
+    facturacion_anual: Literal["1", "2", "3"]
+    fortaleza_tecnologica: Literal["1", "2", "3"]
+    experiencia_requerida: Literal["1", "2", "3"]
+    lugar_trabajo: Literal["1", "2", "3"]
     numero_perfiles_requeridos: int
-    precio_hora: str
-    volumetria: int
+    precio_hora: Literal["1", "2", "3"]
+    volumetria: Literal["1", "2"]
+    tecnologias: Literal["1", "2", "3", "4", "5"]
 
 # Función para preprocesar los datos para predicción
 def preprocess_for_prediction(input_data: pd.DataFrame, preprocessor):
+    # Verificar si todas las columnas necesarias están presentes
+    required_columns = [
+        'duracion', 'presupuesto', 'facturacion_anual', 
+        'fortaleza_tecnologica', 'experiencia_requerida', 
+        'lugar_trabajo', 'numero_perfiles_requeridos', 
+        'precio_hora', 'volumetria', 'tecnologias'
+    ]
+    missing_columns = [col for col in required_columns if col not in input_data.columns]
+
+    if missing_columns:
+        raise ValueError(f"Faltan columnas requeridas: {missing_columns}")
+
     # Si 'exito' no está presente, agregarlo con un valor predeterminado
     if 'exito' not in input_data.columns:
         input_data['exito'] = 0  # Valor predeterminado para predicción
+
+    # Asegurarse de que las columnas tengan el tipo correcto
+    input_data = input_data.astype({
+        'duracion': int,
+        'presupuesto': float,
+        'facturacion_anual': str,
+        'fortaleza_tecnologica': str,
+        'experiencia_requerida': str,
+        'lugar_trabajo': str,
+        'numero_perfiles_requeridos': int,
+        'precio_hora': str,
+        'volumetria': int,
+        'tecnologias': str
+    })
+
     try:
         return preprocessor.transform(input_data)
     except Exception as e:
@@ -80,4 +109,6 @@ def predict_project(data: ProjectData):
     except Exception as e:
         raise HTTPException(status_code=500, detail=f"Error en la predicción: {str(e)}")
     
-    return {"prob_exito": prob_exito}
+    return {
+        "prob_exito": prob_exito
+    }

@@ -4,7 +4,8 @@ from sklearn.preprocessing import StandardScaler, OneHotEncoder
 from sklearn.compose import ColumnTransformer
 import tensorflow as tf
 from tensorflow.keras.models import Sequential
-from tensorflow.keras.layers import Dense
+from tensorflow.keras.layers import Dense, Dropout, BatchNormalization
+from tensorflow.keras.callbacks import EarlyStopping
 import os
 import joblib
 import matplotlib.pyplot as plt
@@ -33,9 +34,6 @@ categorical_columns = [
 numerical_columns = [
     'duracion', 'presupuesto', 'numero_perfiles_requeridos', 'volumetria'
 ]
-
-# Actualización: Asegurarse de que las tecnologías sean tratadas como categóricas
-data['tecnologias'] = data['tecnologias'].fillna(0).astype(int)
 
 # Preprocesador para entrenamiento
 train_preprocessor = ColumnTransformer(
@@ -75,13 +73,20 @@ X_train, X_test, y_train, y_test = train_test_split(X_processed, y, test_size=0.
 # Crear el modelo
 model = Sequential()
 
-model.add(Dense(128, input_dim=X_train.shape[1], activation='relu'))  # Más neuronas en la entrada
-model.add(Dense(64, activation='relu'))  # Segunda capa oculta
-model.add(Dense(32, activation='relu'))  # Tercera capa oculta
+model.add(Dense(128, input_dim=X_train.shape[1], activation='relu'))
+model.add(BatchNormalization())
+model.add(Dropout(0.3))  # Dropout del 30%
+model.add(Dense(64, activation='relu'))
+model.add(BatchNormalization())
+model.add(Dropout(0.3))
+model.add(Dense(32, activation='relu'))
 model.add(Dense(1, activation='sigmoid'))  # Capa de salida (normalizada a [0, 1])
 
 # Compilar el modelo
 model.compile(optimizer='adam', loss='mean_squared_error', metrics=['mae'])
+
+# Early Stopping para evitar sobreajuste
+early_stopping = EarlyStopping(monitor='val_loss', patience=10, restore_best_weights=True)
 
 # Forzar el uso de la GPU (si está disponible)
 try:
@@ -90,8 +95,9 @@ try:
         history = model.fit(
             X_train, y_train,
             validation_data=(X_test, y_test),
-            epochs=50,
+            epochs=100,
             batch_size=32,
+            callbacks=[early_stopping],
             verbose=1
         )
 except RuntimeError as e:
@@ -100,8 +106,9 @@ except RuntimeError as e:
     history = model.fit(
         X_train, y_train,
         validation_data=(X_test, y_test),
-        epochs=50,
+        epochs=100,
         batch_size=32,
+        callbacks=[early_stopping],
         verbose=1
     )
 
