@@ -4,16 +4,15 @@ USE gestion_proyectos;
 
 -- Crear la tabla principal
 CREATE TABLE proyectos (
-    id BIGINT(20) AUTO_INCREMENT PRIMARY KEY,
+    id INT(20) AUTO_INCREMENT PRIMARY KEY,
     duracion INT(11) NOT NULL,
     fecha_fin DATE DEFAULT NULL,
     fecha_inicio DATE DEFAULT NULL,
     fecha_registro DATETIME(6) DEFAULT NULL,
     nombre_proyecto VARCHAR(255) DEFAULT NULL,
     presupuesto DOUBLE DEFAULT NULL,
-    recursos_asignados VARBINARY(255) DEFAULT NULL,
     resultado TINYINT(4) DEFAULT NULL CHECK (resultado BETWEEN 0 AND 1),
-    cliente_id BIGINT(20) DEFAULT NULL,
+    cliente varchar(20) DEFAULT NULL,
     certificaciones_requeridas_id INT DEFAULT NULL,
     entregables_id INT DEFAULT NULL,
     experiencia_requerida_id INT DEFAULT NULL,

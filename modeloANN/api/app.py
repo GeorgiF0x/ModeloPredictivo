@@ -76,7 +76,7 @@ def predict_project(data: ProjectData):
     try:
         prediction = model.predict(input_processed)
         # Convertir la predicción a porcentaje (0-100) con 2 decimales
-        prob_exito = f"{prediction[0][0] * 100:.2f}%"
+        prob_exito = f"{prediction[0][0] * 100:.2f}"
     except Exception as e:
         raise HTTPException(status_code=500, detail=f"Error en la predicción: {str(e)}")
     
