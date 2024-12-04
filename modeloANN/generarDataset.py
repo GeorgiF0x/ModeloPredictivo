@@ -78,6 +78,27 @@ df = pd.DataFrame(data)
 # Calcular el porcentaje de éxito para cada fila
 df["prob_exito"] = df.apply(calculate_prob_exito, axis=1)
 
+# Generar datos controlados (por ejemplo, presupuesto muy bajo con fracaso asegurado)
+low_budget_failures = {
+    "duracion": [random.randint(1, 24) for _ in range(50)],
+    "presupuesto": [random.uniform(5000, 20000) for _ in range(50)],  # Presupuesto muy bajo
+    "facturacion_anual": [1 for _ in range(50)],
+    "fortaleza_tecnologica": [1 for _ in range(50)],
+    "experiencia_requerida": [1 for _ in range(50)],
+    "lugar_trabajo": [1 for _ in range(50)],
+    "numero_perfiles_requeridos": [random.randint(1, 5) for _ in range(50)],
+    "precio_hora": [1 for _ in range(50)],
+    "volumetria": [2 for _ in range(50)],
+    "tecnologias": [1 for _ in range(50)],
+    "prob_exito": [0 for _ in range(50)]  # Asegurar fracaso
+}
+
+# Crear un DataFrame con los datos controlados
+df_failures = pd.DataFrame(low_budget_failures)
+
+# Combinar ambos conjuntos de datos
+df = pd.concat([df, df_failures], ignore_index=True)
+
 # Generar el campo "exito" basado en "prob_exito"
 df["exito"] = df["prob_exito"].apply(lambda x: 1 if random.random() <= x / 100 else 0)
 
@@ -85,4 +106,4 @@ df["exito"] = df["prob_exito"].apply(lambda x: 1 if random.random() <= x / 100 e
 output_path = "dataset_entrenamiento.csv"
 df.to_csv(output_path, index=False)
 
-output_path
+print(f"Dataset guardado en {output_path}")
