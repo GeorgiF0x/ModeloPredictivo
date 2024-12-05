@@ -1,6 +1,6 @@
 from fastapi import FastAPI, HTTPException
 from pydantic import BaseModel
-from typing import Literal
+from typing import List, Literal
 from tensorflow.keras.models import load_model
 import joblib
 import pandas as pd
@@ -46,7 +46,7 @@ class ProjectData(BaseModel):
     numero_perfiles_requeridos: int
     precio_hora: Literal["1", "2", "3"]
     volumetria: Literal["1", "2"]
-    tecnologias: Literal["1", "2", "3", "4", "5"]
+    tecnologias: List[Literal["1", "2", "3", "4", "5"]]  # Lista de tecnologías permitidas
 
 # Función para preprocesar los datos para predicción
 def preprocess_for_prediction(input_data: pd.DataFrame, preprocessor):
@@ -62,9 +62,8 @@ def preprocess_for_prediction(input_data: pd.DataFrame, preprocessor):
     if missing_columns:
         raise ValueError(f"Faltan columnas requeridas: {missing_columns}")
 
-    # Si 'exito' no está presente, agregarlo con un valor predeterminado
-    if 'exito' not in input_data.columns:
-        input_data['exito'] = 0  # Valor predeterminado para predicción
+    # Convertir tecnologías de lista a una cadena separada por comas (si el modelo lo necesita)
+    input_data['tecnologias'] = input_data['tecnologias'].apply(lambda x: ','.join(x) if isinstance(x, list) else x)
 
     # Asegurarse de que las columnas tengan el tipo correcto
     input_data = input_data.astype({
